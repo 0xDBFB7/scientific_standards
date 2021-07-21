@@ -24,7 +24,7 @@ Inspired by the  Journal of Fluids Engineering Editorial Policy Statement on the
 turbulence models, since one could not distinguish physical modeling errors from numerical errors".
 https://www.asme.org/wwwasmeorg/media/resourcefiles/shop/journals/jfenumaccuracy.pdf
 
-> :squirrel: This is a public wiki! If you think this interesting, perhaps you could consider submitting a standard for your own field of expertise, following the preliminary meta standard. 
+> :cyclone: This is a public wiki! If you think this interesting, perhaps you could consider submitting a standard for your own field of expertise, following the preliminary meta standard. 
 
 
 #### Note: this "meta-research" is itself a kind of pseudoscience - I really haven't a clue what I'm doing here.
