@@ -189,6 +189,8 @@ Contact information for certain culture templates are built in; experts in certa
 besides the "expert list" (or maybe instead),
 "user list" so breaking changes can be requested for comment - maybe even publications in the field?
 
+where "user list" doesn't mean breaking changes
+
 request for comment, "Voting" on changes
 
 
