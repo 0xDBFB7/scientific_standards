@@ -24,10 +24,10 @@ Inspired by the  Journal of Fluids Engineering Editorial Policy Statement on the
 turbulence models, since one could not distinguish physical modeling errors from numerical errors".
 https://www.asme.org/wwwasmeorg/media/resourcefiles/shop/journals/jfenumaccuracy.pdf
 
-> :cyclone: This is a public wiki! 
+
+
+> :cyclone: This is a collaborative project!
 > If you think this interesting, perhaps you could consider submitting a standard for your own field of expertise, following the preliminary meta standard. 
-
-
 
 COPE guidelines for authorship; the FAIR standard for open data; *Cell*'s [STAR Methods](https://www.cell.com/star-authors-guide) for methods reporting. 
 These might seem like boring bureaucracy leaking into our paradisiacal institution, but each has been developed to explicitly address a notable problem that has been observed (recalcitrant authors, recalcitrant authors, mislabelling of species, respectively). 
@@ -71,8 +71,12 @@ and certainly some cases are beyond redemption.
 However, systems engineering frowns on the idea of considering failures as exceptions:
 human factors dictate that some scientists of good concience can make silly mistakes. 
 
-Best practices are often scattered about in decades or centures of literature; techniques 
-are "pushed back" into antiquity
+Best practices are often scattered throughout decades or centuries of literature; techniques 
+are "pushed back" into antiquity. 
+
+> "[ideas] that we all hope you have learned in studying science in school-we never explicitly say what this is, but just hope that you catch on by all the  examples of scientific investigation. It is interesting, therefore, to bring it out now and speak of it explicitly."
+
+Beyond books, there is no "central clearinghouse" of things which must be followed.
 
 Despite an arduous literature review, several techniques were missed.
 
@@ -87,28 +91,43 @@ https://www.aanda.org/articles/aa/full_html/2015/09/aa26235-15/aa26235-15.html
 > "They imposed the following constraints on the original selection from the TES database: 1) latitude between −60° and +60°; 2) local time: 11:00–15:00; 3) emission angle ≤5°; and 4) ±2° around a specified Ls. We have adopted the same constraints in selecting the spectra, except for increasing the Ls interval to ±5°."
 
 These kinds of "best practices" rely totally on the expertise and "social group" of the scientist and can arguably never be formalized into the kinds of standards in scope here.
-Better pre-trial communcation with experts, especially via protocol pre-review, can probably help with this; stuff like PLoS One's "Registered Reports".
+Better pre-trial communcation with experts, especially via protocol pre-review, can probably help with this; see PLoS One's ["Registered Reports"](https://everyone.plos.org/2020/01/14/registered-reports-are-coming-to-plos-one/).
 
 
-However, consider the following positively excellent paper by Cabrini et al (2006),  *Evaluation of seven new electronic mosquito repellers*. It should be noted that even a single shoddy result in this field would have potentially life-changing ramifications for countries with mosquito-born illnesses.
+However, consider the following positively terrific paper by Cabrini et al (2006), *Evaluation of seven new electronic mosquito repellers*. It should be noted that even a single shoddy result in this field would have potentially life-changing ramifications in countries with mosquito-born illnesses; as the authors discuss, it would cast doubt on the rest of the results in the eyes of consumers (who can hardly perform literature reviews of their own), undoubtedly affect the advertising of the devices, and alter the FDA's litigation.
 
 > A test chamber, previously described by Klowden & Lea (1978), was made with a few adaptations.
 
-These "implicit" standards arise almost everywhere in the literature.
+This is a sort of "implicit" standard, of the type used almost everywhere in the literature.
 
-The study yields robust results that align neatly with previous data; a tribute to the experience and skill of the researchers and their use of existing best practices. 
+The study yields robust results that align neatly with previous data and agree with hypotheses from other studies; a tribute to the experience and skill of the researchers and their use of existing best practices. 
 
-At the same time, perhaps the modification is an important one, and one which should be kept for future studies (for this is "a lighter and easier to assemble
-chamber").
-
-> Polystyrene was used instead of Plexiglas for the chamber[].
-
-This field, like most complex investigations, is sensitive to 
+> Polystyrene was used instead of Plexiglas for the chamber[.]
 
 The use of a glass versus teflon beaker
 [Bergqvist et al 1994](https://doi.org/10.1016/0304-4165(94)90150-3)
 
 Again, every "good scientist" will perform such calibration and comparison. But if even - and might ruin the value of the thing.
+
+This field, like most complex investigations, is sensitive to 
+
+Consider how mystifying such a result would be. If well-pu, it could completely undermine the power of scientific consensus in the eye of the public.
+
+
+At the same time, perhaps the modification is an important one, and one which should be kept for future studies (the change was made for "a lighter and easier to assemble
+chamber"). 
+
+
+
+<hr> 
+
+There is another problem. The authors of that paper have undoubtedly performed an extremely thorough literature review, condensing and filtering thousands of pages of papers and forming an opinion about each. However, only a dozen papers. 
+
+If the paper were a thesis, this discussion of bibliography would probably be integrated with the new results. If the researchers wrote a book, such a bibliography would probably be included, but it's hard to imagine a publisher printing a 500-page experimental design on mosquito repellents. However, and so this work must be duplicated anew for every single paper on the subject. Things will undoubtedly be missed.
+
+The effects of good review articles on the literature appear to be well-documented; there is a scarsity. This is the reason for the literature.md file; it is encouraged that your literature be added.
+
+
 
 <hr>
 
@@ -152,6 +171,39 @@ REPORT means this quantity must be . Almost all
 
 Should be standalone. 
 
+But this is what provides my funding 
+
+You must provide a way to compare your paper with the standard (a document in the supplemental)
+
+# precedent
+
+### How could this fail?
+
+- Disagreement on the content of the standards.
+
+<!-- 
+
+# Finally
 
 
+> knowing what doesn't work gives you a competitive advantage against other research groups.
+> ...letting others waste their time so that while they are busy figuring out what you already learned, you can beat them publishing before them. Do you think academia is a bunch of hippies ? 
+https://academia.stackexchange.com/a/733 (tongue-in-cheek, I presume)
+
+You are paid by the state, the university, the taxpayer; too little, probably, much less than you deserve, but from.
+ Your office is partly the result of students working minimum-wage service jobs; your data on the backs of students working overtime on subsistence stipends,
+ equipment, a grant
+
+Your work is supremely valuable; it can, on the balance, produce 3 to 7 times return-on-investment.
+But that value is totally contained within what you *share*, not what you accomplish. 
+
+Your work would be nothing without the foundation of giants who did not stoop
+
+Few beyond the PR team or the tabloids cares that, at such-and-such a university so-and-so built a such-and-such. will be a footnote to history compared to the *output*; what you share, what others can meaningfully build upon.
+
+As a scientist, your opinion is given some kind of weight
+
+If you are not willing to furnish the integrity of your results, you do not deserve the title "scientist".
+
+-->
  

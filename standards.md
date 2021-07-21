@@ -58,7 +58,11 @@ may be contacted to obtain approval.
 
 
 
-On the other hand, 
+On mailing list and identies
+
+
+On the other hand, a list of the contact information of every expert in the field seems 
+ rife for abuse
 
 
 
@@ -122,10 +126,7 @@ greater "stability".
 of course, judging by the most infamous examples doesn't do justice to the best science.
 Still, 
 
-"That is the idea that we all hope you have learned in studying science in school
-—we never explicitly say what this is, but just hope that you catch on by all the
- examples of scientific investigation.  
- It is interesting, therefore, to bring it out now and speak of it explicitly."
+
 
 
  
