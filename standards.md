@@ -46,9 +46,6 @@ Simple, orthogonal tests for all reagents or supplies that can be performed by
 as many people as possible to put everything into a "known state";
 regular audits?
 
-This is a public wiki! 
-If you think this interesting, perhaps you could consider submitting a standard for your own
-field of expertise, following the preliminary meta standard. 
 
 It might end up being a total waste of time!
 
@@ -58,16 +55,6 @@ Books regarding techniques are probably also good ways to get the same knowledge
 
 When adding, you can agree to be added to a mailing list. If changes are requested, you 
 may be contacted to obtain approval.
-
-
-
-
-It might be said that "Good scientsts". I'm not a good scientist; and it's not acknoledginging the human factors that lead to these issues. 
-The literature's reliability requires that most scientists be "good" in that sense.
-
-It is easy to dismiss these cases as "bad science"; and certainly some cases are beyond redemption.
- However, systems engineering frowns on the idea of considering failures as exceptions:
- failures are 
 
 
 
@@ -143,14 +130,9 @@ Still,
 
  
 These are fundamental parts of science, but not everyon
-scattered about a disparate literature; 
-human factors dictate that scientists of good concience can make silly mistakes. 
 
-It's all well and good to retract or pin a letter to the editor on an obviously flawed methodology, 
-but in many cases the damage to the literature is already done.
 
-This meta-research is itself a kind of pseudoscience - I really haven't a clue what I'm doing here
-or what precedent exists.
+
 
 tech-transfer.
 

@@ -1,7 +1,7 @@
 
 # Scientific Standards of Best Practice
 
-Is it at all useful to make scientific best practices explicit?
+## Could it be useful to make scientific best practices into explicit standards?
 
 
 NASA software development - the process ensures correctness no matter the quality of scientist
@@ -24,6 +24,10 @@ Inspired by the  Journal of Fluids Engineering Editorial Policy Statement on the
 turbulence models, since one could not distinguish physical modeling errors from numerical errors".
 https://www.asme.org/wwwasmeorg/media/resourcefiles/shop/journals/jfenumaccuracy.pdf
 
+> :squirrel: This is a public wiki! If you think this interesting, perhaps you could consider submitting a standard for your own field of expertise, following the preliminary meta standard. 
+
+
+#### Note: this "meta-research" is itself a kind of pseudoscience - I really haven't a clue what I'm doing here.
 
 # Knowledge of best practices, and agreement on universal experimental conditions
 
@@ -31,7 +35,7 @@ https://www.asme.org/wwwasmeorg/media/resourcefiles/shop/journals/jfenumaccuracy
 > 	
 > As noted later, this field reached a reasonable level of quality many decades ago, and many of the most troubling issues had already been encountered and addressed satisfactorily in published experimental designs. 
 >
-> In some cases, these are thoroughly characterized and described; field intensities are mapped, thermal profiles taken; even the dielectric properties of the media must be considered. But it seems that some workers continue to develop their own test arrangements; yet the aims of the studies are sometimes not so different as to require such customization.
+> In some cases, these arrangements are thoroughly characterized and described; field intensities are mapped, thermal profiles taken; even the dielectric properties of the media must be considered. But it seems that some workers continue to develop their own test arrangements; yet the aims of the studies are sometimes not so different as to require such customization.
 >	
 > This demands that the reader perform analysis anew to verify details of how every study was conducted, rather than simply evaluate its results; a waste of time on all counts.
 >	
@@ -41,7 +45,7 @@ https://www.asme.org/wwwasmeorg/media/resourcefiles/shop/journals/jfenumaccuracy
 >
 > It occurs to me that perhaps a set of standardized test cells and procedures would be helpful; along with a requirement that any papers on the topic either use such a cell, or, if their study requires some exceptional treatment, to follow some established step-by-step procedure to add a new cell to the standard."
 
-This is echoed by Dev and Hofmann in *Clinical Applications of Electroporation* (1996): 
+This is echoed by Dev and Hofmann, *Clinical Applications of Electroporation* (in *Electrical Manipulation of Cells*, Davey and Lynch 1996): 
 
 > There are as many biosystems in use as there are experiments being done, it seems.
 >
@@ -54,6 +58,25 @@ This is echoed by Dev and Hofmann in *Clinical Applications of Electroporation* 
 > It appears that it is time for researchers to step back from doing more experiments and to work together to select the biosystem, the experiment, and the protocol that has a reasonable chance to produce results that can lead to a mechanism of interaction[...].
 
 
+It is tempting to dismiss cases where best practices were not followed as "bad science"; 
+and certainly some cases are beyond redemption. 
+
+However, systems engineering frowns on the idea of considering failures as exceptions:
+failures are  not acknoledginging the human factors that lead to these issues. 
+
+
+scattered about in decades or centures of literature; 
+human factors dictate that scientists of good concience can make silly mistakes. 
+
+
+despite an arduous literature review, several techniques were missed.
+
+
+It's all well and good to retract or pin a letter to the editor on an obviously flawed methodology, 
+but in many cases the damage to the literature is already done.
+
+
+The literature's reliability requires that most scientists be "good" in that sense.
 
 
 https://www.aanda.org/articles/aa/full_html/2015/09/aa26235-15/aa26235-15.html
@@ -62,10 +85,12 @@ https://www.aanda.org/articles/aa/full_html/2015/09/aa26235-15/aa26235-15.html
 These kinds of "best practices" rely totally on the expertise and "social group" of the scientist and can arguably never be formalized.
 Better pre-trial communcation with experts via protocol pre-review can probably help with this; stuff like PLoS One's "Registered Reports".
 
-Of course, checklists can only capture the "low hanging fruit" of errors.
+Of course, checklists can only capture the "low-hanging fruit" of errors. 
 
-Similarly, these best practices won't help you with artifacts on your LIGO, of course;
-they're aimed only at well-trodden, well-established techniques.
+
+Similarly, these best practices won't help you with artifacts on one's LIGO, of course;
+they're aimed only at the application of well-trodden, well-established techniques.
+
 
 
 Right now, quality control in science is almost entirely a filter on the outputs (via peer-review).
@@ -78,9 +103,9 @@ lead to.
 In many ways, this is just like protocols from biology, with a few additional features:
 
 
-- Rationale and lineage for everything.
+- Rationale and lineage for steps and concepts.
 - A careful documentation of "sensitivities"; areas of particular concern.
-- A way to "re-qualify" if changes (to update to new equipment, to), must be made.
+- A way to "re-qualify" experimental arrangements if changes (to update to new equipment), must be made.
 - Specify the required documentation (what measurements of the arrangement must be made).
 
 
@@ -93,5 +118,4 @@ DOCUMENT means this quantity must be measured and
 REPORT means this quantity must be . Almost all 
 
 
-
- 
+Should be standalone. 
