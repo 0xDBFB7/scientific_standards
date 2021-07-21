@@ -1,5 +1,5 @@
 
-# Scientific Standards of Best Practice
+# Standards of Scientific Best Practice
 
 ## Could it be useful to make scientific best practices into explicit standards?
 
@@ -12,31 +12,29 @@ but when a process exists that can regularly produce correct results.
 It has been claimed that this process can take input from a, and 
 
 In 2 million lines of code, 10 serious errors, 300 overall, and a probability of failure of below 1/600.
-Failures do still happen (perhaps because )
+Failures do still happen. Lessons learned are integrated immediately into their respective standard.
+
 
 Designed to tackle two intertwined problems:
 
+
 Space Shuttle Flight Software (PASS) Loss Of Crew Errors J.K. Orr 2015-08-27
 
-
-Inspired by the  Journal of Fluids Engineering Editorial Policy Statement on the Control of Numerical Accuracy
-"it was impossible to evaluate and compare the accuracy of different 
-turbulence models, since one could not distinguish physical modeling errors from numerical errors".
-https://www.asme.org/wwwasmeorg/media/resourcefiles/shop/journals/jfenumaccuracy.pdf
 
 
 
 > :cyclone: This is a collaborative project!
 > If you think this interesting, perhaps you could consider submitting a standard for your own field of expertise, following the preliminary meta standard. 
 
-COPE guidelines for authorship; the FAIR standard for open data; *Cell*'s [STAR Methods](https://www.cell.com/star-authors-guide) for methods reporting. 
-These might seem like boring bureaucracy leaking into our paradisiacal institution, but each has been developed to explicitly address a notable problem that has been observed (recalcitrant authors, recalcitrant authors, mislabelling of species, respectively). 
+In academia, we now enjoy the COPE guidelines for authorship; the FAIR standard for open data; *Cell*'s [STAR Methods](https://www.cell.com/star-authors-guide) for methods reporting. These might seem like boring bureaucracy leaking into our paradisiacal institution, but each has been developed to explicitly address a problem that has been observed (recalcitrant authors, recalcitrant authors, mislabelling of species, respectively). 
 
+In science proper, we can turn to the exemplary *Journal of Fluids Engineering*'s **Statement on the Control of Numerical Accuracy** (1986-), enacted because "it was impossible to evaluate and compare the accuracy of different turbulence models, since one could not distinguish physical modeling errors from numerical errors". [This illustrates](https://www.asme.org/wwwasmeorg/media/resourcefiles/shop/journals/jfenumaccuracy.pdf). 
 
 #### Note: this "meta-research" is itself a kind of pseudoscience - I really haven't a clue what I'm doing here.
 
-
 # Knowledge of best practices, and agreement on universal experimental conditions
+
+This repository was created 
 
 > "The following is probably self-evident to all good scientists; unfortunately, we only learned it during this project, so it seems worthwhile to make explicit.
 > 	
@@ -64,21 +62,14 @@ This is echoed by Dev and Hofmann, *Clinical Applications of Electroporation* (i
 >
 > It appears that it is time for researchers to step back from doing more experiments and to work together to select the biosystem, the experiment, and the protocol that has a reasonable chance to produce results that can lead to a mechanism of interaction[...].
 
-
 It is tempting to dismiss cases where existing best practices were not followed as "bad science"; 
 and certainly some cases are beyond redemption. 
 
-However, systems engineering frowns on the idea of considering failures as exceptions:
-human factors dictate that some scientists of good concience can make silly mistakes. 
+However, systems engineering frowns on the idea of considering failures as exceptions: human factors dictate that scientists of good concience can make silly mistakes; our infrastructure does not make it particularly easy to produce correct results. Best practices are often scattered throughout decades or centuries of literature; techniques are "pushed back" into antiquity. 
 
-Best practices are often scattered throughout decades or centuries of literature; techniques 
-are "pushed back" into antiquity. 
-
-> "[ideas] that we all hope you have learned in studying science in school-we never explicitly say what this is, but just hope that you catch on by all the  examples of scientific investigation. It is interesting, therefore, to bring it out now and speak of it explicitly."
+> "[ideas] that we all hope you have learned in studying science in school-we never explicitly say what this is, but just hope that you catch on by all the examples of scientific investigation. It is interesting, therefore, to bring it out now and speak of it explicitly."
 
 Beyond books, there is no "central clearinghouse" of things which must be followed.
-
-Despite an arduous literature review, several techniques were missed.
 
 It's all well and good to retract or pin a letter to the editor on an obviously flawed methodology, 
 but in practice, the damage to the literature (and, regrettably, to society) is usually already committed.
@@ -87,35 +78,46 @@ The literature's reliability requires that most scientists be "good" in that sen
 
 <hr>
 
+
+
 https://www.aanda.org/articles/aa/full_html/2015/09/aa26235-15/aa26235-15.html
 > "They imposed the following constraints on the original selection from the TES database: 1) latitude between −60° and +60°; 2) local time: 11:00–15:00; 3) emission angle ≤5°; and 4) ±2° around a specified Ls. We have adopted the same constraints in selecting the spectra, except for increasing the Ls interval to ±5°."
 
-These kinds of "best practices" rely totally on the expertise and "social group" of the scientist and can arguably never be formalized into the kinds of standards in scope here.
-Better pre-trial communcation with experts, especially via protocol pre-review, can probably help with this; see PLoS One's ["Registered Reports"](https://everyone.plos.org/2020/01/14/registered-reports-are-coming-to-plos-one/).
-
+These kinds of "best practices" develop organically, rely totally on the expertise and "social group" of the scientist and can arguably never be formalized into the kinds of standards in scope here. Better pre-trial communcation with experts, especially via protocol pre-review, can probably help with this; see PLoS One's ["Registered Reports"](https://everyone.plos.org/2020/01/14/registered-reports-are-coming-to-plos-one/).
 
 However, consider the following positively terrific paper by Cabrini et al (2006), *Evaluation of seven new electronic mosquito repellers*. It should be noted that even a single shoddy result in this field would have potentially life-changing ramifications in countries with mosquito-born illnesses; as the authors discuss, it would cast doubt on the rest of the results in the eyes of consumers (who can hardly perform literature reviews of their own), undoubtedly affect the advertising of the devices, and alter the FDA's litigation.
 
+They describe:
+
 > A test chamber, previously described by Klowden & Lea (1978), was made with a few adaptations.
 
-This is a sort of "implicit" standard, of the type used almost everywhere in the literature.
+One might argue that this is a sort of "implicit" standard, a type used almost everywhere in the literature; one group bases their experimental design on a previous group's well-established design (which, in this case, had nothing to do with electronic mosquito repellents).  
 
-The study yields robust results that align neatly with previous data and agree with hypotheses from other studies; a tribute to the experience and skill of the researchers and their use of existing best practices. 
+Cabrini's study yields robust results that align neatly with previous data and agree with hypotheses from other studies; a tribute to the experience and skill of the researchers and their use of existing best practices. However, even here, we have hints that an "explicit" standard might be useful:
 
 > Polystyrene was used instead of Plexiglas for the chamber[.]
 
-The use of a glass versus teflon beaker
+This may seem like a justified 
+
+This field, like most complex investigations, cell walls in an electric field 
+was completely due to the use of a beaker made out of teflon rather than glass. 
 [Bergqvist et al 1994](https://doi.org/10.1016/0304-4165(94)90150-3)
 
-Again, every "good scientist" will perform such calibration and comparison. But if even - and might ruin the value of the thing.
+Again, every "good scientist" will perform the calibration and comparison needed to justify these kinds of changes. But if even - and might ruin the value of the thing.
 
-This field, like most complex investigations, is sensitive to 
+The author believes that we have monumental problems looming at the horizon; it is fortunate that some part of these can be tackled by basic and advanced research, and our society has no shortage of monumental people bringing their efforts to bear. It would be a waste to be confused.
+
+implicit is a poor sort immutable 
+
 
 Consider how mystifying such a result would be. If well-pu, it could completely undermine the power of scientific consensus in the eye of the public.
 
 
 At the same time, perhaps the modification is an important one, and one which should be kept for future studies (the change was made for "a lighter and easier to assemble
-chamber"). 
+chamber").
+
+
+One route out would be for industry to produce equipment. If ACME Co. This is also fraught. Silent changes in processes for temperature-measuring probes contaminated decades of climatology data.
 
 
 
@@ -125,9 +127,7 @@ There is another problem. The authors of that paper have undoubtedly performed a
 
 If the paper were a thesis, this discussion of bibliography would probably be integrated with the new results. If the researchers wrote a book, such a bibliography would probably be included, but it's hard to imagine a publisher printing a 500-page experimental design on mosquito repellents. However, and so this work must be duplicated anew for every single paper on the subject. Things will undoubtedly be missed.
 
-The effects of good review articles on the literature appear to be well-documented; there is a scarsity. This is the reason for the literature.md file; it is encouraged that your literature be added.
-
-
+The effects of good review articles on the literature appear to be well-documented; there is a scarsity. This is the reason for the literature.md and .bib files; it is encouraged that your literature be added.
 
 <hr>
 
@@ -159,32 +159,50 @@ The standards discussed here could resemble protocols from biology, with a few a
 - A careful documentation of "sensitivities"; areas of particular concern.
 - Specify the required documentation (what measurements of the arrangement must be made).
 
-The right balance of onerous and 
+Will require a delicate balance between the experimenter's freedom and strict, onerous.
+
+It is hoped that, eventually, every field and subfield, every different kind of established experiment, 
+will produce an associated standard. 
 
 Must be clear and readable by a global audience.
 
+- Material science: coupons to test furnaces, 
+- Software: testing, fuzzing 
+- Scientific communication: "in mice";  
+
 follow RFC2119 https://datatracker.ietf.org/doc/html/rfc2119
 
-DOCUMENT means this quantity must be measured and
-REPORT means this quantity must be . Almost all 
+DOCUMENT means this quantity must be measured and available in a supplemental.
+DOCUMENT should include a timestamp, equipment used to record.
+DOCUMENT should be used only when the dataset is too large to REPORT.
 
+REPORT means this quantity must be DOCUMENTed and promenently.
 
 Should be standalone. 
-
-But this is what provides my funding 
 
 You must provide a way to compare your paper with the standard (a document in the supplemental)
 
 # precedent
 
-### How could this fail?
+- MDPI *Standards*
+- https://www.pnas.org/content/115/11/2590
 
-- Disagreement on the content of the standards.
+# How could this fail?
+
+- Most likely, nobody cares and this repository goes unused.
+- Constant disagreement on the content of the standards.
+- The argument could be made (I've argued as such before) that turning science, 
+an institution founded on flexibility, into a set of perscriptivist doctrines, 
+might stifle progress and creativity.
+
+
+
 
 <!-- 
 
 # Finally
 
+But this is what provides my funding 
 
 > knowing what doesn't work gives you a competitive advantage against other research groups.
 > ...letting others waste their time so that while they are busy figuring out what you already learned, you can beat them publishing before them. Do you think academia is a bunch of hippies ? 

@@ -1,6 +1,4 @@
 
-- MDPI *Standards*
-- https://www.pnas.org/content/115/11/2590
 
 Selected documents
 
@@ -9,9 +7,6 @@ if that ever becomes more than a pipe dream.
 
 
 
-The argument could be made (I've argued as such before) that turning science, 
-an institution founded on flexibility, into a set of perscriptivist doctrines, 
-might stifle progress and creativity.
 
 
 
@@ -108,9 +103,6 @@ Component Interfaces
 
 
 
-We have monumental problems looming at the horizon; it is fortunate that some part of these
-can be tackled by basic and advanced research
-Our society has no shortage of monumental people bringing their efforts to bear.
 
  and, indeed, monumental people are 
 
