@@ -5,9 +5,12 @@
 
 > :cyclone: This is a collaborative project!
 >
-> If you think this interesting, perhaps you could consider submitting a draft standard for your own field of expertise, following the preliminary meta standard.
+> If you think this is worthwhile, perhaps you could consider 
+> 1. Joining the voting mailing list for your own field of expertise
+> 2. submitting a draft standard for your own field of expertise, following the preliminary meta standard.
 > (Be aware that, unlike a paper, your contribution may be [modified by others](https://en.wikipedia.org/wiki/Wikipedia:Ownership_of_content) as knowledge of the field progresses and new circumstances must be covered).
 
+<hr>
 
 > In the short-haul, papers are very important if you want to stimulate someone tomorrow. In this day of practically infinite knowledge, we need orientation to find our way. Let me tell you what infinite knowledge is. 
 >
@@ -53,9 +56,9 @@ But most of science is "safety-critical" in some sense or another.
 
 ## Could analogous processes be implemented in science?
 
-In academia, we now enjoy such things as the COPE guidelines for authorship; the FAIR standard for open data; *Cell*'s [STAR Methods](https://www.cell.com/star-authors-guide) for methods reporting. These might seem like boring bureaucracy leaking into our paradisiacal institution, but each has been developed to explicitly address problems that has been observed (recalcitrant authors, recalcitrant authors, mistaken reagents, respectively).
+In academia, we now enjoy such things as the COPE guidelines for authorship; the FAIR standard for open data; *Cell*'s [STAR Methods](https://www.cell.com/star-authors-guide) for methods reporting. These might seem like boring bureaucracy leaking into our paradisiacal institution, but each has been developed to explicitly address problems that have been observed (recalcitrant authors, recalcitrant authors, mistaken reagents, respectively).
 
-In science proper, we can turn to the exemplary *Journal of Fluids Engineering*'s [**Statement on the Control of Numerical Accuracy**](https://www.asme.org/wwwasmeorg/media/resourcefiles/shop/journals/jfenumaccuracy.pdf) (1986-), enacted because "it was impossible to evaluate and compare the accuracy of different turbulence models, since one could not distinguish physical modeling errors from numerical errors". This document seems to especially hint at possibilities of formalizing science. 
+In science proper, we can turn to the exemplary *Journal of Fluids Engineering*'s [**Statement on the Control of Numerical Accuracy**](https://www.asme.org/wwwasmeorg/media/resourcefiles/shop/journals/jfenumaccuracy.pdf) (1986-), enacted because "it was impossible to evaluate and compare the accuracy of different turbulence models, since one could not distinguish physical modeling errors from numerical errors". This document seems to especially hint at possibilities of formalizing science. It is detailed, proscribes specific actions that must be taken to ensure integrity,
 
 
 (why aren't journal editorial standards good enough? I think the proliferation of journals nowadays (or routes to publication altogether) means that these kind of standards needs to be at a "higher level", transcending mode of communication).
@@ -111,7 +114,7 @@ but in practice, the damage to the literature (and, regrettably, to society) is 
 
 <hr>
 
-Some kinds of "best practices" develop organically, necessarily rely totally on the expertise and "social group" of the scientist, and can arguably never be formalized into the kinds of standards in scope here.
+Some kinds of "best practices" develop organically, necessarily rely totally on the expertise and social group of the scientist, and can arguably never be formalized into the kinds of standards in scope here.
 
 > "[The previous authors] imposed the following constraints on the original selection from the TES database: 1) latitude between −60° and +60°; 2) local time: 11:00–15:00; 3) emission angle ≤5°; and 4) ±2° around a specified Ls. We have adopted the same constraints in selecting the spectra, except for increasing the Ls interval to ±5°."
 [Fonti 2015](https://doi.org/10.1051/0004-6361/201526235)
@@ -120,13 +123,13 @@ Better pre-trial communcation with experts, especially via protocol pre-review, 
 
 However, consider the following positively terrific paper by Cabrini et al (2006), *Evaluation of seven new electronic mosquito repellers*. 
 
-It should be noted that even a single result in this field could have potentially life-changing ramifications in countries with mosquito-born illnesses; as the authors discuss, it would cast doubt on the rest of the results in the eyes of consumers (who can hardly perform literature reviews of their own), undoubtedly affect the advertising of the devices, and alter the FDA's litigation.
+It should be noted that even a single anomalous result in this field could have potentially life-changing ramifications in countries with mosquito-born illnesses; as the authors discuss, it would cast doubt on the rest of the results in the eyes of consumers (who can hardly perform literature reviews of their own), undoubtedly affect the advertising of the devices, and alter the FDA's litigation.
 
 They describe:
 
 > A test chamber, previously described by Klowden & Lea (1978), was made with a few adaptations.
 
-One might argue that this is a sort of "implicit" standard, a type used almost everywhere in the literature; one group bases their experimental design on a previous group's well-established design (which, in this case, had nothing to do with electronic mosquito repellents). Each reinforces the other in the age-old way.
+One might argue that this is a sort of "implicit" or de-facto standard, a type used almost everywhere in the literature; one group bases their experimental design on a previous group's well-established design (which, in this case, had nothing to do with electronic mosquito repellents). Each experiment reinforces the other in the age-old way.
 
 Cabrini et al's study yields robust results that align neatly with previous data and agree with hypotheses from other studies; a testament to the experience and skill of the researchers and their use of existing best practices in mosquito research. However, even here, we have hints that an "explicit" perscriptive standard might be useful:
 
@@ -136,7 +139,7 @@ Compare: [Saalman 1991](https://doi.org/10.1016/0005-2736(91)90418-8) reported a
 
 Consider how mystifying such a result would be. If well-publicized, it could undermine the scientific consensus in the eye of the public. <!-- The ramifications of "bad facts" are serious. -->
 
-Again, every "good scientist" will perform the calibration and comparison needed to justify these kinds of changes (as was done in this case). <!-- But if even a single -->
+Again, every "good scientist" will perform the calibration and comparison needed to justify these kinds of changes (as was done in this case). But the process should be tolerant to "poor scientists". <!-- But if even a single -->
 
 At the same time, perhaps the modification made by Cabrini is an important one, and one which should be kept for future studies (the change was made for "a lighter and easier to assemble chamber"). In that case, the modified version must be tested so thoroughly that there remains no ambiguity that any effect is an artifact of the change. If this is not done, it is possible that a modified version could be "infective", and corrupt many years of work.
 
@@ -149,10 +152,11 @@ The author believes that we have monumental problems looming at the horizon; it 
 
 Science itself is founded on continuous improvement; as . This idea of continuous improvement, of "descending the gradient". 
 
+<hr> 
 
+Of course, checklists and standards can only ever capture the "low-hanging fruit" of mistakes; the "unforced errors" like wrong cell lines[1a] and Microsoft Excel[2a].
 
-Of course, checklists can only ever capture the "low-hanging fruit" of mistakes; the "unforced errors" like wrong cell lines[1a] and Microsoft Excel[2a].
-These are, however, the boring ones that can waste a great deal of time; finding new and interesting errors is called "science".
+These are, however, the boring ones that waste a great deal of time; finding new and interesting errors is called "science".
 
 - [1a]: "But despite knowing about the issue for at least 35 years, the vast majority of journals have yet to put any kind of disclaimer on the thousands of studies affected."
 https://doi.org/10.1126/science.6451928
@@ -161,18 +165,14 @@ https://doi.org/10.1126/science.6451928
 Similarly, these best practices won't help you with artifacts on one's LIGO, of course; they're aimed only at the application of well-trodden, well-established sub-techniques.
 
 
-
 <hr>
 
-> But even "good science" could possibly benefit. A standard on fitting and subtraction of spectrometric data, especially containing advice on degrees of freedom in fits, could perhaps have lessened some of the initial controversy surrounding [Greaves et al 2020](https://doi.org/10.1093/mnrasl/slaa187).
-> 
-
-disagree on further
+~~But even "good science" could possibly benefit. A standard on fitting and subtraction of spectrometric data, especially containing advice on degrees of freedom in fits, could perhaps have lessened some of the initial controversy surrounding [Greaves et al 2020](https://doi.org/10.1093/mnrasl/slaa187).~~ After reading more of the followup, I no longer believe this is the case; the matters at hand here seem to be so complex and nuanced that they could not reasonably be systematized.
 
 <hr>
 
 Right now, quality control in science is almost entirely a filter on the outputs (via peer-review).
-The quality of that filter has degraded, and the perverse incentives on that filter have
+The quality of that filter has degraded, and the perverse incentives on both sides of that filter have
 lead to fields of literature that are very difficult to navigate.
 
 # The best possible experiment
@@ -187,6 +187,7 @@ The implicit standardization discussed above is, I think, a poor sort of standar
 - It is hardly possible to provide sufficient detail to be replicable in a 5-page paper. The emphasis is usually on the results, not necessarily describing methods in excruciating detail.
 
 It is interesting that, despite "learns from its mistakes", much of the scientific *infrastructure* does not.
+
 <hr>
 
 # Literature review
@@ -195,9 +196,7 @@ It is interesting that, despite "learns from its mistakes", much of the scientif
 
 Where is this consensus? It is scattered about. Maybe this is just a necessary part of science, and no alternative is feasible. I am not convinced
 
-
 Immutable; they cannot reflect the real-time consensus.
-
 
 Unlike, e.g. Cochrane Reviews, aimed at a technical audience that, with some introduction, can determine the importance of each study themselves.
 the review need not be perfect, only provide a uniform perspective.
@@ -241,13 +240,7 @@ Must be clear and readable by a global audience.
 
 high cognitive load 
 
-
-
-
-
 # 
-
-
 
 follow RFC2119 https://datatracker.ietf.org/doc/html/rfc2119
 
