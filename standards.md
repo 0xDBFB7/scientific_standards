@@ -1,4 +1,31 @@
 
+Format is plain text markdown processed through pandoc to automatically link cite keys. BibTeX. Citation format (<name>, year).
+
+
+
+# Nomenclature
+
+This field is also called:
+
+bioelectrics[1]
+bioelectromagnetics[2]
+
+Acronyms 
+
+Rationale:
+
+most new acronyms and terms of art coined by papers are only used once[]. it is recommended that coining new terms be discussed before 
+
+
+
+This page is for the scientific investigation. Because this is a matter of great public interest, many pseudoscientific concepts have appeared.
+
+
+
+You lose the rights to contributed content - will that work?
+
+
+
 
 Selected documents
 
@@ -40,6 +67,11 @@ Probably it will become dormant in a few weeks and nothing will matter.
 Simple, orthogonal tests for all reagents or supplies that can be performed by 
 as many people as possible to put everything into a "known state";
 regular audits?
+
+
+Must track progress as rapidly as possible. 
+There are few central clearinghouses for the state-of-the-art!
+
 
 
 It might end up being a total waste of time!
@@ -164,8 +196,7 @@ ab initio if possible (relying as little as possible on specific manufacturers, 
  which is easy to say but hard to implement in practice.
 
  
-
-
+should tell the novice all the things they must know and be aware of to 
 
 
 culture template / standard database inside the main git repo - for each field or experiment
@@ -176,8 +207,9 @@ Contact information for certain culture templates are built in; experts in certa
  explicitly agree to have their contact info added to check stuff?
 
 
-
-
+having a list of all contact info for every expert in a field seems rife for abuse - seperate personal table of emails 
+voting
+everyone must have an ORCiD?
 
 besides the "expert list" (or maybe instead),
 "user list" so breaking changes can be requested for comment - maybe even publications in the field?
@@ -188,3 +220,15 @@ request for comment, "Voting" on changes
 
 
 PR - set of standards to not mislead PR based on evidence
+
+
+all people following the standard must use the latest version available at the beginning of work.
+it is probably too much to ask for updates while performing the experiment,
+but it should be acknowledged that from time to time invalidate 
+
+if an expert can immediately identify problems in a study,
+then it seems that some authors nowadays are operating without the same set of knowledge
+
+can you trust the fourth estate
+
+nist colloquium can we trust the estate
