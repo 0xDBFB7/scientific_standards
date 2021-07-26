@@ -219,3 +219,28 @@ keep happening.
 
 
 
+
+thus, in a sense, software development, like aviation, is a "solved problem"; we can define a "solved problem" not when something has been demonstrated once, 
+but when a process exists that can regularly produce correct results.
+
+This is a living document. It is not a textbook from 1973 that everyone follows, yet has a typo on page 37 that you need to watch out for. 
+We have that capability - this is *literally* what the internet was made for.
+
+1. Make sure everyone can easily learn the things they need to know to get a good result in a field.  is operating from the same set of information.
+
+Not all software developers follow these guidelines, perhaps because most software is unimportant, and the cost of implementing and following these guidelines would be too high. The software development community does not usually self-enforce any kind of software quality mandate. Software developers are not usually taxpayer funded.
+
+On the other hand, things that matter are mandated; PCI guidelines for credit cards, 
+
+But most of published science is now "safety-critical" in some sense or another. How can any journalist, any layman, anyone without subject-matter expertise possibly be expected to distinguish the basis for the following reports?
+
+- **Fungi on Mars? Evidence of Growth and Behavior From Sequential Images**, by published in the peer-reviewed Journal of Cosmology and Advances in Microbiology, initially reported on credulously with some variation of "Scientists Find Evidence of Fungus Growing on Mars"
+- "The Safety of COVID-19 Vaccinations—We Should Rethink the Policy", by several scientists of superficially reasonable pedigree, published in the peer-reviewed journal MDPI
+- ""
+
+Oh, and guess which ones you can read for free? That's right, *the ones that will kill you*.
+
+
+We are told , but the consensus isn't anywhere that you can read. It exists only in the minds of people, and you can hardly ever know which people those are.
+
+Is standardization going to help? Almost certainly not. I guess my hope is that, if papers must detail their violations of best practice, the poor-quality science will automatically undermine itself.
