@@ -22,16 +22,16 @@
 
 Richard Hamming, [You And Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
 
-
+## The NASA Software Engineering Handbook
 
 NASA software development - the process ensures correctness no matter the quality of scientist
 thus, in a sense, software development, like aviation, is a "solved problem"; we can 
 define a "solved problem" not when something has been demonstrated once, 
 but when a process exists that can regularly produce correct results.
 
-It has been claimed that this process can take input from a, and 
+It has been claimed that this process can take input from a 
 
-In 2 million lines of code, 10 serious errors, 300 overall, and a probability of failure of below 1/600.
+In 2 million lines of code, about 10 serious errors, 300 overall, and a probability of failure of below 1/600.
 Failures do still happen, of course. These are documented in "lessons learned" and integrated immediately into their respective standard.
 
 Learning from errors. Integrating new knowledge inline, so as many people see it as possible.
@@ -58,19 +58,18 @@ But most of science is "safety-critical" in some sense or another.
 
 In academia, we now enjoy such things as the COPE guidelines for authorship; the FAIR standard for open data; *Cell*'s [STAR Methods](https://www.cell.com/star-authors-guide) for methods reporting. These might seem like boring bureaucracy leaking into our paradisiacal institution, but each has been developed to explicitly address problems that have been observed (recalcitrant authors, recalcitrant authors, mistaken reagents, respectively).
 
-In science proper, we can turn to the exemplary *Journal of Fluids Engineering*'s [**Statement on the Control of Numerical Accuracy**](https://www.asme.org/wwwasmeorg/media/resourcefiles/shop/journals/jfenumaccuracy.pdf) (1986-), enacted because "it was impossible to evaluate and compare the accuracy of different turbulence models, since one could not distinguish physical modeling errors from numerical errors". This document seems to especially hint at possibilities of formalizing science. It is detailed, proscribes specific actions that must be taken to ensure integrity,
-
+In science proper, we can turn to the exemplary *Journal of Fluids Engineering*'s [**Statement on the Control of Numerical Accuracy**](https://www.asme.org/wwwasmeorg/media/resourcefiles/shop/journals/jfenumaccuracy.pdf) (1986-), enacted because "it was impossible to evaluate and compare the accuracy of different turbulence models, since one could not distinguish physical modeling errors from numerical errors". This document seems to especially hint at possibilities of formalizing science. It is detailed, proscribes specific actions that must be taken to ensure integrity.
 
 (why aren't journal editorial standards good enough? I think the proliferation of journals nowadays (or routes to publication altogether) means that these kind of standards needs to be at a "higher level", transcending mode of communication).
-
 
 #### Note: this "meta-research" is itself a kind of pseudoscience - I really haven't a clue what I'm doing here.
 
 #### The below is a essay describing one person's perception of science. In addition, everything that's brought up below has been discussed more eloquently in the past.
 
-# Knowledge of best practices, and agreement on universal experimental conditions
 
-This repository was created after the author of this document. The author is a poor scientist, and the result was bad science; but it's interesting to look at the factors that led to this predicament:
+## Knowledge of best practices, and agreement on universal experimental conditions
+
+This repository was . The author is a poor scientist, and the result was bad science; but it may be interesting to look at the factors that led to this predicament:
 
 > "The following is probably self-evident to all good scientists; unfortunately, we only learned it during this project, so it seems worthwhile to make explicit.
 > 	
@@ -173,7 +172,8 @@ Similarly, these best practices won't help you with artifacts on one's LIGO, of 
 
 Right now, quality control in science is almost entirely a filter on the outputs (via peer-review).
 The quality of that filter has degraded, and the perverse incentives on both sides of that filter have
-lead to fields of literature that are very difficult to navigate.
+lead to fields of literature that are very difficult to navigate. Maybe these standards could be an alternative route.
+
 
 # The best possible experiment
 
@@ -201,16 +201,18 @@ Immutable; they cannot reflect the real-time consensus.
 Unlike, e.g. Cochrane Reviews, aimed at a technical audience that, with some introduction, can determine the importance of each study themselves.
 the review need not be perfect, only provide a uniform perspective.
 
-
-
+While it fulfills that function, Wikipedia is not designed to perform literature reviews,
+exhaustively list primary sources, or etc.
 
 Putting certain results into context 
 
-The authors of that paper have undoubtedly performed an extremely thorough literature review, condensing and filtering thousands of pages of papers and forming an opinion about each. However, only a dozen papers. 
+The authors of the mosquito paper have undoubtedly performed an extremely thorough literature review, condensing and filtering thousands of pages of papers and forming an opinion about each. However, only a dozen papers appear in the bibliography.
 
 If the paper were a thesis, this discussion of bibliography would probably be integrated with the new results. If the researchers wrote a book, such a bibliography would probably be included, but it's hard to imagine a publisher printing a 100-page appendix on experimental design for mosquito repellents. However, and so this work must be duplicated anew for every single paper on the subject. Things will undoubtedly be missed. Fortunately, the internet means these things can be disseminated.
 
 The effects of good review articles on the literature appear to be well-documented; there is a scarsity. This is the reason for the literature.md and .bib files; it is encouraged that your literature be added.
+
+quals some people resort to blogging
 
 While we're at it, we might as well include.
 
@@ -285,6 +287,7 @@ But this is what provides my funding
 https://academia.stackexchange.com/a/733 (tongue-in-cheek, I presume)
 
 
+
 <!-- 
 You are paid by the state, the university, the taxpayer; too little, probably, much less than you deserve, but from.
  Your office is partly the result of students working minimum-wage service jobs; your data on the backs of students working overtime on subsistence stipends,
@@ -304,4 +307,9 @@ If you are not willing to furnish the integrity of your results, you do not dese
 -->
 
 
- 
+
+Papers are being published where experts can immediately identify failures in methodology (of course, sometimes expert assements are wrong [phosphine]). Perhaps that could be something that could not be happening.
+ laser spectroscopy paper 
+
+
+

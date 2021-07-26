@@ -1,26 +1,5 @@
 
-Format is plain text markdown processed through pandoc to automatically link cite keys. BibTeX. Citation format (<name>, year).
-
-
-
-# Nomenclature
-
-This field is also called:
-
-bioelectrics[1]
-bioelectromagnetics[2]
-
-Acronyms 
-
-Rationale:
-
-most new acronyms and terms of art coined by papers are only used once[]. it is recommended that coining new terms be discussed before 
-
-
-
-This page is for the scientific investigation. Because this is a matter of great public interest, many pseudoscientific concepts have appeared.
-
-
+To the public, anything in a pdf format and with big words is now science, even if it completely defies every best practice. Poor-quality science will undermine itself.
 
 You lose the rights to contributed content - will that work?
 
@@ -84,6 +63,7 @@ When adding, you can agree to be added to a mailing list. If changes are request
 may be contacted to obtain approval.
 
 
+unit and integration tests for science
 
 On mailing list and identies
 
@@ -232,3 +212,10 @@ then it seems that some authors nowadays are operating without the same set of k
 can you trust the fourth estate
 
 nist colloquium can we trust the estate
+
+
+the process which we are following is itself, in a weird way, not scientific. problems 
+keep happening.
+
+
+
