@@ -82,7 +82,29 @@ published results can be ensured.
 Format is plain text markdown processed through pandoc to automatically link cite keys. BibTeX. Citation format (<name>, year).
 
 
+# False positive 
 
 
 
+## 
+
+Not particularly interested in statistical Type I errors.
+
+
+
+
+# 
+
+follow RFC2119 https://datatracker.ietf.org/doc/html/rfc2119
+
+DOCUMENT means this quantity must be measured and available in a supplemental.
+DOCUMENT should include a timestamp, equipment used to record.
+DOCUMENT should be used only when the dataset is too large to REPORT.
+
+REPORT means this quantity must be DOCUMENTed and promenently.
+
+Should be standalone. 
+
+
+Must be clear and readable by a global audience.
 

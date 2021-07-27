@@ -1,10 +1,11 @@
 
 # Open Standards of Scientific Best Practice
 
-## Could it be useful to make scientific best practices into explicit, "de jure" standards?
+## Could it be useful to make scientific best practices into explicit, *de jure* standards?
 
-### The more I write, the less I think this is a good idea. Anyway, here are some words.
-### The below is a essay describing one person's perception of science. Practically everything that's brought up below has been discussed more eloquently in the past.
+#### The more I write, the less I think this is a good idea. Anyway, here are some words.
+
+<!-- ### The below is a essay describing one person's perception of science. Practically everything that's brought up below has been discussed more eloquently in the past. -->
 
 > :cyclone: This is a collaborative project!
 >
@@ -24,33 +25,16 @@
 
 Richard Hamming, [You And Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
 
-<hr> 
-
-Possible aims:
-
-1. Attempt to standardize and condense established scientific techniques into their most repeatable, stable, and easy-to-use forms, with detailed perscriptions down to every sentence in a logbook
-2. Form a central clearinghouse for best practices and scientific consensus in every field, updated regularly to most closely reflect the best interpetations of the best data at hand - not to replace the literature, but to supplement it.
-3. Gather both casual users of techniques and experts into communication, respecting the time of each and managing improvements to the above.
-
-Obviously, this will never work, but it's fun to dream. 
-
-
-# Precedent
-
-- http://www.scholarpedia.org
-- MDPI *Standards*
 
 ## The NASA Software Engineering Handbook
 
 NASA software development NASA 7150.2 - the process ensures correctness in the output no matter the quality of the input.
 
-A small (and poorly-representative) section of a guideline can be seen in the [Power of Ten](http://www.cs.otago.ac.nz/cosc345/resources/nasa-10-rules.pdf).
 
-Not only do, but, if properly, they could reduce cognitive load on the scientist, so they can concentrate on their novel contribution ("The rules lessen the burden on the developer and tester to establish key properties").
+It has been claimed that, if properly followed, this process can take input from any level of experience and produce safety-critical outputs. While time-consuming, well-written standards may have the potential to reduce cognitive load on the worker, so they can concentrate on their novel contribution ("The rules lessen the burden on the developer and tester to establish key properties", [
+Holzmann, Power of Ten](http://www.cs.otago.ac.nz/cosc345/resources/nasa-10-rules.pdf)).
 
-It has been claimed that, if properly followed, this process can take input from any level of experience and produce safety-critical outputs.
-
-Some software reliability standards are, on the balance, not evidence-based.
+Some software reliability standards are, on balance, not evidence-based.
 
 > "[MISRA] rules in practice fall into three broad categories, A, B.1 and B.2. Of these, category A rules are generally stylistic and have no known relationship with failure. An example of a category A rule is that all local variables should have a name beginning with ’L ’. Category B.1 rules could conceivably be associated with failure, (for example the frequently repeated rule that the ’goto’ statement shall not be used), but for which there is still no measurement support as yet. In contrast, category B.2 rules are known by measurement to be associated directly with failure.
 >
@@ -70,7 +54,6 @@ New knowledge is integrated inline, so as many people see it as possible, with a
 
 There is great disagreement on the minutia of these standards. But, on the largest scale, strict adherence to Space Shuttle-era quality standards is a path which has a high chance of producing correct outputs.
 
-
 Most developers don't follow these guidelines, perhaps because - like the kind of exploratory experimentation - failures are unimportant. But when science is all about rigor. 
 
 <!--
@@ -82,15 +65,27 @@ We have monumental problems to solve, but we have no shortage of monumental peop
 
 In academia, we now enjoy such rules as the COPE guidelines for authorship; the FAIR standard for open data; *Cell*'s [STAR Methods](https://www.cell.com/star-authors-guide) for methods reporting. These might seem like boring bureaucracy leaking into our paradisiacal institution, but each has been developed to explicitly address problems that have been observed (recalcitrant authors, recalcitrant authors, mistaken reagents, respectively).
 
-In science proper, we can turn to the exemplary *Journal of Fluids Engineering*'s [**Statement on the Control of Numerical Accuracy**](https://www.asme.org/wwwasmeorg/media/resourcefiles/shop/journals/jfenumaccuracy.pdf) (1986-), enacted because "it was impossible to evaluate and compare the accuracy of different turbulence models, since one could not distinguish physical modeling errors from numerical errors". This document seems to tantalizingly hint at formal science. It is excruciatingly detailed and proscribes specific actions that must be taken to ensure integrity in particular classes of results.
+In science proper, we can turn to the exemplary *Journal of Fluids Engineering*'s [**Statement on the Control of Numerical Accuracy**](https://www.asme.org/wwwasmeorg/media/resourcefiles/shop/journals/jfenumaccuracy.pdf) (1986-), enacted because "it was impossible to evaluate and compare the accuracy of different turbulence models, since one could not distinguish physical modeling errors from numerical errors". This document seems to tantalizingly hint at formal science. It is excruciatingly detailed and prescribes specific actions that must be taken to ensure integrity in particular classes of results.
 
 <!--
 (why aren't journal editorial standards good enough? I think the proliferation of journals nowadays (or routes to publication altogether) means that these kind of standards needs to be at a "higher level", transcending mode of communication).
 -->
 
-# Knowledge of best practices, and agreement on universal experimental conditions
+# Knowledge of best practices, and mutual agreement on universal experimental conditions
 
-This repository was concieved after the author attempted to perform research far outside his field of expertise. The author is a poor scientist, and the result was bad science; but it may be interesting to look at the factors that led to this predicament:
+Dev and Hofmann, *Clinical Applications of Electroporation* (in *Electrical Manipulation of Cells*, Davey and Lynch 1996): 
+
+> There are as many biosystems in use as there are experiments being done, it seems.
+>
+> This is reasonable since each research laboratory has people that are expert in certain measurement techniques and certain biological systems.
+>
+> The problem is that given the wide diversity of laboratories working on defining a mechanism of interaction, it is nearly impossible to repeat and hence verify the research results of any one laboratory.
+>
+> Protocols are often exchanged between laboratories and "identical" experiments are performed, with the result being different experimental data. Careful investigation usually reveals that some minor variations existed in the execution of the protocol. Unfortunately, it is not possible to tell at this point just what defines a "minor variation." It seems clear that a single biological system should be selected, and experiments designed to answer single questions should be designated. If an experimental protocol were then written and executed exactly by three to five separate laboratories, some of the answers to the questions posed here might emerge.
+>
+> It appears that it is time for researchers to step back from doing more experiments and to work together to select the biosystem, the experiment, and the protocol that has a reasonable chance to produce results that can lead to a mechanism of interaction[...].
+
+This repository was concieved after the author attempted to perform research far outside his field of expertise. The author is a poor scientist, and the result was bad science; but it may be interesting to look at the factors that led to this predicament, echoing D&H:
 
 > "The following is probably self-evident to all good scientists; unfortunately, we only learned it during this project, so it seems worthwhile to make explicit.
 > 	
@@ -106,18 +101,6 @@ This repository was concieved after the author attempted to perform research far
 >
 > It occurs to me that perhaps a set of standardized test cells and procedures would be helpful; along with a requirement that any papers on the topic either use such a cell, or, if their study requires some exceptional treatment, to follow some established step-by-step procedure to add a new cell to the standard."
 
-This is echoed by Dev and Hofmann, *Clinical Applications of Electroporation* (in *Electrical Manipulation of Cells*, Davey and Lynch 1996): 
-
-> There are as many biosystems in use as there are experiments being done, it seems.
->
-> This is reasonable since each research laboratory has people that are expert in certain measurement techniques and certain biological systems.
->
-> The problem is that given the wide diversity of laboratories working on defining a mechanism of interaction, it is nearly impossible to repeat and hence verify the research results of any one laboratory.
->
-> Protocols are often exchanged between laboratories and "identical" experiments are performed, with the result being different experimental data. Careful investigation usually reveals that some minor variations existed in the execution of the protocol. Unfortunately, it is not possible to tell at this point just what defines a "minor variation." It seems clear that a single biological system should be selected, and experiments designed to answer single questions should be designated. If an experimental protocol were then written and executed exactly by three to five separate laboratories, some of the answers to the questions posed here might emerge.
->
-> It appears that it is time for researchers to step back from doing more experiments and to work together to select the biosystem, the experiment, and the protocol that has a reasonable chance to produce results that can lead to a mechanism of interaction[...].
-
 It is tempting to dismiss cases where existing best practices were not followed as "bad science"; and certainly some cases are beyond redemption. 
 
 However, systems engineering frowns on the idea of considering failures as exceptions: human factors dictate that scientists of good conscience can make silly mistakes; perhaps it could be said that our infrastructure does not make it particularly easy to produce correct results. Best practices are often scattered throughout decades or centuries of literature, much of which is inaccessible.
@@ -130,7 +113,10 @@ However, systems engineering frowns on the idea of considering failures as excep
 It's all well and good to retract or pin a letter to the editor on an obviously flawed methodology, 
 but in practice, the damage to the literature (and, regrettably, to society) is usually already committed.
 
-<!-- The literature's reliability requires that most scientists be "good" in that sense. -->
+
+<!-- 
+
+The literature's reliability requires that most scientists be "good" in that sense. -->
 
 <hr>
 
@@ -172,10 +158,6 @@ At the same time, perhaps the modification made by Cabrini is an important one, 
 
 Ideally, if standards are sufficiently well written, verifying such a change could be a straightforward checklist.
 
-The author believes that we have monumental problems looming at the horizon; it is fortunate that some part of these can be tackled by basic and advanced research, and our society has no shortage of monumental people bringing their efforts to bear. It would be a waste to be confused by trifles, or to even once repeat a mistake.
-
-Science itself is founded on continuous improvement; as . This idea of continuous improvement, of "descending the gradient". 
-
 <hr> 
 
 Of course, checklists and standards can only ever capture the "low-hanging fruit" of mistakes; the "unforced errors" like wrong cell lines[1a] and Microsoft Excel[2a].
@@ -189,11 +171,26 @@ https://doi.org/10.1126/science.6451928
 Similarly, these best practices won't help you with artifacts on one's LIGO, of course; they're aimed only at the application of well-trodden, well-established sub-techniques.
 
 
-<hr>
-
 ~~But even "good science" could possibly benefit. A standard on fitting and subtraction of spectrometric data, especially containing advice on degrees of freedom in fits, could perhaps have lessened some of the initial controversy surrounding [Greaves et al 2020](https://doi.org/10.1093/mnrasl/slaa187).~~ After reading more of the followup, I no longer believe this is the case; the matters at hand here seem to be so complex and nuanced that they could not reasonably be systematized.
 
 <hr>
+
+
+# Possible aims
+
+- Attempt to standardize and condense established scientific techniques into their most repeatable, stable, and easy-to-use forms, with detailed perscriptions down to every sentence in a logbook, addressing deficiencies immediately as they are discovered
+- Form a central clearinghouse for best practices and scientific consensus in every field, updated regularly to most closely reflect the best interpetations of the best data at hand - not necessarily to replace the literature, but to supplement it,
+- Gather both casual users of techniques and experts into communication, respecting the time of each, managing improvements to the above, and providing real-time .
+
+Obviously, this will never work, but it's fun to dream. 
+
+
+# Precedent
+
+- http://www.scholarpedia.org
+- MDPI *Standards*
+
+
 
 Right now, quality control in science is almost entirely a filter on the outputs (via peer-review).
 The quality of that filter has degraded, and the perverse incentives on both sides of that filter have
@@ -202,16 +199,20 @@ lead to fields of literature that are very difficult to navigate. Maybe standard
 
 # The best possible experiment
 
-the most firm foundation for future
+the most firm foundation for future research to build on top of.
 
 The implicit standardization discussed above is, I think, a poor sort of standard. 
 
-- A paper is immutable in the face of progress. It provides no context regarding future developments. This is not a theoretical problem.
+- A paper is immutable in the face of progress. It provides no context regarding future developments. This is not a theoretical problem; 
 - It is hardly possible to provide sufficient detail to be replicable in a 5-page paper. The emphasis is usually on the results, not necessarily describing methods in excruciating detail.
 
 <!-- But there -->
 
-Superseded.
+Superseded
+
+Say I set out, with the best of intentions, to produce a certain result in a field. How would I learn what I should do?
+
+In my case, I read several thousand papers, a few dozen books - and then, two weeks before a data-taking run, I found a relatively little-known paper describing a simple technique 100x more sensitive and absolutely immune to the most common artifacts. It seems like that shouldn't happen. 
 
 <hr>
 
@@ -219,7 +220,7 @@ Superseded.
 
 ##### (this may represent feature creep and might be out of scope).
 
-Where is this consensus? It is scattered about. Maybe this is just a necessary part of science, and no alternative is feasible. I am not convinced
+Where is this consensus? It is scattered about. Maybe this is just a necessary part of science, and no alternative is feasible.
 
 Immutable; they cannot reflect the real-time consensus.
 
@@ -243,7 +244,7 @@ While we're at it, we might as well include.
 
 <hr>
 
-The standards discussed here could resemble protocols from biology, with a few additional features:
+The standards discussed here could resemble protocols from microbiology, with a few additional features:
 
 - Rationale and lineage for steps and concepts.
 - A way to "re-qualify" experimental arrangements if changes (to update to new equipment), must be made.
@@ -253,30 +254,14 @@ The standards discussed here could resemble protocols from biology, with a few a
 - A voting procedure for modifications.
 - A way to compare and contrast a specific paper's methodology with the standard (a document in the supplemental)
 
-Will require a delicate balance between the experimenter's freedom and strict, onerous.
+Will require a delicate balance between the experimenter's freedom and strict.
 
 It is hoped that, eventually, every field and subfield, every different kind of established experiment, 
 will produce an associated standard. 
 
-
 - Material science: coupons to test furnaces, 
 - Software: testing, fuzzing 
 - Scientific communication: "in mice";  
-
-# 
-
-follow RFC2119 https://datatracker.ietf.org/doc/html/rfc2119
-
-DOCUMENT means this quantity must be measured and available in a supplemental.
-DOCUMENT should include a timestamp, equipment used to record.
-DOCUMENT should be used only when the dataset is too large to REPORT.
-
-REPORT means this quantity must be DOCUMENTed and promenently.
-
-Should be standalone. 
-
-
-Must be clear and readable by a global audience.
 
 
 # How could this fail?

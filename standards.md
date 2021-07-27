@@ -220,6 +220,11 @@ keep happening.
 
 
 
+The author believes that we have monumental problems looming at the horizon; it is fortunate that some part of these can be tackled by basic and advanced research, and our society has no shortage of monumental people bringing their efforts to bear. It would be a waste to be confused by trifles, or to even once repeat a mistake.
+
+Science itself is founded on continuous improvement; as . This idea of continuous improvement, of "descending the gradient". 
+
+
 thus, in a sense, software development, like aviation, is a "solved problem"; we can define a "solved problem" not when something has been demonstrated once, 
 but when a process exists that can regularly produce correct results.
 
