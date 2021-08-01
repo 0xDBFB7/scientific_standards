@@ -3,7 +3,8 @@
 
 ## Could it be useful to make scientific best practices into explicit, *de jure* standards?
 
-#### The more I write, the less I think this is a good idea. Anyway, here are some words.
+#### The more I write, the less I think this is a good idea.
+#### Anyway, here are some words.
 
 <!-- ### The below is a essay describing one person's perception of science. Practically everything that's brought up below has been discussed more eloquently in the past. -->
 
@@ -25,13 +26,41 @@
 
 Richard Hamming, [You And Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
 
+> The number of published articles per year increases exponentially, with “no indications that the growth rate has decreased in the last 50 years” (Larsen & Von Ins, 2010). For example, a search in ScienceDirect reveals that the number of published papers is 493545, 526380, 555342, and 619130 in 2010, 2011, 2012, and 2013, respectively. How long could such exponential growth be sustainable? It may lead to incredible burden on reviewers and editors, or an inevitable decline of research quality.
+
+RE: RE: Publishing everything is fundamentally suboptimal for scientific progress https://journals.plos.org/plosone/article/comment?id=info:doi/10.1371/annotation/fdce24bb-aa1d-41ff-8325-a01fa8d97015
+
+
+> but this is definitely not enough to cope with the main problem from which the scientific literature has been suffering in the last few decades, that is, the exponential growth of scientific publications driven by the obligation for scientists in many countries to publish more and more, which leads to the publication of a huge background noise of useless and low-level articles. It is indeed a tedious work to extract from the mass of submissions the scientific research that does merit the dissemination of its results.
+> 
+> As editors, we are committed since many years to our journal and will continue to invest much of our time to work with authors to promote nanoscience and nanotechnology in our journal by applying the highest standards thanks to the dedicated work of our associate editors and reviewers, but it is also clear that under the present circumstances, it is rarely rewarding and fun.
+Pinna et al 10.1007/s11051-020-05094-0
+
+According to the Retraction Watch database, there have been 461 previous papers with "False/Forged Authorship". With absolute respect to the experts at Springer integrity group, these are systemic problems, they have systemic solutions, and they aren't being fixed. 
+
+Authentication is a bare-minimum 
+
+It is possible to 
+
+
+I think all scientists would be able to contribute meaningfully to if they knew what was expected of them. We need the contributions of the "poor scientists"
+
+
+I would argue that most science is safety-critical now. Informs public policy, it affects trust. If a <> a kidney patient might die, if a <> a. A NIST group found to produce an incorrect value of a constant is at risk of being garrotted 
+
+
+
+
+https://www.ourdocuments.gov/doc.php?flash=false&doc=15&page=transcript
+"The basis of our political systems is the right of the people to make and to alter their constitutions of government. But the Constitution which at any time exists, till changed by an explicit and authentic act of the whole people, is sacredly obligatory upon all. The very idea of the power and the right of the people to establish government presupposes the duty of every individual to obey the established government."
+
 
 ## The NASA Software Engineering Handbook
 
 NASA software development NASA 7150.2 - the process ensures correctness in the output no matter the quality of the input.
 
 
-It has been claimed that, if properly followed, this process can take input from any level of experience and produce safety-critical outputs. While time-consuming, well-written standards may have the potential to reduce cognitive load on the worker, so they can concentrate on their novel contribution ("The rules lessen the burden on the developer and tester to establish key properties", [
+It has been claimed that, if properly followed, this process can take input from any level of experience and produce safety-critical outputs. While time-consuming to follow, well-structured standards might also have the potential to reduce cognitive load on the worker, so they can concentrate on their novel contribution ("The rules lessen the burden on the developer and tester to establish key properties", [
 Holzmann, Power of Ten](http://www.cs.otago.ac.nz/cosc345/resources/nasa-10-rules.pdf)).
 
 Some software reliability standards are, on balance, not evidence-based.
@@ -44,22 +73,24 @@ Some software reliability standards are, on balance, not evidence-based.
 
 But the best processes are subject to regular meta-analysis, and necessary changes in the process are introduced immediately with a universal mandate. Gotchas are specifically documented:
 
-https://llis.nasa.gov/lesson/2044
+
 > JPL has referenced this lesson learned as additional rationale and guidance supporting Paragraph 6.4.4 ("Engineering Practices: System Engineering") in the Jet Propulsion Laboratory standard "Flight Project Practices, Rev. 7," JPL DocID 58032, September 30, 2008.[quotes fixed]
+> https://llis.nasa.gov/lesson/2044
 
 New knowledge is integrated inline, so as many people see it as possible, with a focus on how humans actually use thousand-page documents. These appear to be, on balance, supremely effective.
 
 - [Software and the Challenge of Flight Control](http://sunnyday.mit.edu/papers/shuttle-chapter-final.pdf), Nancy G. Leveson
 - [Space Shuttle Flight Software (PASS) Loss Of Crew Errors](https://www.slideshare.net/JamesOrr4/space-shuttle-flight-software-pass-loss-of-crew-errors-jk-orr-20150827-52150515) J.K. Orr 2015-08-27
 
-There is great disagreement on the minutia of these standards. But, on the largest scale, strict adherence to Space Shuttle-era quality standards is a path which has a high chance of producing correct outputs.
+There is often disagreement on the minutia of these standards. But, on the largest scale, strict adherence to Space Shuttle-era quality standards is a path which has a high chance of producing correct outputs.
 
-Most developers don't follow these guidelines, perhaps because - like the kind of exploratory experimentation - failures are unimportant. But when science is all about rigor. 
+Most developers don't follow these guidelines, perhaps because - like the kind of exploratory experimentation done in the early stages of a field - failures are unimportant. But published science is all about rigor. 
 
 <!--
 Scientists, on an individual level, are doing just as good a job as they ever were. 
 We have monumental problems to solve, but we have no shortage of monumental people. 
 -->
+
 
 ## Could analogous processes be implemented in science?
 
@@ -67,11 +98,92 @@ In academia, we now enjoy such rules as the COPE guidelines for authorship; the 
 
 In science proper, we can turn to the exemplary *Journal of Fluids Engineering*'s [**Statement on the Control of Numerical Accuracy**](https://www.asme.org/wwwasmeorg/media/resourcefiles/shop/journals/jfenumaccuracy.pdf) (1986-), enacted because "it was impossible to evaluate and compare the accuracy of different turbulence models, since one could not distinguish physical modeling errors from numerical errors". This document seems to tantalizingly hint at formal science. It is excruciatingly detailed and prescribes specific actions that must be taken to ensure integrity in particular classes of results.
 
+
+
+International Society for  1983
+
+https://www.tandfonline.com/doi/pdf/10.1080/20013078.2019.1648167
+"most manuscripts on EVs do not include proper characterization of EVs generally, much less demonstration of exosomes versus other types of EVs [44]. This lack of rigour as the field rapidly expanded in the early 2000s formed a major part of the impetus for the International Society for Extracellular Vesicles and its standardization initiatives."
+
+382 coauthors for the misev
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322352/ documentation requirements: "If frozen, how was freezing and thawing performed? In what buffer(s) were EVs stored? For how long? What, if any, cryoprotectant was used?" "Consensus: 96% of MISEV2018 Survey respondents endorsed the pre-analytical variables section. Since 44% of respondents also suggested at least one added literature citation or other amendment in more than 200 total comments" "Finally, a checklist is provided with summaries of key points.".
+
+"The major goal of these recommendations was to sensitize researchers (especially the rapidly growing numbers of scientists newly interested in EVs), as well as journal editors and reviewers, to experimental and reporting requirements specific to the EV field."
+
+"However, a recent survey of members of ISEV to lay the groundwork for MISEV2018 [[3]] showed that, while respondents agreed almost unanimously on the need for minimal requirements, and a majority supported the MISEV2014 initiative and guidelines as published, almost a quarter of respondents found the guidelines too restrictive or too strong an imposition on the field. MISEV2018 thus provides clearer explanations of the need for each recommendation and highlights the extent of author consensus (or lack thereof) on each section."
+
+Terminology is standardized with extremely in-depth reporting of the rationale. 
+
+Experimental designs are plotted on a 2D graph for ease of selection. 
+
+"We found 701 manuscripts (15.4% of manuscripts for the period 2015–2020) citing MISEV guidelines."
+
+Now *this* is science.
+
+https://www.isev.org/rigor-standardization
+
+
+
+
+
+
+
+<hr>
+
+Let us perform a breif root-cause-analysis.
+
+"Laser produced plasma diagnosis of carcinogenic heavy metals in gallstones", Gondal et al.
+
+
+This is another "important" result.
+
+> "Gall bladder cancer [GBC] is a highly fatal malignancy. Geographically, regions of high prevalence of gallstones [GSs] have shown to have higher rates of GBC, which is now a recognized risk factor for GBC. Heavy metal toxicity has also been reported to be associated with GBC. An effort therefore at recognizing and avoiding potential risk factors for GBC occurrence is therefore paramount."
+
+the conclusion is 
+
+> "Heavy metals can rise in our body as we grow and age. Our results confirm this rise in the concentration of toxic heavy elements when we compared their levels in GSs of an old person to a young person.[] This study has demonstrated that our highly sensitive system can be applied for the rapid analysis of human tissue and other biocompatible samples, and secondly proposes a basis for further studies on the levels of carcinogens and incidence of GBC."
+
+The paper appears to be very high quality and very convincing to me. Were I in such a position, I would probably have based policy on this paper. Reading it, I am convinced (perhaps due to my ignorance of the methods used and lack of understanding of the kind of mistakes that are possible) that the authors of this paper wanted very hard to produce a good result. They followed the proper ethics guidelines, spectra are published in the interest of transparency. They perform a rigorous analysis of the plasma conditions at the LIBS site. They even brought in an external expert on lasers from a different country.
+
+They use two different methods of analysis, LIBS and LA–ICP–MS to confirm their data, and find good agreement.
+
+It is published in the prestigious Royal Society of Chemistry, in the journal of Analytical Atomic Spectroscopy.
+
+It is also completely wrong and was retracted within two years.
+
+https://pubs-rsc-org.ezproxy.library.yorku.ca/en/content/articlelanding/2017/JA/C6JA00373G#cit1
+
+The reasons are very detailed and complicated to someone who does not know spectral lines from Adam, such as myself.
+
+Ultimately, all the techniques used are well-estabilished. Mass spectrometry was invented in 1918 and line identification has 70 years of precedent, ICP-MS has been used since 1980 and best-practices abound. LIBS has been used since the 1960s (https://arxiv.org/pdf/1407.0132.pdf). I believe this was an "unforced error" on the part of the literature. This paper did not need to be written, and there was absolutely no reason for it to be published. Or, alternatively, since the authors disagree with the retraction, if the paper is correct and the retraction was invalid, there is no reason why such ambiguity ever needed to exist.
+
+The paper's authors appear to be excellent scientists. The first author has since helped with interesting papers on all sorts of materials science. The second author has gone on to produce a great result in antibiotics. Perhaps I am too generous, but I do not believe it would be fair to blame the authors, considering that the peer-reviewers, presumably populated by *experts in the field of spectroscopy* did not see an issue. Neither can I blame the editors. I think *the system must have failed them*.
+
+The entire very easily systematized into a checkbox that any of the reviewers could have verified quickly - or even trivially automated by the journal:
+
+> "That is why some simple spectroscopic rules mentioned by Cremers and Radziemski12 should be kept in mind: (i) the strongest lines of the main components must be present in emission spectra; (ii) observation of combinations of intense lines (multiplets): if one component is observed, the others should also be present; (iii) consideration of relative line intensities from spectral databases; and (iv) the presence of spectral lines of various ionized states depending on the experimental conditions."
+
+First, under absolutely optimal conditions, the LOD of LIBS is generally claimed to be about 0.6 ppm. The authors report results down to a few dozens of parts-per-billion by using an apparently novel plasma correction method. A standard for LIBS which contained only the logic "LOD < existing precedent? Discuss with experts; publish methods for commentary first, no health results." would have removed this paper from the literature.
+
+If the authors wanted to demonstrate a new innovation to LIBS that reduced the LOD or made it possible to detect metals in gallstones (the implied goal, given the publication venue), I am sure such a report would be welcomed.
+
+If the authors wanted to report the variation of heavy metals in gallstones, there is presumably much precedent in heavy-metals analysis; accepted techniques used by healthcare workers. The use of N=2 gallstones from just two different ages makes this result underpowered for this purpose.
+
+There are probably countless other systemic issues and perverse incentives at play here. Perhaps funding was only available for health research into 
+
+In some ways this is an issue of paper scoping.
+
+facts is facts and charity and alms are another
+
+<hr>
+
+
 <!--
 (why aren't journal editorial standards good enough? I think the proliferation of journals nowadays (or routes to publication altogether) means that these kind of standards needs to be at a "higher level", transcending mode of communication).
 -->
 
-# Knowledge of best practices, and mutual agreement on universal experimental conditions
+# Knowledge of best practices: mutual agreement on universal experimental conditions
 
 Dev and Hofmann, *Clinical Applications of Electroporation* (in *Electrical Manipulation of Cells*, Davey and Lynch 1996): 
 
@@ -85,7 +197,7 @@ Dev and Hofmann, *Clinical Applications of Electroporation* (in *Electrical Mani
 >
 > It appears that it is time for researchers to step back from doing more experiments and to work together to select the biosystem, the experiment, and the protocol that has a reasonable chance to produce results that can lead to a mechanism of interaction[...].
 
-This repository was concieved after the author attempted to perform research far outside his field of expertise. The author is a poor scientist, and the result was bad science; but it may be interesting to look at the factors that led to this predicament, echoing D&H:
+This repository was concieved after the author speaking attempted to perform research far outside his field of expertise. The author is a poor scientist, and the result was bad science; but it may be interesting to look at the factors that led to this predicament, echoing D&H:
 
 > "The following is probably self-evident to all good scientists; unfortunately, we only learned it during this project, so it seems worthwhile to make explicit.
 > 	
@@ -131,17 +243,17 @@ Better pre-trial communcation with experts, especially via protocol pre-review, 
 
 However, consider the following positively terrific paper by Cabrini et al (2006), *Evaluation of seven new electronic mosquito repellers*. 
 
-It should be noted that even a single anomalous result in this field could have potentially life-changing ramifications in countries with mosquito-born illnesses; as the authors discuss, it would cast doubt on the rest of the results in the eyes of consumers (who can hardly be expected to perform literature reviews of their own), undoubtedly affect the advertising of the devices, and alter the FDA's litigation. This is practically "safety-critical" work.
+It should be noted that even a single anomalous result in this field could have potentially life-changing ramifications in countries with mosquito-borne illnesses; as the authors discuss, it would cast doubt on the rest of the results in the eyes of consumers (who can hardly be expected to perform literature reviews of their own), undoubtedly affect the advertising of the devices, and alter the FDA's litigation. This is practically "safety-critical" work.
 
 They describe:
 
 > A test chamber, previously described by Klowden & Lea (1978), was made with a few adaptations.
 
-One might argue that this is a sort of "implicit" or de-facto standard, a type used almost everywhere in the literature; one group bases their experimental design on a previous group's well-established design (which, in this case, had nothing to do with electronic mosquito repellents). Each experiment reinforces the other in the age-old way.
+One might argue that this is a sort of "implicit" or *de facto* standard, a type used almost everywhere in the literature; one group bases their experimental design on a previous group's well-established design (which, in this case, had nothing to do with electronic mosquito repellents). Each experiment reinforces the other in the age-old way.
 
 Cabrini et al's study yields robust results that align neatly with previous data and agree with hypotheses from other studies; a testament to the experience and skill of the researchers and their use of existing best practices in mosquito research. 
 
-However, even here, we have hints that an "explicit", **de jure** perscriptive standard might be useful:
+However, even here, we have hints that an "explicit", *de jure* perscriptive standard might be useful:
 
 > Polystyrene was used instead of Plexiglas for the chamber[.]
 
@@ -187,7 +299,6 @@ Obviously, this will never work, but it's fun to dream.
 
 # Precedent
 
-- http://www.scholarpedia.org
 - MDPI *Standards*
 
 
@@ -195,7 +306,6 @@ Obviously, this will never work, but it's fun to dream.
 Right now, quality control in science is almost entirely a filter on the outputs (via peer-review).
 The quality of that filter has degraded, and the perverse incentives on both sides of that filter have
 lead to fields of literature that are very difficult to navigate. Maybe standards could be an alternative route.
-
 
 # The best possible experiment
 
@@ -216,9 +326,30 @@ In my case, I read several thousand papers, a few dozen books - and then, two we
 
 <hr>
 
+A meta-society; one that forms societies spontaneously 
+
+# A standard literature
+
+
+when a new paper is published, time is taken to determine its position in the standard literature. 
+there may never be agreement on the position of some papers, but it is imperative that this disagreement be made public so that interested workers can determine for themselves.
+
+sign a declaration of comparison
+
+
+
+The problem of Authentication is 
+
+
 # Literature review
 
-##### (this may represent feature creep and might be out of scope).
+##### (this may represent feature creep and might be out of scope). 
+
+It's somewhat overlapping with the aims of http://www.scholarpedia.org . 
+
+(scholarpedia is a fantastic project with great people behind it, 
+I'm a little concerned about the long-term effects of having a for-profit enterprise run this sort of thing, but it seems okay here)
+
 
 Where is this consensus? It is scattered about. Maybe this is just a necessary part of science, and no alternative is feasible.
 
@@ -274,7 +405,7 @@ will produce an associated standard.
 - It is possible that turning science, an institution founded on an ineffable flexibility, into a set of perscriptivist doctrines, might stifle progress and creativity.  
 - The Saalman and Bergqvist story led to the discovery of a new effect (the effect of the surface energy of the container on the stability of lipid liposomes). In general, making mistakes can do cool stuff like that.
 - Performing your own literature review inevitably takes you in a different direction,
-following a different tack, giving you a unique perspective. also, the idea is generally to do novel research, so a pre-made literature review shouldn't exist. At the same time, a few centuries of 
+following a different tack, giving you a unique perspective. also, the idea is generally to do novel research, so a pre-made literature review shouldn't exist. At the same time, with the few centuries of precent, practically no ideas are entirely novel.
 - If these standards become good enough, it might be possible for non-experts to publish good results by rote. I think this is an improvement over the current system, where non-experts publish bad results, but some might differ.
 
 

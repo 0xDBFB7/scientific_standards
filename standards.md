@@ -249,3 +249,30 @@ Oh, and guess which ones you can read for free? That's right, *the ones that wil
 We are told , but the consensus isn't anywhere that you can read. It exists only in the minds of people, and you can hardly ever know which people those are.
 
 Is standardization going to help? Almost certainly not. I guess my hope is that, if papers must detail their violations of best practice, the poor-quality science will automatically undermine itself.
+
+
+man, 
+https://github.com/openjournals/joss-reviews/issues/1349
+the JOSS people have got it figured out! Almost every part is automated,
+there's a strict checklist,
+and 
+
+
+
+when doing software, it is very difficult to ensure exact implementation following a paper
+unless a complete numerical example is provided for verification and validation
+
+
+for the exosome paper, how did the standards publication affect things?
+2720 papers cite that paper (gscholar). 
+978 contain the text "materials and methods" (I.E. are probably experimental papers) non eof those have been retracted or have EOCs.
+
+since 2018, 17,000 papers containing the text extracellular vesicles with the same m&m text.
+23 of these have been retracted; 14 expressions of concern.
+most of these are misconduct that a standard would not have helped with.
+
+
+
+
+
+
