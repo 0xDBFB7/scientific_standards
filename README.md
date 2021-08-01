@@ -7,14 +7,13 @@
 
 ##### Additionally, this is tedious overripe meta-research from someone who has no scientific output to speak of, and has no right to cavil and carp on such topics.
 
-[Case 1](#case-1)
-[Case 2](#case-2)
-
 > :cyclone: This is a collaborative project!
 >
-> If you think this is worthwhile, perhaps you could consider 
-> 1. Joining the voting mailing list for your own field
-> 2. Posting an issue or PR with a draft standard for your own field of expertise, following the preliminary meta standard.
+> If you think this is worthwhile and you have some free time, perhaps you could consider 
+> 0. Discussing whether this is [even a good idea](https://github.com/0xDBFB7/scientific_standards/issues/2).
+> 1. Discussing the parts of the MISEV[see below], RFC, or other standards that you're familiar with, to establish a preliminary meta-standard
+> 2. Joining the Issue (set Notifications->Custom->(Closed+Reopened) and/or the [voting mailing list](https://forms.gle/GcFkgqGACnhsSmQN8) for your own field of expertise
+> 3. Posting an issue or PR with a draft standard or literature review for your field.
 > (Be aware that, unlike a paper, your contribution may be [modified by others](https://en.wikipedia.org/wiki/Wikipedia:Ownership_of_content) as knowledge of the field progresses and new circumstances must be covered).
 
 <hr>
@@ -32,11 +31,11 @@
 
 I would first like to argue that the majority of science is safety-critical now. Though a failure of the scientific process doesn't make bridges fall immediately, it misinforms public policy and undermines trust in our ability to determine how the world works. 
 
-That paper on is of no consequence to a technical audience, but when reported on credulously as "Scientists Find Fungus on Mars" next to "Scientists Claim Vaccines Safe", it becomes deadly. A NIST group found to produce an incorrect value of a constant is at risk of being garroted by sleep-deprived PhD candidates. 
+That paper may be of no consequence to a technical audience, but when reported on credulously as "Scientists Find Fungus on Mars" next to "Scientists Claim Vaccines Safe", it becomes deadly. A NIST group found to produce an incorrect value of a constant is at risk of being garroted by sleep-deprived PhD candidates. 
 
 Any special weight which is put on scientific assertions in debate weighs equally on our responsibility for accuracy. A world where the scientific literature is not the place to find the best available [approximation of the truth](https://www.nist.gov/video/nist-colloquium-series-can-you-trust-fourth-paradigm-michael-lesk) is pretty dismal; extraordinary measures should be designed to ensure its validity without reducing productivity.
 
-Moreover, a repeated mistake is a lost opportunity to improve society. [Since](https://advances.sciencemag.org/content/7/21/eabd1705) "Existing evidence also shows that experts predict well which papers will be replicated.",  
+Moreover, a repeated mistake is a lost opportunity to improve society. [Since](https://advances.sciencemag.org/content/7/21/eabd1705) "Existing evidence also shows that experts predict well which papers will be replicated", it seems studies are being conducted which, with better dissemination and understanding of existing best practices, might never been done at all; the experts and researchers are sometimes operating with different information.
 
 
 We are told that we should follow the scientific consensus, but where is this consensus? It's nowhere you can read; it exists only in the minds of experts, and you hardly ever know which ones; it is scattered about a century of literature; a message in a bottle in the sea. Maybe this is just a necessary part of science, and no alternative is feasible, but I believe that there are some hints that, with changes in infrastructure, this may no longer be the case.
@@ -93,8 +92,7 @@ There is often disagreement on the minutia of these standards. But, on the large
 
 Most software developers don't follow these guidelines, perhaps because - like the kind of exploratory experimentation done in the early stages of a field - failures are unimportant. But published science is supposed to be all about rigor.
 
-Scientists, on an individual level, are doing just as good a job as they ever were.
-We have monumental problems to solve, but we have no shortage of monumental people. What we may not be able to afford is unnecessary confusion. 
+Scientists, on an individual level, are doing just as good a job as they ever were. We have monumental problems to solve, but we have no shortage of monumental people. What we may not be able to afford is unnecessary confusion. 
 
 # Could analogous processes be implemented in some parts of science? Does standardization even make sense in such an open-ended endeavour?
 
