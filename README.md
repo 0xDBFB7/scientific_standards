@@ -38,21 +38,21 @@ That paper may be of no consequence to a technical audience, but when reported o
 
 Any special weight which is put on scientific assertions in debate weighs equally on our responsibility for accuracy. A world where the scientific literature is not the place to find the best available [approximation of the truth](https://www.nist.gov/video/nist-colloquium-series-can-you-trust-fourth-paradigm-michael-lesk) is pretty dismal; extraordinary measures should be designed to ensure its validity without reducing productivity.
 
-Moreover, a repeated mistake is a lost opportunity to improve society. [Since](https://advances.sciencemag.org/content/7/21/eabd1705) "Existing evidence also shows that experts predict well which papers will be replicated", it seems studies are being conducted which, with better dissemination and understanding of existing best practices, might never been done at all; the experts and researchers are sometimes operating with different information.
+Moreover, a repeated mistake is a lost opportunity to improve society. [Since](https://advances.sciencemag.org/content/7/21/eabd1705) "Existing evidence also shows that experts predict well which papers will be replicated", it seems studies are being conducted which, with better dissemination and understanding of existing best practices, might never been performed at all; it seems the experts and users are often operating with very different sets of information.
 
 
 We are told that we should follow the scientific consensus, but where is this consensus? It's nowhere you can read; it exists only in the minds of experts, and you hardly ever know which ones; it is scattered about a century of literature; a message in a bottle in the sea. Maybe this is just a necessary part of science, and no alternative is feasible, but I believe that there are some hints that, with changes in infrastructure, this may no longer be the case.
 
-We emphasize rigor, but as I hope the following case studies demonstrate, it is often hard to know what rigor *means*.
+We emphasize rigor, but as I hope the following cases demonstrate, it is often hard to know what rigor *means*.
 
 
 # The NASA Software Engineering Handbook
 
 When faced with a complex task involving both creativity and life-or-death reliability, what solutions have been found?
 
-One answer can be found in NASA 7150.2 Classifications A and B, a set of software engineering processes, checklists, and rulebooks. These processes ensure the correctness of the output no matter the quality of the input.
+One answer can be found in NASA 7150.2 Classes A and B, a set of software engineering processes, checklists, and rulebooks. These processes ensure the correctness of the output software no matter the quality of the input.
 
-This is how, in the ~420,000 [lines of code](https://www.nap.edu/read/5018/chapter/4) run for a Space Shuttle launch, the probability of software failure could be guaranteed to be below 1/600 to 1/4400, and how a better-than-even chance of landing [50,000 parts](https://spectrum.ieee.org/planetary-rovers-are-we-alone) on Mars can be attained despite the constant corrupting influence of radiation. These standards are the sum total of all the [failures of their predecessors](https://en.wikipedia.org/wiki/Therac-25); they are written in blood and distress; they are the IKEA instruction manuals for good software.
+This is how, in the ~420,000 [lines of code](https://www.nap.edu/read/5018/chapter/4) run for a Space Shuttle launch, the probability of software failure could be guaranteed to be below 1/600 to 1/4400, and how a better-than-even chance of landing [50,000 parts](https://spectrum.ieee.org/planetary-rovers-are-we-alone) on Mars can be attained despite the constant corrupting influence of radiation. These kinds of standards are the sum total of all the [failures of their predecessors](https://en.wikipedia.org/wiki/Therac-25); they are written in blood and distress; they are the IKEA instruction manuals for good software.
 
 It has been claimed<sup>[by who?]</sup> that, when properly followed, these processes can take input code from a monkey and produce safety-critical output code. While time-consuming to follow, well-structured standards might also have the potential to reduce cognitive load on the worker, so they can concentrate on their novel contribution ("The rules lessen the burden on the developer and tester to establish key properties", [Holzmann, Power of Ten](http://www.cs.otago.ac.nz/cosc345/resources/nasa-10-rules.pdf)).
 
@@ -66,8 +66,8 @@ Some software reliability standards are, on balance, not evidence-based, offerin
 > "[MISRA] rules in practice fall into three broad categories, A, B.1 and B.2. Of these, category A rules are generally stylistic and have no known relationship with failure. An example of a category A rule is that all local variables should have a name beginning with ’L ’. Category B.1 rules could conceivably be associated with failure, (for example the frequently repeated rule that the ’goto’ statement shall not be used), but for which there is still no measurement support as yet. In contrast, category B.2 rules are known by measurement to be associated directly with failure.
 >
 > [...] and the important real to false positive ratio is not much better in MISRA C 2004 than it was in MISRA C 1998 and it is unacceptably low in both"
-
-[Language subsetting in an industrial context: A comparison of MISRA C 1998 and MISRA C 2004](https://doi.org/10.1016/j.infsof.2006.07.004)
+> 
+> [Language subsetting in an industrial context: A comparison of MISRA C 1998 and MISRA C 2004](https://doi.org/10.1016/j.infsof.2006.07.004)
 
 But the best processes are subject to regular meta-analysis, and necessary changes in the process are introduced immediately with a universal mandate. Gotchas are specifically documented:
 
@@ -83,13 +83,13 @@ ideally, increasingly found to be due to lapses in the application of the standa
 
 > neither end-to-end, integration testing with hardware and software nor test simulations with realistic data from the A5 trajectory data were ever performed[]
 > The Board is in favour of the opposite view, that software should be assumed to be faulty until applying the currently accepted best practice methods can demonstrate that it is correct
-
-https://www-users.cse.umn.edu/~arnold/disasters/ariane5rep.html
+> [ARIANE 5 Flight 501 Failure](https://www-users.cse.umn.edu/~arnold/disasters/ariane5rep.html)
 
 And beyond plugging the particular hole that led to the incident, every opportunity to prevent the failure is explored anew by root cause analysis.
 
 > In this context, this work was initiated by Eads Launch Vehicles to better evaluate the maturity and applicability of existing formal validation techniques[...]
-> In fact, although limited in the past to small academic examples, formal methods seem now mature enough to be used within an industrial context, even for large scale applications.> https://hal.archives-ouvertes.fr/hal-00374649/document
+> In fact, although limited in the past to small academic examples, formal methods seem now mature enough to be used within an industrial context, even for large scale applications.> 
+> [Model Checking Ariane-5 Flight Program](https://hal.archives-ouvertes.fr/hal-00374649/document)
 
 There is often disagreement on the minutia of these standards. But, on the largest scale, strict adherence to Space Shuttle-era quality standards is a path which has a high chance of producing correct outputs.
 
@@ -111,7 +111,7 @@ This document seems to tantalizingly hint at formal science. It is excruciatingl
 
 ## Level III, oh baby, this is the good stuff
 
-In 1983, a tiny, hard-to-find lipid structure was discovered in human biology: the extracellular vesicle.
+In 1983, a tiny, hard-to-find lipid structure [was discovered](https://doi.org/10.1083/jcb.97.2.329) in mammalian biology: the extracellular vesicle.
 
 However, as with much complex research, interest from beyond the founding experts spurred confusion;
 
@@ -138,7 +138,7 @@ And with great attention to human factors:
 
 The team developed specialized [databases](https://www.evtrack.org/) to support the effort, and experimental designs are plotted on a 2D graph for ease of selection.
 
-And it seems to have worked! The number of papers using nigh-unacceptable (1-method) methodologies dropped from ~23% to 12% in 6 years, and of protocols assigned a metric, adherence jumped from 21% to 56% (https://www.evtrack.org/index.php), despite
+And it seems to have worked! The number of papers in the field using nigh-unacceptable (1-method) methodologies dropped from ~23% to 12% in 6 years, and of protocols assigned a metric, adherence jumped from 21% to 56% (https://www.evtrack.org/index.php), despite
 
 > "[only] (15.4% of manuscripts for the period 2015–2020) citing MISEV guidelines."
 https://doi.org/10.1016/j.addr.2021.113872
@@ -146,7 +146,6 @@ https://doi.org/10.1016/j.addr.2021.113872
 Now **that's** good science. [ISEV Rigor](https://www.isev.org/rigor-standardization), I love you people.
 
 I feel strongly that this kind of standardization should be deployed in every single field and sub-field, every technique.
-
 
 > "...That is the experiment that makes rat‑running experiments sensible, because it uncovers the clues that the rat is really using—not what you think it’s using.  And that is the experiment that tells exactly what conditions you have to use in order to be careful and control everything in an experiment with rat‑running."
 
@@ -204,7 +203,7 @@ The literature's reliability requires that most scientists be "good" in that sen
 
 <hr>
 
-##### Note that I am about to be very mean and pick on a number of individual experiments, but only for purely epistemological reasons; I hope the authors can forgive me, as I have no doubt as to the quality of the results and the competence of the researchers. An outsider is always bound to find things to 
+##### Note that I am about to be very mean and pick on a number of individual experiments, but only for purely epistemological reasons; I hope the authors can forgive me, as I have no doubt as to the quality of the results and the competence of the researchers. An outsider is always bound to find nonsense to point out!
 
 Let us consider the following positively terrific paper by Cabrini et al (2006), *Evaluation of seven new electronic mosquito repellers*. 
 
@@ -223,10 +222,11 @@ However, even here, we have hints that an "explicit", *de jure* perscriptive sta
 
 > Polystyrene was used instead of Plexiglas for the chamber[.]
 
-Compare: [Saalman 1991](https://doi.org/10.1016/0005-2736(91)90418-8) reported a novel result on membranes in an electric field. This was later found ([Bergqvist et al 1994](https://doi.org/10.1016/0304-4165(94)90150-3)) to be just a complex interaction with a beaker made of Teflon versus glass. One can concoct a scenario in which polystyrene walls would have a similar confounding effect with mosquitos. Consider how mystifying such an artifactual result would be!
+Compare: [Saalman 1991](https://doi.org/10.1016/0005-2736(91)90418-8) reported a novel result on membranes in an electric field. This was later found ([Bergqvist et al 1994](https://doi.org/10.1016/0304-4165(94)90150-3)) to be just a complex interaction with a beaker made of Teflon versus glass. One can concoct a scenario in which polystyrene walls would have a similar confounding effect with mosquitos and ultrasound. Consider how mystifying such an artifactual result would be!
 
-Improvement of a test-chamber for behavioral studies on adult females of Aedes aegypti (Linnaeus)(Diptera, Culicidae)
-"Later, Foster & Lutes (1985) also used an identical chamber to successfully evaluate the efficacy of electronic repellers"
+
+Improvement of a test-chamber for behavioral studies on adult females of Aedes aegypti
+> "Later, Foster & Lutes (1985) also used an identical chamber to successfully evaluate the efficacy of electronic repellers"
 https://www.scielo.br/j/rbent/a/3d668m6TKfNtdVBQ5bcQpPH/?lang=en&format=pdf
 
 
@@ -239,9 +239,9 @@ At the same time, perhaps the modification made by Cabrini is an important one, 
 
 Ideally, if standards are sufficiently well written, verifying such a change could be a straightforward checklist.
 
-It would probably not be very onerous for Klowden and Lea to 
+It would probably not be very onerous for Klowden and Lea to produce an initial perscriptive standard.
 
-
+Continuing 
 
 we see now that there is a fork in the literature
 
@@ -250,13 +250,13 @@ https://doi.org/10.1371/journal.pone.0178766
 
 To their credit, this field appears to have automatically standardized itself to a great degree. There is good agreement between 
 
-2017, after Cabrini et al's 2007 paper validating their new chamber, Ong https://ejournal.ukm.my/serangga/article/viewFile/22882/7262 go back to using a K&L 1978 / Foster & Lutes chamber. K&L specify a ~6 cm diameter flight tunnel. Cabrini use 20 cm diameter. Ong use 11 cm. Ong use a PVC (could trace bisphenol A plasticizer from PVC makes the mosquitoes randy, since hormones are a potential factor ["implying illogically that imitating the male wing beat sound would repel conspecific females."]).
+In 2017, after Cabrini et al's 2007 paper validating their new chamber, [Ong et al](https://ejournal.ukm.my/serangga/article/viewFile/22882/7262) go back to using a K&L 1978 / (Foster & Lutes 1985) chamber. K&L specify a ~6 cm diameter flight tunnel. Cabrini use 20 cm diameter. Ong et al use 11 cm. Ong et al use a PVC adaptor in one place. (could trace bisphenol plasticizer from PVC makes the mosquitoes randy, since hormones are a potential factor ["implying illogically that imitating the male wing beat sound would repel conspecific females."]?).
 
-Ong have noted a very important fact, and we see a possible mechanism by which the material and the diameter could alter the results:
+Ong have noted a very important fact, and here we see a possible mechanism by which the material and the diameter could alter the results:
 
 > "From the previous studies, mosquitoes were sensitive to the hand-touch contamination on the inner walls of the test chamber. This was carefully avoided by wearing hand gloves while carrying out the test and each part of the test chamber was washed with detergent after each assay."
 
-In a thesis by Dogan, 1998, 
+Indeed, in a thesis by Dogan, 1998, 
 
 > "To eliminate the human odor contamination, latex gloves were used at all times and the olfactometer was cleaned after each use with alcohol"
 >
@@ -270,7 +270,7 @@ Well, Ahmad et al 2007 cite Cabrini 2007, but not K&L 1978; the test chamber is 
 
 > After each test, all insects in the test chambers were vacuumed and test chambers were washed with non-fragrance soap and water and rinsed between each test.
 
-No longer alcohol; now "non-fragrence soap"; No mention is made of gloves; and now hey presto, this time, we get one slightly positive result:
+No longer alcohol; now "non-fragrence soap"; No mention is made of gloves; and now, hey presto, this time we get one slightly positive result:
 
 > The use of ultrasound in some experiments resulted in statistically significant differences in distribution of mosquitoes within a chamber compared to a chamber without ultrasound.
 
@@ -286,17 +286,21 @@ Certainly the problem was already known to [Gouck in 1972](https://www.ncbi.nlm.
 
 Do (Foster and Lutes 1985) mention gloves or hand-prints? [No.](https://www.biodiversitylibrary.org/content/part/JAMCA/JAMCA_V01_N2_P199-202.pdf)
 
-The key is, had I taken great effort, had I followed Cabrini's protocol exactly, I would not have done the best quality science, and through no fault of any of the authors, editors, or myself. We see that this critical admonition has been silently dropped from the "new standard" through a game of Telephone. The new primary source of information, now relied on by 8 papers, none of which cite Klowden and Lea (where one might obtain the hand-print and glove warning). 
+<hr>
 
-None of the papers are bad science. They are all meticulous and exacting. The problem is that, in the field of bioelectrics, this kind of subtle variation has produced [a 5-to-1 systematic false positive rate](https://doi.org/10.1667/RR15117.1). It may be easy to see how these effects can quickly produce a impotent concensus.
+We see that this critical admonition has been silently dropped from the "new standard" through a game of Telephone. The new primary source of information, now relied on by 8 papers, none of which cite Klowden and Lea (where one might learn the hand-print and glove warning).
+
+The key is, had I taken great effort, had I followed Cabrini's protocol exactly, I would not have done the best quality science, and through no fault of any of the authors, editors, or myself. 
+
+None of the papers are bad science. They are all meticulous and exacting. The problem is that, in other fields, this very same subtle variation in methods has produced [a ~5-to-1 systematic false positive rate](https://doi.org/10.1667/RR15117.1). It may be easy to see how these effects can quickly produce an impotent concensus.
 
 Consider some future experimenter. They come up with some remarkable hypothesis on a new waveform for an electronic repellant. They read Cabrini and a few other recent papers, follow the prescriptions precisely. Between each trial, they reach into the chamber to flip the switch on the repeller; their forearm deposits a print on the edge of the chamber. They open the chamber, the print evaporates a bit, and now their hand doesn't need to reach so far to push the switch back. The mosquitos track the switch position perfectly. They sell their repellants, backed by real science. People wear them and feel protected. Malaria cases spike. 
 
 *The system has failed them.*
 
-Or, in a more mundane case, maybe they read Poh et al, decide "ah, the chamber must be cleaned between trials", and use ethanol (vapor pressure 12.4 kpa) rather than isoproyl (4.4). Now their mosquitoes really go crazy. A grad student spends four months trying to figure out what the devil is going on with their damned dopey aegypti, burns right out, leaves academia to become a hedge trimmer, and society is the worse for it. 
+Or, in a more mundane case, maybe they read Poh et al 2017, decide "ah, the chamber must be cleaned between trials", and use ethanol (vapor pressure 12.4 kpa) rather than isopropyl (4.4). Now their mosquitoes really go crazy. A grad student spends four months trying to figure out what the devil is going on with their damned dopey aegypti, burns right out, leaves academia to become a hedge trimmer, and society is the worse for it. 
 
-All that is needed to conscisely expose the existing knowledge where and when it is needed. 
+All that is needed is to conscisely and comprehensively expose existing knowledge where it is used. 
 
 <hr>
 
@@ -328,7 +332,7 @@ Similarly, these best practices won't help you with artifacts on one's LIGO, of 
 
 # Case 2
 
-"Laser produced plasma diagnosis of carcinogenic heavy metals in gallstones", [Gondal et al.](https://doi.org10.1039/C5JA00358J)
+"Laser produced plasma diagnosis of carcinogenic heavy metals in gallstones", [Gondal et al.](https://doi.org/10.1039/C5JA00358J)
 
 This is another "important" result.
 
@@ -342,23 +346,23 @@ The paper appears to be very high quality and very convincing to me. Were I in s
 
 They followed the proper ethics guidelines, spectra are published in the interest of transparency. They perform a rigorous analysis of the plasma conditions at the LIBS site. They even brought in an external expert on lasers from a different country.
 
-They use two different methods of analysis, LIBS and LA–ICP–MS to confirm their data, and find good agreement.
+They use two different methods of analysis, LIBS and LA–ICP–MS to confirm their data, and find good agreement. 
 
 It is published in the prestigious Royal Society of Chemistry, in the Journal of Analytical Atomic Spectroscopy.
 
 It is also [completely wrong](https://doi.org/10.1039/C6JA00373G) and was retracted within two years.
 
-The reasons are very detailed and complicated to someone who does not know MS spectra from Adam, such as myself. But ultimately, all the techniques used are well-estabilished. Mass spectrometry was invented in 1918 and spectral line analysis has ~80 years of precedent, ICP-MS has been used since 1980 and best-practices abound, LIBS has been used since the 1960s (https://arxiv.org/pdf/1407.0132.pdf). 
+The reasons are very complicated for someone who does not know MS spectra from Adam, such as myself. But ultimately, all the techniques used are well-estabilished. Mass spectrometry was invented in 1918 and spectrometric line analysis has ~80 years of precedent, ICP-MS has been used since 1980 and best-practices abound, LIBS has been used [since the 1960s](https://arxiv.org/pdf/1407.0132.pdf). 
 
 I believe this was an unforced error on the part of the literature. This paper did not need to be written, and there was absolutely no reason for it to be published. Or, alternatively, since the authors disagree with the retraction, if the paper is correct and the retraction was invalid, there is no reason why such ambiguity ever needed to exist. 
 
-The paper's authors appear to be excellent scientists. The first author has since helped with interesting papers on all sorts of materials science. The second author has gone on to produce a great result in antibiotics. Perhaps I am too generous, but I do not believe it would be fair to blame the authors, considering that the peer-reviewers, presumably populated by *experts in the field of spectroscopy* did not see an issue. Neither can I blame the editors. I think *the system must have failed them*.
+The paper's authors appear to be excellent scientists. The first author has since helped with interesting papers on all sorts of materials science. The second author has gone on to produce a great result in antibiotics. Perhaps I am too generous, but I do not believe it would be fair to blame the authors, considering that the peer-reviewers, presumably *experts in the field of spectroscopy*, did not see an issue. Neither can I blame the editors.
 
 First, (and, admittedly, with the benefit of post-hoc reasoning), the entire mistake could perhaps have been easily systematized into a checkbox that any of the reviewers could have verified quickly - or (speculation) potentially even automated by the journal:
 
 > "That is why some simple spectroscopic rules mentioned by Cremers and Radziemski should be kept in mind: (i) the strongest lines of the main components must be present in emission spectra; (ii) observation of combinations of intense lines (multiplets): if one component is observed, the others should also be present; (iii) consideration of relative line intensities from spectral databases; and (iv) the presence of spectral lines of various ionized states depending on the experimental conditions."
 
-##### (This reminds me of electronic pregnancy tests - [the presence](https://www-ncbi-nlm-nih-gov.ezproxy.library.yorku.ca/pmc/articles/PMC4119102/) of a simple color sensor reading a strip of paper rather than a human eye does not improve the underlying sensitivity of the test, but [especially when pressure to report a certain important finding is present] nevertheless produces more accurate results by removing the ability to fool oneself.)
+##### (This reminds me of electronic pregnancy tests - [the presence](https://doi.org/10.1055/s-0034-1368589) of a simple color sensor reading a strip of paper rather than a human eye does not improve the underlying sensitivity of the test, but [especially when pressure to report a certain important finding is present] nevertheless produces more accurate results by removing the ability to fool oneself.)
 
 Second, under absolutely optimal conditions, the LOD of LIBS is generally claimed to be about 0.6 ppm. The authors report results down to a few dozens of parts-per-billion by using an apparently novel plasma correction method. A standard for LIBS which contained only the logic "LOD < existing precedent? Discuss with experts; publish methods for commentary first; no medical results." would have removed this paper from the literature.
 
