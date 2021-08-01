@@ -12,6 +12,7 @@
 > :cyclone: This is a collaborative project!
 >
 > If you think this is worthwhile and you have some free time, perhaps you could consider 
+>
 > 0. Discussing whether this is [even a good idea](https://github.com/0xDBFB7/scientific_standards/issues/2).
 > 1. Discussing the parts of the MISEV[see below], RFC, or other standards that you're familiar with, to establish a preliminary meta-standard
 > 2. Joining the Issue (set Notifications->Custom->(Closed+Reopened) and/or the [voting mailing list](https://forms.gle/GcFkgqGACnhsSmQN8) for your own field of expertise
