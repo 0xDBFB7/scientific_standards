@@ -276,3 +276,27 @@ most of these are misconduct that a standard would not have helped with.
 
 
 
+> The number of published articles per year increases exponentially, with “no indications that the growth rate has decreased in the last 50 years” (Larsen & Von Ins, 2010). For example, a search in ScienceDirect reveals that the number of published papers is 493545, 526380, 555342, and 619130 in 2010, 2011, 2012, and 2013, respectively. How long could such exponential growth be sustainable? It may lead to incredible burden on reviewers and editors, or an inevitable decline of research quality.
+
+RE: RE: Publishing everything is fundamentally suboptimal for scientific progress https://journals.plos.org/plosone/article/comment?id=info:doi/10.1371/annotation/fdce24bb-aa1d-41ff-8325-a01fa8d97015
+
+> but this is definitely not enough to cope with the main problem from which the scientific literature has been suffering in the last few decades, that is, the exponential growth of scientific publications driven by the obligation for scientists in many countries to publish more and more, which leads to the publication of a huge background noise of useless and low-level articles. It is indeed a tedious work to extract from the mass of submissions the scientific research that does merit the dissemination of its results.
+> 
+> As editors, we are committed since many years to our journal and will continue to invest much of our time to work with authors to promote nanoscience and nanotechnology in our journal by applying the highest standards thanks to the dedicated work of our associate editors and reviewers, but it is also clear that under the present circumstances, it is rarely rewarding and fun.
+Pinna et al 10.1007/s11051-020-05094-0
+
+According to the Retraction Watch database, there have been 461 previous papers with "False/Forged Authorship", 71 in Springer alone. With absolute respect to the experts at Springer integrity group, these are systemic problems, they have systemic solutions, and they aren't being fixed. It is vaguely disingenuous to suggest that no warning was given.
+Unlike plagarism, 
+Must be commended for conducting their investigation - but the specific changes made will probably not propagate throughout competing journals for years.
+
+Authentication is a bare-minimum 
+
+It is possible to 
+
+
+
+I think all scientists would be able to contribute meaningfully to if they knew what was expected of them. We need the contributions of the "poor scientists".
+
+(adversarial. most retractions seem to involve research misconduct)
+
+
