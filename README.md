@@ -7,6 +7,8 @@
 
 ##### Additionally, this is tedious overripe meta-research from someone who has no scientific output to speak of, and has no right to cavil and carp on such topics.
 
+<hr>
+
 > :cyclone: This is a collaborative project!
 >
 > If you think this is worthwhile and you have some free time, perhaps you could consider 
