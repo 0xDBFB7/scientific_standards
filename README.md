@@ -46,24 +46,25 @@ It is possible to
 I think all scientists would be able to contribute meaningfully to if they knew what was expected of them. We need the contributions of the "poor scientists"
 
 
-I would argue that most science is safety-critical now. Informs public policy, it affects trust. If a <> a kidney patient might die, if a <> a. A NIST group found to produce an incorrect value of a constant is at risk of being garrotted 
+I would like to argue that the majority science is safety-critical now. Though a failure of the scientific process doesn't make bridges fall   Informs public policy, it affects trust. If a <> a kidney patient might die, if a <> a. A NIST group found to produce an incorrect value of a constant is at risk of being garrotted 
 
 
 
 
 https://www.ourdocuments.gov/doc.php?flash=false&doc=15&page=transcript
-"The basis of our political systems is the right of the people to make and to alter their constitutions of government. But the Constitution which at any time exists, till changed by an explicit and authentic act of the whole people, is sacredly obligatory upon all. The very idea of the power and the right of the people to establish government presupposes the duty of every individual to obey the established government."
+> "The basis of our political systems is the right of the people to make and to alter their constitutions of government. But the Constitution which at any time exists, till changed by an explicit and authentic act of the whole people, is sacredly obligatory upon all. The very idea of the power and the right of the people to establish government presupposes the duty of every individual to obey the established government."
 
 
 ## The NASA Software Engineering Handbook
 
 NASA software development NASA 7150.2 - the process ensures correctness in the output no matter the quality of the input.
+This is how, in the ~420,000 lines of code required for a , not a single 
+(https://www.nap.edu/read/5018/chapter/4). These processes have been written in blood.
 
-
-It has been claimed that, if properly followed, this process can take input from any level of experience and produce safety-critical outputs. While time-consuming to follow, well-structured standards might also have the potential to reduce cognitive load on the worker, so they can concentrate on their novel contribution ("The rules lessen the burden on the developer and tester to establish key properties", [
+It has been claimed<sup>who?</sup> that, if properly followed, this process can take input from a monkey and produce safety-critical outputs. While time-consuming to follow, well-structured standards might also have the potential to reduce cognitive load on the worker, so they can concentrate on their novel contribution ("The rules lessen the burden on the developer and tester to establish key properties", [
 Holzmann, Power of Ten](http://www.cs.otago.ac.nz/cosc345/resources/nasa-10-rules.pdf)).
 
-Some software reliability standards are, on balance, not evidence-based.
+Some software reliability standards are, on balance, not evidence-based, offering cosmetic and divisive prescriptions
 
 > "[MISRA] rules in practice fall into three broad categories, A, B.1 and B.2. Of these, category A rules are generally stylistic and have no known relationship with failure. An example of a category A rule is that all local variables should have a name beginning with ’L ’. Category B.1 rules could conceivably be associated with failure, (for example the frequently repeated rule that the ’goto’ statement shall not be used), but for which there is still no measurement support as yet. In contrast, category B.2 rules are known by measurement to be associated directly with failure.
 >
@@ -73,11 +74,34 @@ Some software reliability standards are, on balance, not evidence-based.
 
 But the best processes are subject to regular meta-analysis, and necessary changes in the process are introduced immediately with a universal mandate. Gotchas are specifically documented:
 
-
 > JPL has referenced this lesson learned as additional rationale and guidance supporting Paragraph 6.4.4 ("Engineering Practices: System Engineering") in the Jet Propulsion Laboratory standard "Flight Project Practices, Rev. 7," JPL DocID 58032, September 30, 2008.[quotes fixed]
 > https://llis.nasa.gov/lesson/2044
 
 New knowledge is integrated inline, so as many people see it as possible, with a focus on how humans actually use thousand-page documents. These appear to be, on balance, supremely effective.
+
+When failures do occur in mature processes, fault and blame of individual workers is rarely a matter of discussion:
+
+https://archive.eiffel.com/doc/manuals/technology/contract/ariane/
+
+> Is this incompetence?
+> No. Everything indicates that the software process was carefully organized and planned. The ESA's software people knew what they were doing and applied widely accepted industry practices.
+
+ideally, increasingly found to be due to lapses in the application of the standard:
+
+> neither end-to-end, integration testing with hardware and software nor test simulations with realistic data from the A5 trajectory data were ever performed[]
+> The Board is in favour of the opposite view, that software should be assumed to be faulty until applying the currently accepted best practice methods can demonstrate that it is correct
+
+https://www-users.cse.umn.edu/~arnold/disasters/ariane5rep.html
+
+And beyond plugging the particular hole that led to the incident, every opportunity to prevent the failure is explored.
+
+> In this context, this work was initiated by Eads Launch Vehicles to better evaluate the maturity and applicability of existing formal validation techniques[...]
+> In fact, although limited in the past to small academic examples, formal methods seem now mature enough to be used within an industrial context, even for large scale applications.
+https://hal.archives-ouvertes.fr/hal-00374649/document
+
+
+
+
 
 - [Software and the Challenge of Flight Control](http://sunnyday.mit.edu/papers/shuttle-chapter-final.pdf), Nancy G. Leveson
 - [Space Shuttle Flight Software (PASS) Loss Of Crew Errors](https://www.slideshare.net/JamesOrr4/space-shuttle-flight-software-pass-loss-of-crew-errors-jk-orr-20150827-52150515) J.K. Orr 2015-08-27
