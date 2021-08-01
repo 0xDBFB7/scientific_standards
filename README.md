@@ -25,37 +25,34 @@
 > **The present growth of knowledge will choke itself off until we get different tools.**
 >
 > I believe that books which try to **digest, coordinate, get rid of the duplication, get rid of the less fruitful methods and present the underlying ideas clearly of what we know now, will be the things the future generations will value**. Public talks are necessary; private talks are necessary; written papers are necessary. But I am inclined to believe that, in the long-haul, books which leave out what's not essential are more important than books which tell you everything because you don't want to know everything.
+> 
 > Richard Hamming, [You And Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
 
 <hr>
 
-I would like to argue that the majority of science is safety-critical now. Though a failure of the scientific process doesn't make bridges fall immediately, it misinforms public policy, it affects trust in our ability to determine how the world works. A NIST group found to produce an incorrect value of a constant is at risk of being garroted by sleep-deprived PhD candidates. 
+I would first like to argue that the majority of science is safety-critical now. Though a failure of the scientific process doesn't make bridges fall immediately, it misinforms public policy and undermines trust in our ability to determine how the world works. 
 
-That paper on is of no consequence to a technical audience, but when reported on credulously as "Scientists Find Fungus on Mars" next to "Scientists Claim Vaccines Safe", it becomes deadly. 
+That paper on is of no consequence to a technical audience, but when reported on credulously as "Scientists Find Fungus on Mars" next to "Scientists Claim Vaccines Safe", it becomes deadly. A NIST group found to produce an incorrect value of a constant is at risk of being garroted by sleep-deprived PhD candidates. 
 
-Any special weight which is put on scientific assertions in debate weighs equally on our responsibility for accuracy. A world where the scientific literature is not the place to find the best [approximation of the truth](https://www.nist.gov/video/nist-colloquium-series-can-you-trust-fourth-paradigm-michael-lesk) is pretty dismal; extraordinary measures should be designed to ensure its validity without reducing productivity. 
+Any special weight which is put on scientific assertions in debate weighs equally on our responsibility for accuracy. A world where the scientific literature is not the place to find the best available [approximation of the truth](https://www.nist.gov/video/nist-colloquium-series-can-you-trust-fourth-paradigm-michael-lesk) is pretty dismal; extraordinary measures should be designed to ensure its validity without reducing productivity.
 
-Moreover, a repeated mistake is a lost opportunity to 
+Moreover, a repeated mistake is a lost opportunity to improve society. [Since](https://advances.sciencemag.org/content/7/21/eabd1705) "Existing evidence also shows that experts predict well which papers will be replicated.",  
 
-We are told that we should follow the scientific consensus, but where is this consensus? It's nowhere you can read; it exists only in the minds of experts, and you hardly ever know which ones; it is scattered about a century of literature; a message in a bottle in the sea. Maybe this is just a necessary part of science, and no alternative is feasible, but I believe there are hints that this may no longer be the case.
+
+We are told that we should follow the scientific consensus, but where is this consensus? It's nowhere you can read; it exists only in the minds of experts, and you hardly ever know which ones; it is scattered about a century of literature; a message in a bottle in the sea. Maybe this is just a necessary part of science, and no alternative is feasible, but I believe that there are some hints that, with changes in infrastructure, this may no longer be the case.
 
 We emphasize rigor, but as I hope the following case studies demonstrate, it is often hard to know what rigor *means*.
 
 
-https://www.ourdocuments.gov/doc.php?flash=false&doc=15&page=transcript
-> "The basis of our political systems is the right of the people to make and to alter their constitutions of government. But the Constitution which at any time exists, till changed by an explicit and authentic act of the whole people, is sacredly obligatory upon all. The very idea of the power and the right of the people to establish government presupposes the duty of every individual to obey the established government."
-
-
 # The NASA Software Engineering Handbook
 
-When faced with a complex task involving both creativity and life-or-death reliability, what 
+When faced with a complex task involving both creativity and life-or-death reliability, what solutions have been found?
 
-One answer can be found in NASA 7150.2 Classifications A and B, a set of software engineering checklists, and rulebooks. These processes ensure the correctness of the output no matter the quality of the input.
+One answer can be found in NASA 7150.2 Classifications A and B, a set of software engineering processes, checklists, and rulebooks. These processes ensure the correctness of the output no matter the quality of the input.
 
 This is how, in the ~420,000 [lines of code](https://www.nap.edu/read/5018/chapter/4) run for a Space Shuttle launch, the probability of software failure could be guaranteed to be below 1/600 to 1/4400, and how a better-than-even chance of landing [50,000 parts](https://spectrum.ieee.org/planetary-rovers-are-we-alone) on Mars can be attained despite the constant corrupting influence of radiation. These standards are the sum total of all the [failures of their predecessors](https://en.wikipedia.org/wiki/Therac-25); they are written in blood and distress; they are the IKEA instruction manuals for good software.
 
-It has been claimed<sup>[who?]</sup> that, when properly followed, these processes can take input code from a monkey and produce safety-critical output code. While time-consuming to follow, well-structured standards might also have the potential to reduce cognitive load on the worker, so they can concentrate on their novel contribution ("The rules lessen the burden on the developer and tester to establish key properties", [
-Holzmann, Power of Ten](http://www.cs.otago.ac.nz/cosc345/resources/nasa-10-rules.pdf)).
+It has been claimed<sup>[by who?]</sup> that, when properly followed, these processes can take input code from a monkey and produce safety-critical output code. While time-consuming to follow, well-structured standards might also have the potential to reduce cognitive load on the worker, so they can concentrate on their novel contribution ("The rules lessen the burden on the developer and tester to establish key properties", [Holzmann, Power of Ten](http://www.cs.otago.ac.nz/cosc345/resources/nasa-10-rules.pdf)).
 
 **See**
 
@@ -288,17 +285,19 @@ Certainly the problem was already known to [Gouck in 1972](https://www.ncbi.nlm.
 
 Do (Foster and Lutes 1985) mention gloves or hand-prints? [No.](https://www.biodiversitylibrary.org/content/part/JAMCA/JAMCA_V01_N2_P199-202.pdf)
 
-The key is, had I taken great effort, had I followed Cabrini's protocol exactly, I would not have done good science, and through no fault of any of the authors, editors, or myself. We see that this critical admonition has been silently dropped from the "new standard" through a game of Telephone. The new primary source of information which is now relied on by 8 papers, none of which cite Klowden and Lea (where one might obtain the hand-print glove warning). 
+The key is, had I taken great effort, had I followed Cabrini's protocol exactly, I would not have done the best quality science, and through no fault of any of the authors, editors, or myself. We see that this critical admonition has been silently dropped from the "new standard" through a game of Telephone. The new primary source of information, now relied on by 8 papers, none of which cite Klowden and Lea (where one might obtain the hand-print and glove warning). 
 
-None of the papers are bad science. They are all meticulous and exacting. 
-
-The problem is that, in the field of bioelectrics, this kind of subtle variation has produced a 5-to-1 systematic false positive rate [vijalazimi]. It may be easy to see how these effects can quickly produce a impotent concensus.
+None of the papers are bad science. They are all meticulous and exacting. The problem is that, in the field of bioelectrics, this kind of subtle variation has produced [a 5-to-1 systematic false positive rate](https://doi.org/10.1667/RR15117.1). It may be easy to see how these effects can quickly produce a impotent concensus.
 
 Consider some future experimenter. They come up with some remarkable hypothesis on a new waveform for an electronic repellant. They read Cabrini and a few other recent papers, follow the prescriptions precisely. Between each trial, they reach into the chamber to flip the switch on the repeller; their forearm deposits a print on the edge of the chamber. They open the chamber, the print evaporates a bit, and now their hand doesn't need to reach so far to push the switch back. The mosquitos track the switch position perfectly. They sell their repellants, backed by real science. People wear them and feel protected. Malaria cases spike. 
 
 *The system has failed them.*
 
-Or, a more mundane, maybe they read Poh et al, decide "ah, the chamber must be cleaned, aren't we clever", and use ethanol (vapor pressure 12.4 kpa) rather than isoproyl (4.4). Now their mosquitoes really go crazy. A grad student spends four months trying to figure out what the devil is going on with their damned dopey aegypti, burns right out, leaves academia to become a hedge trimmer, and society is the worse for it.
+Or, in a more mundane case, maybe they read Poh et al, decide "ah, the chamber must be cleaned between trials", and use ethanol (vapor pressure 12.4 kpa) rather than isoproyl (4.4). Now their mosquitoes really go crazy. A grad student spends four months trying to figure out what the devil is going on with their damned dopey aegypti, burns right out, leaves academia to become a hedge trimmer, and society is the worse for it. 
+
+All that is needed to conscisely expose the existing knowledge where and when it is needed. 
+
+<hr>
 
 So who will systematize things? Will some international society form and publish a quarterly report on uniform experimental conditions in mosquito research specifically pertaining to the evaluation of electronic mosquito repellents? 
 
@@ -311,17 +310,13 @@ Some kinds of "best practices" develop organically, necessarily rely totally on 
 > "[The previous authors] imposed the following constraints on the original selection from the TES database: 1) latitude between −60° and +60°; 2) local time: 11:00–15:00; 3) emission angle ≤5°; and 4) ±2° around a specified Ls. We have adopted the same constraints in selecting the spectra, except for increasing the Ls interval to ±5°."
 [Fonti 2015](https://doi.org/10.1051/0004-6361/201526235)
 
-Better pre-trial communcation with experts, especially via protocol pre-review, can probably help with this; see PLoS One's ["Registered Reports"](https://everyone.plos.org/2020/01/14/registered-reports-are-coming-to-plos-one/).
+Better pre-trial communcation with experts, especially via protocol pre-review, can probably help with this; see, for instance, PLoS One's ["Registered Reports"](https://everyone.plos.org/2020/01/14/registered-reports-are-coming-to-plos-one/).
 
 <hr>
 
-Of course, checklists and standards can only ever capture the "low-hanging fruit" of mistakes; the "unforced errors" like wrong cell lines[1a] and Microsoft Excel[2a].
+Of course, checklists and standards can only ever capture the "low-hanging fruit" of mistakes; the "unforced errors" like [contaminated cell lines](https://doi.org/10.1126/science.6451928) and [Microsoft Excel](https://doi.org/10.1186/s13059-016-1044-7) ("A programmatic scan of leading genomics journals reveals that approximately one-fifth of papers with supplementary Excel gene lists contain erroneous gene name conversions").
 
 These are, however, the boring ones that waste a great deal of time; finding new and interesting errors is better known as **science**.
-
-- [1a]: "But despite knowing about the issue for at least 35 years, the vast majority of journals have yet to put any kind of disclaimer on the thousands of studies affected."
-https://doi.org/10.1126/science.6451928
-- [2a]: A programmatic scan of leading genomics journals reveals that approximately one-fifth of papers with supplementary Excel gene lists contain erroneous gene name conversions. https://doi.org/10.1186/s13059-016-1044-7
 
 Similarly, these best practices won't help you with artifacts on one's LIGO, of course; they're aimed only at the application of well-trodden, well-established sub-techniques.
 
@@ -332,7 +327,7 @@ Similarly, these best practices won't help you with artifacts on one's LIGO, of 
 
 # Case 2
 
-"Laser produced plasma diagnosis of carcinogenic heavy metals in gallstones", Gondal et al.
+"Laser produced plasma diagnosis of carcinogenic heavy metals in gallstones", [Gondal et al.](https://doi.org10.1039/C5JA00358J)
 
 This is another "important" result.
 
@@ -348,37 +343,30 @@ They followed the proper ethics guidelines, spectra are published in the interes
 
 They use two different methods of analysis, LIBS and LA–ICP–MS to confirm their data, and find good agreement.
 
-It is published in the prestigious Royal Society of Chemistry, in the journal of Analytical Atomic Spectroscopy.
+It is published in the prestigious Royal Society of Chemistry, in the Journal of Analytical Atomic Spectroscopy.
 
-It is also completely wrong and was retracted within two years.
+It is also [completely wrong](https://doi.org/10.1039/C6JA00373G) and was retracted within two years.
 
-https://pubs-rsc-org.ezproxy.library.yorku.ca/en/content/articlelanding/2017/JA/C6JA00373G#cit1
+The reasons are very detailed and complicated to someone who does not know MS spectra from Adam, such as myself. But ultimately, all the techniques used are well-estabilished. Mass spectrometry was invented in 1918 and spectral line analysis has ~80 years of precedent, ICP-MS has been used since 1980 and best-practices abound, LIBS has been used since the 1960s (https://arxiv.org/pdf/1407.0132.pdf). 
 
-The reasons are very detailed and complicated to someone who does not know spectral lines from Adam, such as myself.
-
-Ultimately, all the techniques used are well-estabilished. Mass spectrometry was invented in 1918 and spectral line analysis has ~80 years of precedent, ICP-MS has been used since 1980 and best-practices abound. LIBS has been used since the 1960s (https://arxiv.org/pdf/1407.0132.pdf). 
-
-I believe this was an unforced error on the part of the literature. This paper did not need to be written, and there was absolutely no reason for it to be published. Or, alternatively, since the authors disagree with the retraction, if the paper is correct and the retraction was invalid, there is no reason why such ambiguity ever needed to exist.
+I believe this was an unforced error on the part of the literature. This paper did not need to be written, and there was absolutely no reason for it to be published. Or, alternatively, since the authors disagree with the retraction, if the paper is correct and the retraction was invalid, there is no reason why such ambiguity ever needed to exist. 
 
 The paper's authors appear to be excellent scientists. The first author has since helped with interesting papers on all sorts of materials science. The second author has gone on to produce a great result in antibiotics. Perhaps I am too generous, but I do not believe it would be fair to blame the authors, considering that the peer-reviewers, presumably populated by *experts in the field of spectroscopy* did not see an issue. Neither can I blame the editors. I think *the system must have failed them*.
 
 First, (and, admittedly, with the benefit of post-hoc reasoning), the entire mistake could perhaps have been easily systematized into a checkbox that any of the reviewers could have verified quickly - or (speculation) potentially even automated by the journal:
 
-> "That is why some simple spectroscopic rules mentioned by Cremers and Radziemski12 should be kept in mind: (i) the strongest lines of the main components must be present in emission spectra; (ii) observation of combinations of intense lines (multiplets): if one component is observed, the others should also be present; (iii) consideration of relative line intensities from spectral databases; and (iv) the presence of spectral lines of various ionized states depending on the experimental conditions."
+> "That is why some simple spectroscopic rules mentioned by Cremers and Radziemski should be kept in mind: (i) the strongest lines of the main components must be present in emission spectra; (ii) observation of combinations of intense lines (multiplets): if one component is observed, the others should also be present; (iii) consideration of relative line intensities from spectral databases; and (iv) the presence of spectral lines of various ionized states depending on the experimental conditions."
 
-(This reminds me of electronic pregnancy tests - [the presence](https://www-ncbi-nlm-nih-gov.ezproxy.library.yorku.ca/pmc/articles/PMC4119102/) of a simple color sensor reading a strip of paper rather than a human eye does not improve the underlying sensitivity of the test, but [especially when pressure to report a certain important finding is present] nevertheless produces more accurate results by removing the ability to fool oneself.)
+##### (This reminds me of electronic pregnancy tests - [the presence](https://www-ncbi-nlm-nih-gov.ezproxy.library.yorku.ca/pmc/articles/PMC4119102/) of a simple color sensor reading a strip of paper rather than a human eye does not improve the underlying sensitivity of the test, but [especially when pressure to report a certain important finding is present] nevertheless produces more accurate results by removing the ability to fool oneself.)
 
-Second, under absolutely optimal conditions, the LOD of LIBS is generally claimed to be about 0.6 ppm. The authors report results down to a few dozens of parts-per-billion by using an apparently novel plasma correction method. A standard for LIBS which contained only the logic "LOD < existing precedent? Discuss with experts; publish methods for commentary first; no health results." would have removed this paper from the literature.
+Second, under absolutely optimal conditions, the LOD of LIBS is generally claimed to be about 0.6 ppm. The authors report results down to a few dozens of parts-per-billion by using an apparently novel plasma correction method. A standard for LIBS which contained only the logic "LOD < existing precedent? Discuss with experts; publish methods for commentary first; no medical results." would have removed this paper from the literature.
 
-If the authors wanted to demonstrate a new innovation to LIBS that reduced the LOD or made it possible to detect metals in gallstones (the implied goal, given the publication venue), I am sure such a report would be welcomed.
+- If the authors wanted to demonstrate a new innovation to LIBS that reduced the LOD or made it possible to detect metals in gallstones (the implied goal, given the publication venue), I am sure such a report would be welcomed.
+- If the authors wanted to report the variation of heavy metals in gallstones, there is presumably much precedent in heavy-metals analysis; accepted protocols used by healthcare workers. The use of n=2 gallstones from just two different ages would perhaps make this result underpowered for this purpose.
 
-If the authors wanted to report the variation of heavy metals in gallstones, there is presumably much precedent in heavy-metals analysis; accepted techniques used by healthcare workers. The use of N=2 gallstones from just two different ages would perhaps make this result underpowered for this purpose.
-
-There are probably countless other systemic issues and perverse incentives at play here. Perhaps funding was only available for health research into gallstones, and so the research interest was . In some ways this is an issue of paper scoping. But a straightforward systematization seems to be possible.
+There are probably countless other systemic issues and perverse incentives at play here. Perhaps funding was only available for health research into gallstones, and so the research interest was distorted accordingly. In some ways this is an issue of paper scoping. But a straightforward systematization seems to be possible.
 
 <hr>
-
-
 
 # Possible aims
 
@@ -535,3 +523,5 @@ Papers are being published where experts can immediately identify failures in me
 
 
 
+https://www.ourdocuments.gov/doc.php?flash=false&doc=15&page=transcript
+> "The basis of our political systems is the right of the people to make and to alter their constitutions of government. But the Constitution which at any time exists, till changed by an explicit and authentic act of the whole people, is sacredly obligatory upon all. The very idea of the power and the right of the people to establish government presupposes the duty of every individual to obey the established government."
