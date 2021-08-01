@@ -38,15 +38,13 @@ That paper may be of no consequence to a technical audience, but when reported o
 
 Any special weight which is put on scientific assertions in debate weighs equally on our responsibility for accuracy. A world where the scientific literature is not the place to find the best available [approximation of the truth](https://www.nist.gov/video/nist-colloquium-series-can-you-trust-fourth-paradigm-michael-lesk) is pretty dismal; extraordinary measures should be designed to ensure its validity without reducing productivity.
 
-Moreover, a repeated mistake is a lost opportunity to improve society. [Since](https://advances.sciencemag.org/content/7/21/eabd1705) "Existing evidence also shows that experts predict well which papers will be replicated", it seems studies are being conducted which, with better dissemination and understanding of existing best practices, might never been performed at all; it seems the experts and users are often operating with very different sets of information.
-
+Moreover, a repeated mistake is a lost opportunity to improve society. [Since](https://advances.sciencemag.org/content/7/21/eabd1705) "Existing evidence also shows that experts predict well which papers will be replicated", it seems studies are often being conducted where experts can immediately identify failures in methodology. With better dissemination and understanding of the motivations of existing best practices, it stands to reason that many of these low-quality investigations might never been performed at all; the experts and users appear to be operating with very different sets of information.
 
 We are told that we should follow the scientific consensus, but where is this consensus? It's nowhere you can read; it exists only in the minds of experts, and you hardly ever know which ones; it is scattered about a century of literature; a message in a bottle in the sea. Maybe this is just a necessary part of science, and no alternative is feasible, but I believe that there are some hints that, with changes in infrastructure, this may no longer be the case.
 
 We emphasize rigor, but as I hope the following cases demonstrate, it is often hard to know what rigor *means*.
 
-
-# The NASA Software Engineering Handbook
+# Intro: The NASA Software Engineering Handbook
 
 When faced with a complex task involving both creativity and life-or-death reliability, what solutions have been found?
 
@@ -388,13 +386,6 @@ Obviously, this will never work, but it's fun to dream.
 
 
 
-Right now, quality control in science is almost entirely a filter on the outputs (via peer-review).
-The quality of that filter has degraded, and the perverse incentives on both sides of that filter have
-lead to fields of literature that are very difficult to navigate. Maybe standards could be an alternative route.
-
-Papers are evalutated relative to first principles. If declaration of differences, 
-they could be evalated relative to a delta fro acceptedpractice, meaning more and more complex
-investigations would be only slightly more complicated
 
 # The best possible experiment
 
@@ -417,51 +408,65 @@ In my case, I read several thousand papers, a few dozen books - and then, two we
 
 A meta-society; one that forms societies spontaneously 
 
+
 # A standard literature
 
+##### (this may represent feature creep and might be out of scope). 
 
-when a new paper is published, time is taken to determine its position in the standard literature. 
-there may never be agreement on the position of some papers, but it is imperative that this disagreement be made public so that interested workers can determine for themselves.
+It's somewhat overlapping with the aims of http://www.scholarpedia.org . 
+
+While we're at it, we might as well include. The effects of good review articles on the literature appear to be well-documented; there is a scarsity. This is the reason for the literature.md and .bib files; it is encouraged that your literature be added.
+
+The authors of the mosquito paper have undoubtedly performed a thorough literature review, condensing and filtering thousands of pages of papers and forming an opinion about each, adding context that the paper did not supply. However, often only a few dozen papers appear in the bibliography.
+
+And in most papers, each citation discussed is condensed down to a sentence or two.
+
+If the paper were a thesis, this private bibliography would probably be integrated with the new results into a literature review. If the researchers wrote a book, such a bibliography would probably be included, but it's hard to imagine a publisher printing a 100-page appendix on experimental design for mosquito repellents. And so this review and abstracting work must be duplicated anew for every single paper on the subject. Things will undoubtedly be missed. Fortunately, the internet means these reviews can now be disseminated.
+
+While it often fulfills that function in science, Wikipedia is not designed to perform literature reviews,
+exhaustively list primary sources, &c.
+
+
+
+
+quals some people resort to blogging
+
+
+
+
+
+
+When a new paper is published, time should be taken to determine its position in the standard literature; how it reinforces the surrounding literature.
+
+There may never be agreement on the position of some papers, but it is imperative that this disagreement be made public so that interested workers can determine for themselves.
 
 sign a declaration of comparison
 
 
 
-The problem of Authentication is 
+Papers are evalutated relative to first principles. If declaration of comparison, 
+they could be evalated relative to a delta from accepted practice, meaning more and more complex investigations would be only slightly more complicated to review.
 
-
-# Literature review
-
-##### (this may represent feature creep and might be out of scope). 
-
-It's somewhat overlapping with the aims of http://www.scholarpedia.org . 
 
 Immutable; they cannot reflect the real-time consensus.
 
 Unlike, e.g. Cochrane Reviews, aimed at a technical audience that, with some introduction, can determine the importance of each study themselves.
 the review need not be perfect, only provide a uniform perspective.
 
-While it often fulfills that function in science, Wikipedia is not designed to perform literature reviews,
-exhaustively list primary sources, &c.
 
-Putting certain results into context 
+Right now, quality control in science is almost entirely a filter on the outputs (via peer-review).
+The quality of that filter has degraded, and the perverse incentives on both sides of that filter have
+lead to fields of literature that are very difficult to navigate. Maybe standards could be an alternative route.
 
-The authors of the mosquito paper have undoubtedly performed an extremely thorough literature review, condensing and filtering thousands of pages of papers and forming an opinion about each. However, only a few dozen papers appear in the bibliography.
 
-If the paper were a thesis, this discussion of bibliography would probably be integrated with the new results. If the researchers wrote a book, such a bibliography would probably be included, but it's hard to imagine a publisher printing a 100-page appendix on experimental design for mosquito repellents. However, and so this work must be duplicated anew for every single paper on the subject. Things will undoubtedly be missed. Fortunately, the internet means these things can now be disseminated.
 
-The effects of good review articles on the literature appear to be well-documented; there is a scarsity. This is the reason for the literature.md and .bib files; it is encouraged that your literature be added.
-
-quals some people resort to blogging
-
-While we're at it, we might as well include.
 
 <hr>
 
 The standards discussed here could resemble protocols from microbiology, with a few additional features:
 
 - Rationale and lineage for steps and concepts.
-- A way to "re-qualify" experimental arrangements if changes (to update to new equipment), must be made.
+- A way to "re-qualify" experimental arrangements if changes (to update to new equipment) must be made.
 - Strict pre-trial procedures to absolutely guarantee the transferability of results
 - Careful documentation of "sensitivities"; areas of particular concern.
 - Specify the required documentation (what measurements of the arrangement must be made).
@@ -484,9 +489,9 @@ will produce an associated standard.
 
 
 - Most likely, nobody cares and this repository goes unused.
-- Constant disagreement on the content of the standards.
-- It is possible that turning science, an institution founded on an ineffable flexibility, into a set of perscriptivist doctrines, might stifle progress and creativity.  
-- The Saalman and Bergqvist story led to the discovery of a new effect (the effect of the surface energy of the container on the stability of lipid liposomes). In general, making mistakes can do cool stuff like that.
+- Constant disagreement on the content of the standards or reviews.
+- It is possible that turning science, an institution founded on an ineffable flexibility, into a set of perscriptivist doctrines, might stifle progress and creativity.
+- The Saalman and Bergqvist story led to the discovery of a "new" effect (the effect of the surface energy of the container on the stability of lipid liposomes). In general, making "mistakes" can do cool stuff like that.
 - Performing your own literature review inevitably takes you in a different direction,
 following a different tack, giving you a unique perspective. also, the idea is generally to do novel research, so a pre-made literature review shouldn't exist. At the same time, with the few centuries of precent, practically no ideas are entirely novel.
 - If these standards become good enough, it might be possible for non-experts to publish good results by rote. I think this is an improvement over the current system, where non-experts publish bad results, but some might differ.
@@ -523,8 +528,6 @@ If you are not willing to furnish the integrity of your results, you do not dese
 -->
 
 
-
-Papers are being published where experts can immediately identify failures in methodology (of course, sometimes expert assements are wrong [phosphine]). Perhaps that could be something that could not be happening.
 
 
 
