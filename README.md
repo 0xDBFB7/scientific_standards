@@ -3,8 +3,7 @@
 
 ## Could it be useful to make scientific best practices into explicit, *de jure* standards?
 
-#### The more I write, the less I think this is a good idea.
-#### Anyway, here are some words.
+#### Please note that amazing people are already doing amazing work along these lines; one can now hear the din of discussions on reproducibility in every corner of science. This is just a minor restatement of what many others have stated much more eloquently, and standards can only possibly play a small part in the grand orchestra of integrity.
 
 <!-- ### The below is a essay describing one person's perception of science. Practically everything that's brought up below has been discussed more eloquently in the past. -->
 
@@ -31,7 +30,6 @@ Richard Hamming, [You And Your Research](https://www.cs.virginia.edu/~robins/You
 RE: RE: Publishing everything is fundamentally suboptimal for scientific progress https://journals.plos.org/plosone/article/comment?id=info:doi/10.1371/annotation/fdce24bb-aa1d-41ff-8325-a01fa8d97015
 
 
-#### Amazing people are already doing amazing work along these lines; one can hear the din of discussions of reproducibility in every. This is just a minor restatement of what many others have stated much more eloquently.
 
 > but this is definitely not enough to cope with the main problem from which the scientific literature has been suffering in the last few decades, that is, the exponential growth of scientific publications driven by the obligation for scientists in many countries to publish more and more, which leads to the publication of a huge background noise of useless and low-level articles. It is indeed a tedious work to extract from the mass of submissions the scientific research that does merit the dissemination of its results.
 > 
@@ -53,9 +51,11 @@ I think all scientists would be able to contribute meaningfully to if they knew 
 
 [](https://www.nist.gov/video/nist-colloquium-series-can-you-trust-fourth-paradigm-michael-lesk)
 
+
+
 I would like to argue that the majority of science is safety-critical now. Though a failure of the scientific process doesn't make bridges fall . Informs public policy, it affects trust. If a <> a kidney patient might die, if a <> a. A NIST group found to produce an incorrect value of a constant is at risk of being garroted wholesale by sleep-deprived Phd candidates. 
 
-Any special weight which is put on scientific assertions in debate weighs equally on our responsibility for accuracy. I do not wish to live in a world where the scientific literature is not a place you can go to find truth; we must take extraordinary measures to ensure its validity.
+Any special weight which is put on scientific assertions in debate weighs equally on our responsibility for accuracy. I do not wish to live in a world where the scientific literature is not a place you can go to find truth; we must take extraordinary measures to ensure its validity, without reducing productivity.
 
 
 
@@ -63,11 +63,11 @@ https://www.ourdocuments.gov/doc.php?flash=false&doc=15&page=transcript
 > "The basis of our political systems is the right of the people to make and to alter their constitutions of government. But the Constitution which at any time exists, till changed by an explicit and authentic act of the whole people, is sacredly obligatory upon all. The very idea of the power and the right of the people to establish government presupposes the duty of every individual to obey the established government."
 
 
-## The NASA Software Engineering Handbook
+# The NASA Software Engineering Handbook
 
 NASA software development NASA 7150.2 - the process ensures correctness in the output no matter the quality of the input.
 This is how, in the ~420,000 lines of code required for a , not a single 
-(https://www.nap.edu/read/5018/chapter/4). These processes have been written in blood.
+(https://www.nap.edu/read/5018/chapter/4). These processes have been written in blood. They are the IKEA instruction manuals for software.
 
 It has been claimed<sup>[who?]</sup> that, if properly followed, this process can take input code from a monkey and produce safety-critical output code. While sometimes time-consuming to follow, well-structured standards might also have the potential to reduce cognitive load on the worker, so they can concentrate on their novel contribution ("The rules lessen the burden on the developer and tester to establish key properties", [
 Holzmann, Power of Ten](http://www.cs.otago.ac.nz/cosc345/resources/nasa-10-rules.pdf)).
@@ -87,7 +87,7 @@ But the best processes are subject to regular meta-analysis, and necessary chang
 
 New knowledge is integrated inline, so as many people see it as possible, with a focus on how humans actually use thousand-page documents. These appear to be, on balance, supremely effective.
 
-When failures do occur in mature processes, fault and blame of individual workers is rarely a matter of discussion:
+When failures do occur in mature processes, fault and blame of individual workers is rarely a matter of discussion; failures are a result of the system:
 
 https://archive.eiffel.com/doc/manuals/technology/contract/ariane/
 
@@ -113,14 +113,10 @@ https://hal.archives-ouvertes.fr/hal-00374649/document
 
 There is often disagreement on the minutia of these standards. But, on the largest scale, strict adherence to Space Shuttle-era quality standards is a path which has a high chance of producing correct outputs.
 
-Most developers don't follow these guidelines, perhaps because - like the kind of exploratory experimentation done in the early stages of a field - failures are unimportant. But published science is all about rigor. 
+Most software developers don't follow these guidelines, perhaps because - like the kind of exploratory experimentation done in the early stages of a field - failures are unimportant. But published science is all about rigor.
 
-<!--
-Scientists, on an individual level, are doing just as good a job as they ever were. 
-We have monumental problems to solve, but we have no shortage of monumental people. 
--->
-
-We say science should be rigorous, but it is sometimes unclear what "rigorous" means.
+Scientists, on an individual level, are doing just as good a job as they ever were.
+We have monumental problems to solve, but we have no shortage of monumental people. What we may not be able to afford is unnecessary confusion. 
 
 # Could analogous processes be implemented in some parts of science?
 
@@ -163,8 +159,9 @@ They even developed specialized databases to support the effort https://www.evtr
 
 Experimental designs are plotted on a 2D graph for ease of selection! 
 
-And it seems to have worked! The number of papers using nigh-unacceptable (1-method) methodologies dropped from ~23% to 12% in 6 years, and of protocols assigned a metric, adherence jumped from 21% to 56% (https://www.evtrack.org/index.php), despite only:
-> "We found 701 manuscripts (15.4% of manuscripts for the period 2015–2020) citing MISEV guidelines."
+And it seems to have worked! The number of papers using nigh-unacceptable (1-method) methodologies dropped from ~23% to 12% in 6 years, and of protocols assigned a metric, adherence jumped from 21% to 56% (https://www.evtrack.org/index.php), despite
+
+> "[only] (15.4% of manuscripts for the period 2015–2020) citing MISEV guidelines."
 https://doi.org/10.1016/j.addr.2021.113872
 
 Now **that's** good science. [ISEV Rigor](https://www.isev.org/rigor-standardization), I love you people.
@@ -204,11 +201,13 @@ https://pubs-rsc-org.ezproxy.library.yorku.ca/en/content/articlelanding/2017/JA/
 
 The reasons are very detailed and complicated to someone who does not know spectral lines from Adam, such as myself.
 
-Ultimately, all the techniques used are well-estabilished. Mass spectrometry was invented in 1918 and spectral line analysis has ~80 years of precedent, ICP-MS has been used since 1980 and best-practices abound. LIBS has been used since the 1960s (https://arxiv.org/pdf/1407.0132.pdf). I believe this was an unforced error on the part of the literature. This paper did not need to be written, and there was absolutely no reason for it to be published. Or, alternatively, since the authors disagree with the retraction, if the paper is correct and the retraction was invalid, there is no reason why such ambiguity ever needed to exist.
+Ultimately, all the techniques used are well-estabilished. Mass spectrometry was invented in 1918 and spectral line analysis has ~80 years of precedent, ICP-MS has been used since 1980 and best-practices abound. LIBS has been used since the 1960s (https://arxiv.org/pdf/1407.0132.pdf). 
+
+I believe this was an unforced error on the part of the literature. This paper did not need to be written, and there was absolutely no reason for it to be published. Or, alternatively, since the authors disagree with the retraction, if the paper is correct and the retraction was invalid, there is no reason why such ambiguity ever needed to exist.
 
 The paper's authors appear to be excellent scientists. The first author has since helped with interesting papers on all sorts of materials science. The second author has gone on to produce a great result in antibiotics. Perhaps I am too generous, but I do not believe it would be fair to blame the authors, considering that the peer-reviewers, presumably populated by *experts in the field of spectroscopy* did not see an issue. Neither can I blame the editors. I think *the system must have failed them*.
 
-First, entire very easily systematized into a checkbox that any of the reviewers could have verified quickly - or (speculation) potentially even automated by the journal:
+First, (and, admittedly, with the benefit of post-hoc reasoning), the entire mistake could perhaps have been easily systematized into a checkbox that any of the reviewers could have verified quickly - or (speculation) potentially even automated by the journal:
 
 > "That is why some simple spectroscopic rules mentioned by Cremers and Radziemski12 should be kept in mind: (i) the strongest lines of the main components must be present in emission spectra; (ii) observation of combinations of intense lines (multiplets): if one component is observed, the others should also be present; (iii) consideration of relative line intensities from spectral databases; and (iv) the presence of spectral lines of various ionized states depending on the experimental conditions."
 
@@ -221,7 +220,6 @@ If the authors wanted to demonstrate a new innovation to LIBS that reduced the L
 If the authors wanted to report the variation of heavy metals in gallstones, there is presumably much precedent in heavy-metals analysis; accepted techniques used by healthcare workers. The use of N=2 gallstones from just two different ages would perhaps make this result underpowered for this purpose.
 
 There are probably countless other systemic issues and perverse incentives at play here. Perhaps funding was only available for health research into gallstones, and so the research interest was . In some ways this is an issue of paper scoping. But a straightforward systematization seems to be possible.
-
 
 <hr>
 
@@ -287,6 +285,8 @@ Better pre-trial communcation with experts, especially via protocol pre-review, 
 
 <hr>
 
+An outsider is always bound to find; I am being unfair.  
+
 However, consider the following positively terrific paper by Cabrini et al (2006), *Evaluation of seven new electronic mosquito repellers*. 
 
 It should be noted that even a single anomalous result in this field could have potentially life-changing ramifications in countries with mosquito-borne illnesses; as the authors discuss, it would cast doubt on the rest of the results in the eyes of consumers (who can hardly be expected to perform literature reviews of their own), undoubtedly affect the advertising of the devices, and alter the FDA's litigation. This is practically "safety-critical" work.
@@ -303,18 +303,78 @@ However, even here, we have hints that an "explicit", *de jure* perscriptive sta
 
 > Polystyrene was used instead of Plexiglas for the chamber[.]
 
+Three new papers have used this improved chamber.
+
 Compare: [Saalman 1991](https://doi.org/10.1016/0005-2736(91)90418-8) reported a novel result on membranes in an electric field. This was later found ([Bergqvist et al 1994](https://doi.org/10.1016/0304-4165(94)90150-3)) to be just a complex interaction with a beaker made of Teflon versus glass. One can concoct a scenario in which polystyrene walls would have a similar confounding effect with mosquitos.
 
 Consider how mystifying such an artifactual result would be. If well-publicized, it could undermine the scientific consensus in the eye of the public.
+
+
 
 Again, every "good scientist" will perform the calibration and comparison needed to justify these kinds of changes (as was done in this case). But the process should be somewhat tolerant to "poor scientists", even inherently making them improve.
 
 At the same time, perhaps the modification made by Cabrini is an important one, and one which should be kept for future studies (the change was made for "a lighter and easier to assemble chamber"). In that case, the modified version must be tested so thoroughly that there remains no ambiguity that any effect is an artifact of the change. If this is not done, it is possible that a modified version could be "infective", and corrupt many years of work.
 
-
 <!-- One route out would be for industry to produce equipment. If ACME Co. This is also fraught. Silent changes in processes for temperature-measuring probes contaminated decades of climatology data. -->
 
 Ideally, if standards are sufficiently well written, verifying such a change could be a straightforward checklist.
+
+It would probably not be very onerous for Klowden and Lea to 
+
+
+Improvement of a test-chamber for behavioral studies on adult females of Aedes aegypti (Linnaeus)(Diptera, Culicidae)
+"Later, Foster & Lutes (1985) also used an identical chamber to successfully evaluate the efficacy of electronic repellers"
+https://www.scielo.br/j/rbent/a/3d668m6TKfNtdVBQ5bcQpPH/?lang=en&format=pdf
+
+we see now that there is a fork in the literature
+
+"There are various designs for analysing insects in-lab with various justifications [17–19]. However, in this study, a more specific design is required as shown in Fig 1, which is a modified version from a previous closely related research [20]."
+https://doi.org/10.1371/journal.pone.0178766
+
+To their credit, this field appears to have automatically standardized itself to a great degree. There is good agreement between 
+
+2017, after Cabrini et al's 2007 paper validating their new chamber, Ong https://ejournal.ukm.my/serangga/article/viewFile/22882/7262 go back to using a K&L / Foster & Lutes chamber. K&L specify a ~6 cm diameter flight tunnel. Cabrini use 20 cm diameter. Ong use 11 cm. Ong use a PVC (could trace bisphenol A plasticizer from PVC makes the mosquitoes randy, since hormones are a potential factor ["implying illogically that imitating the male wing beat sound would repel conspecific females."]).
+
+Ong have noted a very important fact, and we see a possible mechanism by which the material and the diameter could alter the results:
+
+> "From the previous studies, mosquitoes were sensitive to the hand-touch contamination on the inner walls of the test chamber. This was carefully avoided by wearing hand gloves while carrying out the test and each part of the test chamber was washed with detergent after each assay."
+
+In a thesis by Dogan, 1998, 
+
+> To eliminate the human odor contamination, latex gloves were used at all times and the olfactometer was cleaned after each use with alcohol
+>
+> "Olfactometers used in the bioassays for evaluating repellents usually do not measure repellency, but rather measure non-attraction. Therefore, I designed a novel olfactometer that divides host-seeking behavior of mosquitoes into attraction and repellency at close range. I compared my olfactometer with another similar olfactometer and found no difference when attraction was measured. However, the new olfactometer assesses true repellency. I also added a new term to the terminology of host-seeking behavior, that is 'inhibition'."
+
+Neither Cabrini paper mentions gloves or cleaning of the chamber. This is probably unfair - their test did not use the chamber to test an olfactory repellent configuration - but the smell of a hand is still used as the lure, meaning the confound still exists.  Clearly the precautions were not important in this case, since they obtained good data; but. 
+
+Poh 2017 mentions cleaning in passing, but not with alcohol (does the cleaning solution affect the mosquitoes?), and not to remove hand-prints, but for mosquito droppings. Does not mention gloves.
+
+If I had followed,  We see that this critical admonition has been silently dropped from the "new standard". 
+
+Does Klowden and Lea 1978 mention hand-prints? I don't know, my university doesn't have a subscription to The American Journal of Tropical Medicine and Hygiene. What are the odds that researchers in a low-income country will? 
+
+Does Foster and Lutes mention hand-prints? Well,  We see that the new master source of information which is now relied on by 8 papers 
+https://www.biodiversitylibrary.org/content/part/JAMCA/JAMCA_V01_N2_P199-202.pdf
+
+Gouck in 1972 already mentions that
+> Rubber or plastic gloves must be worn whenever the apparatus is handled.
+
+https://www-ncbi-nlm-nih-gov.ezproxy.library.yorku.ca/pmc/articles/PMC2480823/pdf/bullwho00185-0138.pdf
+
+None of the papers are bad science. They are all meticulous and exacting. 
+
+The problem is that, in the field of bioelectrics, this kind of subtle variation has produced a 5-to-1 systematic false positive rate [vijalazimi]. It may be easy to see how these effects can quickly produce a impotent concensus.
+
+Consider some future experimenter. They come up with some remarkable hypothesis on a new waveform for an electronic repellant. They read Cabrini and a few other recent papers, follow the prescriptions precisely. Between each trial, they reach into the chamber to flip the switch on the repeller; their forearm deposits a print on the edge of the chamber. They open the chamber, the print evaporates a bit, and now their hand doesn't need to reach so far to push the switch back. The mosquitos track the switch position perfectly. They sell their repellants, backed by real science. People wear them and feel protected. Malaria cases spike. 
+
+*The system has failed them.*
+
+Or, a more mundane, maybe they read Poh et al, decide "ah, the chamber must be cleaned, aren't we clever", and use ethanol (vapor pressure 12.4 kpa) rather than isoproyl (4.4). Now their mosquitoes really go crazy. A grad student spends three months trying to figure out what the devil is going on with their damned dopey aegypti, burns out, leaves academia to become a 
+
+So who will systematize things? Will some international society form and publish a quarterly report
+on minimal experimental conditions in mosquito research specifically pertaining to the evaluation of electronic mosquito repellents? 
+
+I think the 
 
 <hr> 
 
@@ -352,6 +412,10 @@ Obviously, this will never work, but it's fun to dream.
 Right now, quality control in science is almost entirely a filter on the outputs (via peer-review).
 The quality of that filter has degraded, and the perverse incentives on both sides of that filter have
 lead to fields of literature that are very difficult to navigate. Maybe standards could be an alternative route.
+
+Papers are evalutated relative to first principles. If declaration of differences, 
+they could be evalated relative to a delta fro acceptedpractice, meaning more and more complex
+investigations would be only slightly more complicated
 
 # The best possible experiment
 
@@ -393,11 +457,7 @@ The problem of Authentication is
 
 It's somewhat overlapping with the aims of http://www.scholarpedia.org . 
 
-(scholarpedia is a fantastic project with great people behind it, 
-I'm a little concerned about the long-term effects of having a for-profit enterprise run this sort of thing, but it seems okay here)
-
-
-Where is this consensus? It is scattered about. Maybe this is just a necessary part of science, and no alternative is feasible.
+Where is this consensus? It exists only in the minds of experts, and you never know which ones; it is scattered about a century of literature. Maybe this is just a necessary part of science, and no alternative is feasible.
 
 Immutable; they cannot reflect the real-time consensus.
 
