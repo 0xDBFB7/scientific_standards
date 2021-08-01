@@ -3,9 +3,12 @@
 
 ## Could it be useful to make scientific best practices into explicit, *de jure* standards?
 
-##### Please note that amazing people are already doing amazing work along these lines; one can now hear the din of discussions on reproducibility in every corner of science. This is just a minor restatement of what many others have stated much more eloquently, and standards can only possibly play a small part in the grand orchestra of integrity.
+##### Please note that amazing people are already doing awesome work along these lines; one can now hear discussions on reproducibility in every corner of science. This is just a minor restatement of what many others have stated much more eloquently, and standards can only possibly play a small part in the grand orchestra of integrity.
 
 ##### Additionally, this is tedious overripe meta-research from someone who has no scientific output to speak of, and has no right to cavil and carp on such topics.
+
+[Case 1](#case-1)
+[Case 2](#case-2)
 
 > :cyclone: This is a collaborative project!
 >
@@ -24,15 +27,15 @@
 > I believe that books which try to **digest, coordinate, get rid of the duplication, get rid of the less fruitful methods and present the underlying ideas clearly of what we know now, will be the things the future generations will value**. Public talks are necessary; private talks are necessary; written papers are necessary. But I am inclined to believe that, in the long-haul, books which leave out what's not essential are more important than books which tell you everything because you don't want to know everything.
 > Richard Hamming, [You And Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
 
+<hr>
 
+I would like to argue that the majority of science is safety-critical now. Though a failure of the scientific process doesn't make bridges fall immediately, it misinforms public policy, it affects trust in our ability to determine how the world works. A NIST group found to produce an incorrect value of a constant is at risk of being garroted by sleep-deprived PhD candidates. 
 
-I would like to argue that the majority of science is safety-critical now. Though a failure of the scientific process doesn't make bridges fall immediately, it misinforms public policy, it affects trust in our ability to determine how the world works. A NIST group found to produce an incorrect value of a constant is at risk of being garroted wholesale by sleep-deprived PhD candidates. 
-
-That paper on is of no consequence to a technical audience, but when reported on credulously as "Scientists Find Fungus on Mars" next to "Scientists Claim Vaccines Safe", it becomes . 
+That paper on is of no consequence to a technical audience, but when reported on credulously as "Scientists Find Fungus on Mars" next to "Scientists Claim Vaccines Safe", it becomes deadly. 
 
 Any special weight which is put on scientific assertions in debate weighs equally on our responsibility for accuracy. A world where the scientific literature is not the place to find the best [approximation of the truth](https://www.nist.gov/video/nist-colloquium-series-can-you-trust-fourth-paradigm-michael-lesk) is pretty dismal; extraordinary measures should be designed to ensure its validity without reducing productivity. 
 
-Moreover, an unnecessary mistake is a lost opportunity 
+Moreover, a repeated mistake is a lost opportunity to 
 
 We are told that we should follow the scientific consensus, but where is this consensus? It's nowhere you can read; it exists only in the minds of experts, and you hardly ever know which ones; it is scattered about a century of literature; a message in a bottle in the sea. Maybe this is just a necessary part of science, and no alternative is feasible, but I believe there are hints that this may no longer be the case.
 
@@ -47,15 +50,17 @@ https://www.ourdocuments.gov/doc.php?flash=false&doc=15&page=transcript
 
 When faced with a complex task involving both creativity and life-or-death reliability, what 
 
-NASA 7150.2 Classification A and B.  software development  - This process ensures correctness in the output no matter the quality of the input.
-This is how, in the ~420,000 [lines of code](https://www.nap.edu/read/5018/chapter/4) required for a , not a single; how a better-than-even chance of landing on Mars despite constant corrupting influences like radiation-induced upsets. These standards are the sum total of all the failures.
+One answer can be found in NASA 7150.2 Classifications A and B, a set of software engineering checklists, and rulebooks. These processes ensure the correctness of the output no matter the quality of the input.
 
-https://spectrum.ieee.org/planetary-rovers-are-we-alone
+This is how, in the ~420,000 [lines of code](https://www.nap.edu/read/5018/chapter/4) run for a Space Shuttle launch, the probability of software failure could be guaranteed to be below 1/600 to 1/4400, and how a better-than-even chance of landing [50,000 parts](https://spectrum.ieee.org/planetary-rovers-are-we-alone) on Mars can be attained despite the constant corrupting influence of radiation. These standards are the sum total of all the [failures of their predecessors](https://en.wikipedia.org/wiki/Therac-25); they are written in blood and distress; they are the IKEA instruction manuals for good software.
 
-(). These processes have been written in blood. They are the IKEA instruction manuals for software.
-
-It has been claimed<sup>[who?]</sup> that, if properly followed, this process can take input code from a monkey and produce safety-critical output code. While sometimes time-consuming to follow, well-structured standards might also have the potential to reduce cognitive load on the worker, so they can concentrate on their novel contribution ("The rules lessen the burden on the developer and tester to establish key properties", [
+It has been claimed<sup>[who?]</sup> that, when properly followed, these processes can take input code from a monkey and produce safety-critical output code. While time-consuming to follow, well-structured standards might also have the potential to reduce cognitive load on the worker, so they can concentrate on their novel contribution ("The rules lessen the burden on the developer and tester to establish key properties", [
 Holzmann, Power of Ten](http://www.cs.otago.ac.nz/cosc345/resources/nasa-10-rules.pdf)).
+
+**See**
+
+- [Software and the Challenge of Flight Control](http://sunnyday.mit.edu/papers/shuttle-chapter-final.pdf), Nancy G. Leveson
+- [Space Shuttle Flight Software (PASS) Loss Of Crew Errors](https://www.slideshare.net/JamesOrr4/space-shuttle-flight-software-pass-loss-of-crew-errors-jk-orr-20150827-52150515) J.K. Orr 2015-08-27
 
 Some software reliability standards are, on balance, not evidence-based, offering cosmetic and divisive prescriptions
 
@@ -70,13 +75,9 @@ But the best processes are subject to regular meta-analysis, and necessary chang
 > JPL has referenced this lesson learned as additional rationale and guidance supporting Paragraph 6.4.4 ("Engineering Practices: System Engineering") in the Jet Propulsion Laboratory standard "Flight Project Practices, Rev. 7," JPL DocID 58032, September 30, 2008.[quotes fixed]
 > https://llis.nasa.gov/lesson/2044
 
-New knowledge is integrated inline, so as many people see it as possible, with a focus on how humans actually use thousand-page documents. These appear to be, on balance, supremely effective.
+New knowledge is integrated inline, so as many people see it as possible, with a focus on how humans actually use thousand-page documents. When failures do occur in mature processes, fault and blame of individual workers is rarely a matter of discussion; failures are a result of the system.
 
-When failures do occur in mature processes, fault and blame of individual workers is rarely a matter of discussion; failures are a result of the system:
-
-https://archive.eiffel.com/doc/manuals/technology/contract/ariane/
-
-> Is this incompetence?
+> [Is this incompetence?](https://archive.eiffel.com/doc/manuals/technology/contract/ariane/)
 > No. Everything indicates that the software process was carefully organized and planned. The ESA's software people knew what they were doing and applied widely accepted industry practices.
 
 ideally, increasingly found to be due to lapses in the application of the standard:
@@ -86,19 +87,14 @@ ideally, increasingly found to be due to lapses in the application of the standa
 
 https://www-users.cse.umn.edu/~arnold/disasters/ariane5rep.html
 
-And beyond plugging the particular hole that led to the incident, every opportunity to prevent the failure is explored anew.
+And beyond plugging the particular hole that led to the incident, every opportunity to prevent the failure is explored anew by root cause analysis.
 
 > In this context, this work was initiated by Eads Launch Vehicles to better evaluate the maturity and applicability of existing formal validation techniques[...]
-> In fact, although limited in the past to small academic examples, formal methods seem now mature enough to be used within an industrial context, even for large scale applications.
-https://hal.archives-ouvertes.fr/hal-00374649/document
-
-
-- [Software and the Challenge of Flight Control](http://sunnyday.mit.edu/papers/shuttle-chapter-final.pdf), Nancy G. Leveson
-- [Space Shuttle Flight Software (PASS) Loss Of Crew Errors](https://www.slideshare.net/JamesOrr4/space-shuttle-flight-software-pass-loss-of-crew-errors-jk-orr-20150827-52150515) J.K. Orr 2015-08-27
+> In fact, although limited in the past to small academic examples, formal methods seem now mature enough to be used within an industrial context, even for large scale applications.> https://hal.archives-ouvertes.fr/hal-00374649/document
 
 There is often disagreement on the minutia of these standards. But, on the largest scale, strict adherence to Space Shuttle-era quality standards is a path which has a high chance of producing correct outputs.
 
-Most software developers don't follow these guidelines, perhaps because - like the kind of exploratory experimentation done in the early stages of a field - failures are unimportant. But published science is all about rigor.
+Most software developers don't follow these guidelines, perhaps because - like the kind of exploratory experimentation done in the early stages of a field - failures are unimportant. But published science is supposed to be all about rigor.
 
 Scientists, on an individual level, are doing just as good a job as they ever were.
 We have monumental problems to solve, but we have no shortage of monumental people. What we may not be able to afford is unnecessary confusion. 
@@ -117,17 +113,16 @@ This document seems to tantalizingly hint at formal science. It is excruciatingl
 
 ## Level III, oh baby, this is the good stuff
 
-In 1983, a new tiny, hard-to-find lipid structure was found in humans: the extracellular vesicle.
+In 1983, a tiny, hard-to-find lipid structure was discovered in human biology: the extracellular vesicle.
 
-However, as with much complex research, greater 
+However, as with much complex research, interest from beyond the founding experts spurred confusion;
 
 > "most manuscripts on EVs do not include proper characterization of EVs generally, much less demonstration of exosomes versus other types of EVs [44]. This lack of rigour as the field rapidly expanded in the early 2000s formed a major part of the impetus for the International Society for Extracellular Vesicles and its standardization initiatives."
 > [Witwer et al](https://doi.org/10.1080/20013078.2019.1648167)
 
-This led to the formation of a society 382 coauthors for the misev
-
-
 > "The major goal of these recommendations was to sensitize researchers (especially the rapidly growing numbers of scientists newly interested in EVs), as well as journal editors and reviewers, to experimental and reporting requirements specific to the EV field."
+
+This led to the formation of the MISEV2014 and 2018 Minimal Information guidelines, the product of 382 coauthors.
 
 Specific documentation requirements are provided: 
 
@@ -135,9 +130,7 @@ Specific documentation requirements are provided:
 > "Consensus: 96% of MISEV2018 Survey respondents endorsed the pre-analytical variables section. Since 44% of respondents also suggested at least one added literature citation or other amendment in more than 200 total comments" 
 > [Théry et al](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322352/)
 
-Terminology is standardized with extremely in-depth reporting of the rationale. 
-
-The standard analyzes itself, recognizes deficiencies, and fixes them effectively and with haste:
+Terminology and nomenclature is itself standardized with extremely in-depth reporting of rationale and agreement. The standard analyzes itself, recognizes deficiencies, and fixes them effectively and expeditiously:
 
 > "However, a recent survey of members of ISEV to lay the groundwork for MISEV2018 [[3]] showed that, while respondents agreed almost unanimously on the need for minimal requirements, and a majority supported the MISEV2014 initiative and guidelines as published, almost a quarter of respondents found the guidelines too restrictive or too strong an imposition on the field. MISEV2018 thus provides clearer explanations of the need for each recommendation and highlights the extent of author consensus (or lack thereof) on each section."
 
@@ -145,7 +138,7 @@ And with great attention to human factors:
 
 > "We therefore established a concise checklist summarizing MISEV criteria to support EV researchers towards reaching the highest standards in the field."
 
-They developed specialized [databases](https://www.evtrack.org/) to support the effort, and experimental designs are even plotted on a 2D graph for ease of selection! 
+The team developed specialized [databases](https://www.evtrack.org/) to support the effort, and experimental designs are plotted on a 2D graph for ease of selection.
 
 And it seems to have worked! The number of papers using nigh-unacceptable (1-method) methodologies dropped from ~23% to 12% in 6 years, and of protocols assigned a metric, adherence jumped from 21% to 56% (https://www.evtrack.org/index.php), despite
 
@@ -163,7 +156,7 @@ I feel strongly that this kind of standardization should be deployed in every si
 (why aren't journal editorial standards good enough? I think the proliferation of journals nowadays (or routes to publication altogether) means that these kind of standards needs to be at a "higher level", transcending mode of communication).
 -->
 
-# Case Study 1: Knowledge of best practices: mutual agreement on universal experimental conditions
+# Case 1: Knowledge of best practices: mutual agreement on universal experimental conditions
 
 Dev and Hofmann, *Clinical Applications of Electroporation* (in *Electrical Manipulation of Cells*, Davey and Lynch 1996): 
 
@@ -209,15 +202,20 @@ but in practice, the damage to the literature (and, regrettably, to society) is 
 
 The literature's reliability requires that most scientists be "good" in that sense. -->
 
-An outsider is always bound to find; I am being unfair.  
 
-However, consider the following positively terrific paper by Cabrini et al (2006), *Evaluation of seven new electronic mosquito repellers*. 
+
+<hr>
+
+##### Note that I am about to be very mean and pick on a number of individual experiments, but only for purely epistemological reasons; I hope the authors can forgive me, as I have no doubt as to the quality of the results and the competence of the researchers. An outsider is always bound to find things to 
+
+Let us consider the following positively terrific paper by Cabrini et al (2006), *Evaluation of seven new electronic mosquito repellers*. 
 
 It should be noted that even a single anomalous result in this field could have potentially life-changing ramifications in countries with mosquito-borne illnesses; as the authors discuss, it would cast doubt on the rest of the results in the eyes of consumers (who can hardly be expected to perform literature reviews of their own), undoubtedly affect the advertising of the devices, and alter the FDA's litigation. This is practically "safety-critical" work.
 
 They describe:
 
 > A test chamber, previously described by Klowden & Lea (1978), was made with a few adaptations.
+> 
 
 One might argue that this is a sort of "implicit" or *de facto* standard, a type used almost everywhere in the literature; one group bases their experimental design on a previous group's well-established design (which, in this case, had nothing to do with electronic mosquito repellents). Each experiment reinforces the other in the age-old way.
 
@@ -227,11 +225,11 @@ However, even here, we have hints that an "explicit", *de jure* perscriptive sta
 
 > Polystyrene was used instead of Plexiglas for the chamber[.]
 
-Three new papers have used this improved chamber.
+Compare: [Saalman 1991](https://doi.org/10.1016/0005-2736(91)90418-8) reported a novel result on membranes in an electric field. This was later found ([Bergqvist et al 1994](https://doi.org/10.1016/0304-4165(94)90150-3)) to be just a complex interaction with a beaker made of Teflon versus glass. One can concoct a scenario in which polystyrene walls would have a similar confounding effect with mosquitos. Consider how mystifying such an artifactual result would be!
 
-Compare: [Saalman 1991](https://doi.org/10.1016/0005-2736(91)90418-8) reported a novel result on membranes in an electric field. This was later found ([Bergqvist et al 1994](https://doi.org/10.1016/0304-4165(94)90150-3)) to be just a complex interaction with a beaker made of Teflon versus glass. One can concoct a scenario in which polystyrene walls would have a similar confounding effect with mosquitos.
-
-Consider how mystifying such an artifactual result would be. If well-publicized, it could undermine the scientific consensus in the eye of the public.
+Improvement of a test-chamber for behavioral studies on adult females of Aedes aegypti (Linnaeus)(Diptera, Culicidae)
+"Later, Foster & Lutes (1985) also used an identical chamber to successfully evaluate the efficacy of electronic repellers"
+https://www.scielo.br/j/rbent/a/3d668m6TKfNtdVBQ5bcQpPH/?lang=en&format=pdf
 
 
 
@@ -246,9 +244,6 @@ Ideally, if standards are sufficiently well written, verifying such a change cou
 It would probably not be very onerous for Klowden and Lea to 
 
 
-Improvement of a test-chamber for behavioral studies on adult females of Aedes aegypti (Linnaeus)(Diptera, Culicidae)
-"Later, Foster & Lutes (1985) also used an identical chamber to successfully evaluate the efficacy of electronic repellers"
-https://www.scielo.br/j/rbent/a/3d668m6TKfNtdVBQ5bcQpPH/?lang=en&format=pdf
 
 we see now that there is a fork in the literature
 
@@ -257,7 +252,7 @@ https://doi.org/10.1371/journal.pone.0178766
 
 To their credit, this field appears to have automatically standardized itself to a great degree. There is good agreement between 
 
-2017, after Cabrini et al's 2007 paper validating their new chamber, Ong https://ejournal.ukm.my/serangga/article/viewFile/22882/7262 go back to using a K&L / Foster & Lutes chamber. K&L specify a ~6 cm diameter flight tunnel. Cabrini use 20 cm diameter. Ong use 11 cm. Ong use a PVC (could trace bisphenol A plasticizer from PVC makes the mosquitoes randy, since hormones are a potential factor ["implying illogically that imitating the male wing beat sound would repel conspecific females."]).
+2017, after Cabrini et al's 2007 paper validating their new chamber, Ong https://ejournal.ukm.my/serangga/article/viewFile/22882/7262 go back to using a K&L 1978 / Foster & Lutes chamber. K&L specify a ~6 cm diameter flight tunnel. Cabrini use 20 cm diameter. Ong use 11 cm. Ong use a PVC (could trace bisphenol A plasticizer from PVC makes the mosquitoes randy, since hormones are a potential factor ["implying illogically that imitating the male wing beat sound would repel conspecific females."]).
 
 Ong have noted a very important fact, and we see a possible mechanism by which the material and the diameter could alter the results:
 
@@ -265,25 +260,35 @@ Ong have noted a very important fact, and we see a possible mechanism by which t
 
 In a thesis by Dogan, 1998, 
 
-> To eliminate the human odor contamination, latex gloves were used at all times and the olfactometer was cleaned after each use with alcohol
+> "To eliminate the human odor contamination, latex gloves were used at all times and the olfactometer was cleaned after each use with alcohol"
 >
 > "Olfactometers used in the bioassays for evaluating repellents usually do not measure repellency, but rather measure non-attraction. Therefore, I designed a novel olfactometer that divides host-seeking behavior of mosquitoes into attraction and repellency at close range. I compared my olfactometer with another similar olfactometer and found no difference when attraction was measured. However, the new olfactometer assesses true repellency. I also added a new term to the terminology of host-seeking behavior, that is 'inhibition'."
 
-Neither Cabrini paper mentions gloves or cleaning of the chamber. This is probably unfair - their test did not use the chamber to test an olfactory repellent configuration - but the smell of a hand is still used as the lure, meaning the confound still exists.  Clearly the precautions were not important in this case, since they obtained good data; but. 
+Neither Cabrini paper mentions gloves or cleaning of the chamber. This is probably unfair - their test did not use the chamber to test an olfactory repellent configuration - but the scent of a human hand is still used as the lure, meaning the confound still exists. Clearly the precautions were used without mention or not important in this case, since they obtained good data; but. 
 
-Poh 2017 mentions cleaning in passing, but not with alcohol (does the cleaning solution affect the mosquitoes?), and not to remove hand-prints, but for mosquito droppings. Does not mention gloves.
+One might say that the paper did not mention it because they base their protocol on K&L's paper, and surely one would read the underlying paper?  
 
-If I had followed,  We see that this critical admonition has been silently dropped from the "new standard". 
+Well, Ahmad et al 2007 cite Cabrini 2007, but not K&L 1978; the test chamber is entirely different this time;
 
-Does Klowden and Lea 1978 mention hand-prints? I don't know, my university doesn't have a subscription to The American Journal of Tropical Medicine and Hygiene. What are the odds that researchers in a low-income country will? 
+> After each test, all insects in the test chambers were vacuumed and test chambers were washed with non-fragrance soap and water and rinsed between each test.
 
-Does Foster and Lutes mention hand-prints? Well,  We see that the new master source of information which is now relied on by 8 papers 
-https://www.biodiversitylibrary.org/content/part/JAMCA/JAMCA_V01_N2_P199-202.pdf
+No longer alcohol; now "non-fragrence soap"; No mention is made of gloves; and now hey presto, this time, we get one slightly positive result:
 
-Gouck in 1972 already mentions that
+> The use of ultrasound in some experiments resulted in statistically significant differences in distribution of mosquitoes within a chamber compared to a chamber without ultrasound.
+
+The integrity of Ahmad et al is admirable; they choose to report all the data and report a negative result. If they were under more pressure, or had more strongly convinced themselves that the devices work, we might have had a breathless press release that "KSU device repels mosquitos".
+
+And, Poh 2017, again testing an electronic method, mentions cleaning in passing, but not what solvent, and not to remove hand-prints, but to remove mosquito droppings, and does not mention gloves.
+
+Does Klowden and Lea 1978 even mention hand-prints? I don't know, my university doesn't have a subscription to The American Journal of Tropical Medicine and Hygiene. What are the odds that researchers in a low-income country will have access? 
+
+Certainly the problem was already known to [Gouck in 1972](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2480823/), who mention that
+
 > Rubber or plastic gloves must be worn whenever the apparatus is handled.
 
-https://www-ncbi-nlm-nih-gov.ezproxy.library.yorku.ca/pmc/articles/PMC2480823/pdf/bullwho00185-0138.pdf
+Do (Foster and Lutes 1985) mention gloves or hand-prints? [No.](https://www.biodiversitylibrary.org/content/part/JAMCA/JAMCA_V01_N2_P199-202.pdf)
+
+The key is, had I taken great effort, had I followed Cabrini's protocol exactly, I would not have done good science, and through no fault of any of the authors, editors, or myself. We see that this critical admonition has been silently dropped from the "new standard" through a game of Telephone. The new primary source of information which is now relied on by 8 papers, none of which cite Klowden and Lea (where one might obtain the hand-print glove warning). 
 
 None of the papers are bad science. They are all meticulous and exacting. 
 
@@ -293,13 +298,11 @@ Consider some future experimenter. They come up with some remarkable hypothesis 
 
 *The system has failed them.*
 
-Or, a more mundane, maybe they read Poh et al, decide "ah, the chamber must be cleaned, aren't we clever", and use ethanol (vapor pressure 12.4 kpa) rather than isoproyl (4.4). Now their mosquitoes really go crazy. A grad student spends three months trying to figure out what the devil is going on with their damned dopey aegypti, burns out, leaves academia to become a 
+Or, a more mundane, maybe they read Poh et al, decide "ah, the chamber must be cleaned, aren't we clever", and use ethanol (vapor pressure 12.4 kpa) rather than isoproyl (4.4). Now their mosquitoes really go crazy. A grad student spends four months trying to figure out what the devil is going on with their damned dopey aegypti, burns right out, leaves academia to become a hedge trimmer, and society is the worse for it.
 
-So who will systematize things? Will some international society form and publish a quarterly report
-on minimal experimental conditions in mosquito research specifically pertaining to the evaluation of electronic mosquito repellents? 
+So who will systematize things? Will some international society form and publish a quarterly report on uniform experimental conditions in mosquito research specifically pertaining to the evaluation of electronic mosquito repellents? 
 
-I think the 
-
+I think this is where the internet comes in. 
 
 <hr>
 
@@ -327,9 +330,7 @@ Similarly, these best practices won't help you with artifacts on one's LIGO, of 
 
 <hr>
 
-# Case Study 2
-
-Let us perform a brief root-cause-analysis.
+# Case 2
 
 "Laser produced plasma diagnosis of carcinogenic heavy metals in gallstones", Gondal et al.
 
