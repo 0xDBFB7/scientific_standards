@@ -214,6 +214,8 @@ They describe:
 
 One might argue that this is a sort of "implicit" or *de facto* standard, a type used almost everywhere in the literature; one group bases their experimental design on a previous group's well-established design (which, in this case, had nothing to do with electronic mosquito repellents). Each experiment reinforces the other in the age-old way.
 
+To their credit, this field appears to have automatically standardized itself to a 
+
 Cabrini et al's study yields robust results that align neatly with previous data and agree with hypotheses from other studies; a testament to the experience and skill of the researchers and their use of existing best practices in mosquito research. 
 
 However, even here, we have hints that an "explicit", *de jure* perscriptive standard might be useful:
@@ -222,61 +224,27 @@ However, even here, we have hints that an "explicit", *de jure* perscriptive sta
 
 Compare: [Saalman 1991](https://doi.org/10.1016/0005-2736(91)90418-8) reported a novel result on membranes in an electric field. This was later found ([Bergqvist et al 1994](https://doi.org/10.1016/0304-4165(94)90150-3)) to be just a complex interaction with a beaker made of Teflon versus glass. One can concoct a scenario in which polystyrene walls would have a similar confounding effect with mosquitos and ultrasound. Consider how mystifying such an artifactual result would be!
 
+Now, to justify this change in material, Cabrini et al first publish a great paper on their modifications, comparing results to Klowden & Lea (1978), and mention that
 
-Improvement of a test-chamber for behavioral studies on adult females of Aedes aegypti
-> "Later, Foster & Lutes (1985) also used an identical chamber to successfully evaluate the efficacy of electronic repellers"
-https://www.scielo.br/j/rbent/a/3d668m6TKfNtdVBQ5bcQpPH/?lang=en&format=pdf
+> "Foster & Lutes (1985) also used an identical chamber to successfully evaluate the efficacy of electronic repellers"
+> [Improvement of a test-chamber for behavioral studies on adult females of Aedes aegypti](https://www.scielo.br/j/rbent/a/3d668m6TKfNtdVBQ5bcQpPH/?lang=en&format=pdf)
+
+<hr>
 
 
+In 2017, well after Cabrini et al's 2007 paper validating an improved chamber, [Ong et al](https://ejournal.ukm.my/serangga/article/viewFile/22882/7262) go back to using a Klowden and Lea 1978 / (Foster & Lutes 1985) type of chamber, but it's not the same; K&L specify a ~6 cm diameter flight tunnel, Cabrini use 20 cm diameter, Ong et al use 11 cm and use a PVC adaptor in one place rather than polyethylene or polystyrene. One could imagine trace bisphenol plasticizer from PVC making mosquitoes randy, since hormones are a potential factor ["implying illogically that imitating the male wing beat sound would repel conspecific females."].
 
-Again, every "good scientist" will perform the calibration and comparison needed to justify these kinds of changes (as was done in this case). But the process should be somewhat tolerant to "poor scientists", even inherently making them improve.
-
-At the same time, perhaps the modification made by Cabrini is an important one, and one which should be kept for future studies (the change was made for "a lighter and easier to assemble chamber"). In that case, the modified version must be tested so thoroughly that there remains no ambiguity that any effect is an artifact of the change. If this is not done, it is possible that a modified version could be "infective", and corrupt many years of work.
-
-<!-- One route out would be for industry to produce equipment. If ACME Co. This is also fraught. Silent changes in processes for temperature-measuring probes contaminated decades of climatology data. -->
-
-Ideally, if standards are sufficiently well written, verifying such a change could be a straightforward checklist.
-
-It would probably not be very onerous for Klowden and Lea to produce an initial perscriptive standard.
-
-Continuing 
-
-we see now that there is a fork in the literature
-
-"There are various designs for analysing insects in-lab with various justifications [17–19]. However, in this study, a more specific design is required as shown in Fig 1, which is a modified version from a previous closely related research [20]."
-https://doi.org/10.1371/journal.pone.0178766
-
-To their credit, this field appears to have automatically standardized itself to a great degree. There is good agreement between 
-
-In 2017, after Cabrini et al's 2007 paper validating their new chamber, [Ong et al](https://ejournal.ukm.my/serangga/article/viewFile/22882/7262) go back to using a K&L 1978 / (Foster & Lutes 1985) chamber. K&L specify a ~6 cm diameter flight tunnel. Cabrini use 20 cm diameter. Ong et al use 11 cm. Ong et al use a PVC adaptor in one place. (could trace bisphenol plasticizer from PVC makes the mosquitoes randy, since hormones are a potential factor ["implying illogically that imitating the male wing beat sound would repel conspecific females."]?).
-
-Ong have noted a very important fact, and here we see a possible mechanism by which the material and the diameter could alter the results:
+More importantly, Ong have noted a very important fact, and here we see a possible mechanism by which the material and the diameter could alter the results:
 
 > "From the previous studies, mosquitoes were sensitive to the hand-touch contamination on the inner walls of the test chamber. This was carefully avoided by wearing hand gloves while carrying out the test and each part of the test chamber was washed with detergent after each assay."
 
 Indeed, in a thesis by Dogan, 1998, 
 
 > "To eliminate the human odor contamination, latex gloves were used at all times and the olfactometer was cleaned after each use with alcohol"
->
-> "Olfactometers used in the bioassays for evaluating repellents usually do not measure repellency, but rather measure non-attraction. Therefore, I designed a novel olfactometer that divides host-seeking behavior of mosquitoes into attraction and repellency at close range. I compared my olfactometer with another similar olfactometer and found no difference when attraction was measured. However, the new olfactometer assesses true repellency. I also added a new term to the terminology of host-seeking behavior, that is 'inhibition'."
 
-Neither Cabrini paper mentions gloves or cleaning of the chamber. This is probably unfair - their test did not use the chamber to test an olfactory repellent configuration - but the scent of a human hand is still used as the lure, meaning the confound still exists. Clearly the precautions were used without mention or not important in this case, since they obtained good data; but. 
+Neither Cabrini paper explicitly mentions gloves or cleaning of the chamber. To the suggestion that their test did not use the chamber for an olfactory repellent configuration, the scent of a human hand is still used as the lure, meaning the confound still exists. Clearly the precautions were used without mentioning them, or were not important in this case, since they obtained good data. 
 
-One might say that the paper did not mention it because they base their protocol on K&L's paper, and surely one would read the underlying paper?  
-
-Well, Ahmad et al 2007 cite Cabrini 2007, but not K&L 1978; the test chamber is entirely different this time;
-
-> After each test, all insects in the test chambers were vacuumed and test chambers were washed with non-fragrance soap and water and rinsed between each test.
-
-No longer alcohol; now "non-fragrence soap"; No mention is made of gloves; and now, hey presto, this time we get one slightly positive result:
-
-> The use of ultrasound in some experiments resulted in statistically significant differences in distribution of mosquitoes within a chamber compared to a chamber without ultrasound.
-
-The integrity of Ahmad et al is admirable; they choose to report all the data and report a negative result. If they were under more pressure, or had more strongly convinced themselves that the devices work, we might have had a breathless press release that "KSU device repels mosquitos".
-
-And, Poh 2017, again testing an electronic method, mentions cleaning in passing, but not what solvent, and not to remove hand-prints, but to remove mosquito droppings, and does not mention gloves.
-
-Does Klowden and Lea 1978 even mention hand-prints? I don't know, my university doesn't have a subscription to The American Journal of Tropical Medicine and Hygiene. What are the odds that researchers in a low-income country will have access? 
+Does Klowden and Lea 1978 even mention hand-prints? I don't know; my university doesn't have a subscription to The American Journal of Tropical Medicine and Hygiene. What are the odds that researchers in a low-income country with a malaria problem will have access? 
 
 Certainly the problem was already known to [Gouck in 1972](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2480823/), who mention that
 
@@ -284,21 +252,45 @@ Certainly the problem was already known to [Gouck in 1972](https://www.ncbi.nlm.
 
 Do (Foster and Lutes 1985) mention gloves or hand-prints? [No.](https://www.biodiversitylibrary.org/content/part/JAMCA/JAMCA_V01_N2_P199-202.pdf)
 
+One might (very rightfully) say that the Cabrini paper did not mention cleaning standards because they base their protocol on K&L's paper, and surely one would read the underlying paper. It can hardly be the scientist's responsiblity to regurgitate every fact in a field in their work!
+
+Well, [Ahmad et al 2007](https://doi.org/10.1111/j.1570-7458.2006.00519.x) cite Cabrini 2007 on electronic repellers, *but not Klowden and Lea 1978*; the test chamber is yet again entirely different this time, and
+
+> After each test, all insects in the test chambers were vacuumed and test chambers were washed with non-fragrance soap and water and rinsed between each test.
+
+No longer alcohol; now "non-fragrence soap"; no explicit mention is made of gloves; and, lest you think this a bunch of nitpicking, hey presto, this time we get one slightly positive result with a small effect size:
+> The use of ultrasound in some experiments resulted in statistically significant differences in distribution of mosquitoes within a chamber compared to a chamber without ultrasound.
+
+The integrity of Ahmad et al is admirable; they choose to report all the data and report a negative result, because they are good scientists. If they were under more pressure, or had more strongly convinced themselves that the devices work, there might have been a breathless press release that "KSU device repels mosquitos".
+
 <hr>
 
-We see that this critical admonition has been silently dropped from the "new standard" through a game of Telephone. The new primary source of information, now relied on by 8 papers, none of which cite Klowden and Lea (where one might learn the hand-print and glove warning).
+Next, [Poh 2017](https://doi.org/10.1371/journal.pone.0178766), again testing an electronic method, mentions cleaning in passing, but not what solvent, and not to remove hand-prints, but to remove mosquito droppings, and does not mention gloves. We see now that there is another fork in the literature:
 
-The key is, had I taken great effort, had I followed Cabrini's protocol exactly, I would not have done the best quality science, and through no fault of any of the authors, editors, or myself. 
+> "There are various designs for analysing insects in-lab with various justifications [17–19]. However, in this study, a more specific design is required as shown in Fig 1, which is a modified version from a previous closely related research [20]."
 
-None of the papers are bad science. They are all meticulous and exacting. The problem is that, in other fields, this very same subtle variation in methods has produced [a ~5-to-1 systematic false positive rate](https://doi.org/10.1667/RR15117.1). It may be easy to see how these effects can quickly produce an impotent concensus.
+<hr>
+
+
+We see that this critical admonition has been silently dropped from the "new standard" through a game of Telephone. The C new primary source of information, now relied on by 8 papers, none of which cite Klowden and Lea (where one might learn the hand-print and glove warning).
+
+The key is, had I taken great effort, had I followed Cabrini's protocol exactly (or even any single paper's protocol), I could not possibly have done the best quality science, and through no fault of any of the authors, editors, or myself. The protocol needs to be re-assembled every time it is used, and something is inevitably missed.
+
 
 Consider some future experimenter. They come up with some remarkable hypothesis on a new waveform for an electronic repellant. They read Cabrini and a few other recent papers, follow the prescriptions precisely. Between each trial, they reach into the chamber to flip the switch on the repeller; their forearm deposits a print on the edge of the chamber. They open the chamber, the print evaporates a bit, and now their hand doesn't need to reach so far to push the switch back. The mosquitos track the switch position perfectly. They sell their repellants, backed by real science. People wear them and feel protected. Malaria cases spike. 
 
-*The system has failed them.*
+Or, in a more mundane case, maybe they read Poh et al 2017, decide "ah, the chamber must be cleaned between trials", and use ethanol (vapor pressure 12.4 kpa) rather than isopropyl (4.4). Now a grad student spends four months trying to figure out what the devil is going on with their damned dopey aegypti, burns right out, leaves academia to become a hedge trimmer, and society is the worse for it. 
 
-Or, in a more mundane case, maybe they read Poh et al 2017, decide "ah, the chamber must be cleaned between trials", and use ethanol (vapor pressure 12.4 kpa) rather than isopropyl (4.4). Now their mosquitoes really go crazy. A grad student spends four months trying to figure out what the devil is going on with their damned dopey aegypti, burns right out, leaves academia to become a hedge trimmer, and society is the worse for it. 
+All that is needed is to conscisely and comprehensively expose existing knowledge. 
 
-All that is needed is to conscisely and comprehensively expose existing knowledge where it is used. 
+
+None of the papers are bad science. They are all meticulous and exacting. The problem is that, in other fields, this very same subtle variation in methods has produced [a ~5-to-1 systematic false positive rate](https://doi.org/10.1667/RR15117.1). It may be easy to see how these effects can quickly produce an impotent concensus.
+
+At the same time, perhaps the modifications made by various groups are important, and should be kept for future studies (for Cabrini, the change was made for "a lighter and easier to assemble chamber"). In that case, the modified version must be tested so thoroughly that there remains no ambiguity that any effect is an artifact of the change. If this is not done, it is possible that a modified version could be "infective", and corrupt many years of work.
+
+Every "good scientist" will perform the calibration and comparison needed to justify these kinds of changes, as was done by Cabrini. But the process should be somewhat tolerant to "poor-quality scientists", even inherently making them improve.
+
+Ideally, if standards are sufficiently well written, verifying such a change could be a straightforward checklist. 
 
 <hr>
 
@@ -388,6 +380,12 @@ Obviously, this will never work, but it's fun to dream.
 
 
 # The best possible experiment
+
+
+Let us return to Dogan, 
+
+> "Olfactometers used in the bioassays for evaluating repellents usually do not measure repellency, but rather measure non-attraction. Therefore, I designed a novel olfactometer that divides host-seeking behavior of mosquitoes into attraction and repellency at close range. I compared my olfactometer with another similar olfactometer and found no difference when attraction was measured. However, the new olfactometer assesses true repellency. I also added a new term to the terminology of host-seeking behavior, that is 'inhibition'."
+
 
 the most firm foundation for future research to build on top of.
 
