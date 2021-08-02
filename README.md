@@ -3,11 +3,12 @@
 
 ## Could it be useful to make scientific best practices into explicit, *de jure* standards?
 
+[TL:DR: Level III](#level-iii-oh-boy-this-is-the-good-stuff)
+
 ##### Please note that amazing people are already doing awesome work along these lines; one can now hear discussions on reproducibility in every corner of science. This is just a minor restatement of what many others have stated much more eloquently, and standards can only possibly play a small part in the grand orchestra of integrity.
 
 ##### Additionally, this is tedious overripe meta-research from someone who has no scientific output to speak of, and has no right to cavil and carp on such topics.
 
-[TL:DR: Level III](#level-iii-oh-boy-this-is-the-good-stuff)
 
 <hr>
 
@@ -277,6 +278,8 @@ Next, [Poh 2017](https://doi.org/10.1371/journal.pone.0178766), again testing an
 
 <hr>
 
+None of the papers are bad science. They are all meticulous and exacting. The problem is that, in other fields, this very same subtle variation in methods has produced [a ~5-to-1 systematic false positive rate](https://doi.org/10.1667/RR15117.1). It may be easy to see how these effects can quickly produce an impotent concensus.
+
 We see that a critical admonition has been silently dropped from the "new standard" through a game of Telephone. A new primary source of information, now relied on by 8 papers, none of which cite Klowden and Lea (where one might learn the hand-print and glove warning).
 
 The key is, had I taken great effort, had I followed Cabrini's protocol exactly (or even any single paper's protocol), I could not possibly have done the best quality science, and through no fault of any of the authors, editors, or myself. The protocol needs to be re-assembled every time it is used, and something is inevitably missed.
@@ -284,8 +287,6 @@ The key is, had I taken great effort, had I followed Cabrini's protocol exactly 
 Consider some future experimenter. They come up with some remarkable hypothesis on a new waveform for an electronic repellant. They read Cabrini and a few other recent papers that they have access to, and follow the prescriptions precisely. Between each trial, they reach into the chamber to flip the switch on the repeller; their forearm deposits a print on the edge of the chamber. They open the chamber, the print evaporates a bit, and now their hand doesn't need to reach so far to flip the switch back. The mosquitos track the switch position perfectly. They sell their repellants, backed by real science. People wear them and feel protected. Malaria cases spike. 
 
 Or, in a more mundane case, maybe they read Poh et al 2017, decide "ah, the chamber must be cleaned between trials", and use ethanol (vapor pressure 12.4 kpa) rather than isopropyl (4.4). Now a grad student spends four months trying to figure out what the devil is going on with their damned dopey aegypti, burns right out, leaves academia to become a hedge trimmer, and society is the worse for it. 
-
-None of the papers are bad science. They are all meticulous and exacting. The problem is that, in other fields, this very same subtle variation in methods has produced [a ~5-to-1 systematic false positive rate](https://doi.org/10.1667/RR15117.1). It may be easy to see how these effects can quickly produce an impotent concensus.
 
 All that is needed is to conscisely and comprehensively expose existing knowledge, to agree on the best test chamber design, and to follow it as precisely as possible.
 
