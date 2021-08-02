@@ -7,6 +7,8 @@
 
 ##### Additionally, this is tedious overripe meta-research from someone who has no scientific output to speak of, and has no right to cavil and carp on such topics.
 
+TL:DR: [Read this.](##-Level-III)
+
 <hr>
 
 > :cyclone: This is a collaborative project!
@@ -22,6 +24,7 @@
 > 3. Joining the [voting mailing list](https://forms.gle/GcFkgqGACnhsSmQN8) and/or the Issue (set Notifications->Custom->(Closed+Reopened)) for your own field of expertise
 > 4. Posting an issue or PR with a draft standard or literature review for your field.
 > (Be aware that, unlike a paper, your contribution may be [modified by others](https://en.wikipedia.org/wiki/Wikipedia:Ownership_of_content) as knowledge of the field progresses and new circumstances must be covered).
+
 
 <hr>
 
