@@ -397,14 +397,9 @@ There are probably countless other systemic issues and perverse incentives at pl
 
 - Attempt to standardize and condense established scientific techniques into their most repeatable, stable, and easy-to-use forms, with detailed perscriptions down to every sentence in a logbook, addressing deficiencies immediately as they are discovered
 - Form a central clearinghouse for best practices and scientific consensus in every field, updated regularly to most closely reflect the best interpetations of the best data at hand - not necessarily to replace the literature, but to supplement it,
-- Gather both casual users of techniques and experts into communication, respecting the time of each, managing improvements to the above, and providing real-time .
+- Gather both casual users of techniques and experts into communication, respecting the time of each, and managing improvements to the above.
 
 Obviously, this will never work, but it's fun to dream. 
-
-
-# Precedent
-
-- MDPI *Standards*
 
 
 
@@ -490,6 +485,13 @@ following a different tack, giving you a unique perspective. also, the idea is g
 - If these standards become good enough, it might be possible for non-experts to publish good results by rote. I think this is an improvement over the current system, where non-experts publish bad results, but some might differ.
 
 
+
+# Precedent
+
+- MDPI *Standards*
+
+
+
 <!-- 
 
 # Finally
@@ -500,23 +502,6 @@ But this is what provides my funding
 > ...letting others waste their time so that while they are busy figuring out what you already learned, you can beat them publishing before them. Do you think academia is a bunch of hippies ? 
 https://academia.stackexchange.com/a/733 (tongue-in-cheek, I presume)
 
-
-
-
-You are paid by the state, the university, the taxpayer; too little, probably, much less than you deserve, but from.
- Your office is partly the result of students working minimum-wage service jobs; your data on the backs of students working overtime on subsistence stipends,
- equipment, a grant
-
-Your work is supremely valuable; it can, on the balance, produce 3 to 7 times return-on-investment.
-But that value is totally contained within what you *share*, not what you accomplish. 
-
-Your work would be nothing without the foundation of giants who did not stoop
-
-Few beyond the PR team or the tabloids cares that, at such-and-such a university so-and-so built a such-and-such. will be a footnote to history compared to the *output*; what you share, what others can meaningfully build upon.
-
-As a scientist, your opinion is given some kind of weight
-
-If you are not willing to furnish the integrity of your results, you do not deserve the title "scientist".
 
 -->
 
