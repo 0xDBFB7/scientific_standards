@@ -316,7 +316,7 @@ Better pre-trial communcation with experts, especially via protocol pre-review, 
 
 While we want uniform methods, we also simultaneously want to use the best and most stable methods available at the time, to offer the firmest foundation for future research to build on. 
 
-In my case, I read several thousand papers, a few books. A paper on the most common experiment design in this field has been cited about 5000 times; it has common issues with stability of results (a great deal of care is required for accuracy). Guidelines on the second most common technique, which is usually quite accurate, are often cited about 250 times.
+How is one to learn which method they should use? In my case, I read a large number of papers and a few books. A paper on the most common experiment design in this field has been cited about 5000 times; it has common issues with stability of results (a great deal of care is required for accuracy). Guidelines on the second most common technique, which is usually quite accurate, are often cited about 250 times.
 
 And then, shortly before a data-taking run, I found [a paper](https://doi.org/10.1063/1.1139901) on a completely novel topology. It requires no equipment that a standard university lab would not have, yet is *orders of magnitude more sensitive*, and is absolutely immune to the most common artifacts. It has been cited three times. 
 
