@@ -1,6 +1,4 @@
 
-Defer to existing standards if at all possible. 
-
 # Field
 
 ### Scope: 

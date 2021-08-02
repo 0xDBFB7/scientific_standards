@@ -160,6 +160,12 @@ tests and ensure that you
 
 
 
+automatically move sections into checklist and lit. review
+https://unix.stackexchange.com/questions/180663/how-to-select-first-occurrence-between-two-patterns-including-them?noredirect=1&lq=1
+
+
+
+
 One-tailed or two-tailed test?
 
 
