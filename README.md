@@ -310,6 +310,32 @@ Some kinds of "best practices" develop organically, necessarily rely totally on 
 
 Better pre-trial communcation with experts, especially via protocol pre-review, can probably help with this; see, for instance, PLoS One's ["Registered Reports"](https://everyone.plos.org/2020/01/14/registered-reports-are-coming-to-plos-one/).
 
+
+
+# The best possible experiment
+
+While we want uniform methods, we also simultaneously want to use the best and most stable methods available at the time, to offer the firmest foundation for future research to build on. 
+
+In my case, I read several thousand papers, a few books. A paper on the most common analytical experiment in this field has been cited about 5000 times; it has common issues with stability of results (a great deal of care is required for accuracy). Guidelines on the second most common technique, which is usually quite accurate, are often cited about 250 times
+
+And then, shortly before a data-taking run, I found [a paper](https://doi.org/10.1063/1.1139901) on a completely novel topology. It requires no equipment that a standard university lab would not have, yet is *orders of magnitude more sensitive*, and is absolutely immune to the most common artifacts. It has been cited three times. 
+
+Certainly this is mostly my ignorance and inexperience at play, but it seems like that shouldn't happen; and yet I have little reason to believe that my experience is unique.
+
+Let us return to the thesis by Dogan on mosquitoes.
+
+> "Olfactometers used in the bioassays for evaluating repellents usually do not measure repellency, but rather measure non-attraction. Therefore, I designed a novel olfactometer that divides host-seeking behavior of mosquitoes into attraction and repellency at close range. I compared my olfactometer with another similar olfactometer and found no difference when attraction was measured. However, the new olfactometer assesses true repellency. I also added a new term to the terminology of host-seeking behavior, that is 'inhibition'."
+
+
+So, the implicit standardization discussed above is, I think, a poor sort of standard. If everyone cites a paper from 1978:
+
+- A paper is immutable in the face of progress. It provides no context regarding future developments and can never be "superseded" meaningfully. 
+- It is hardly possible to provide sufficient detail to be replicable in a 5-page paper. The emphasis is usually on the results, not necessarily describing methods in excruciating detail.
+
+
+
+
+
 <hr>
 
 Of course, checklists and standards can only ever capture the "low-hanging fruit" of mistakes; the "unforced errors" like [contaminated cell lines](https://doi.org/10.1126/science.6451928) and [Microsoft Excel](https://doi.org/10.1186/s13059-016-1044-7) ("A programmatic scan of leading genomics journals reveals that approximately one-fifth of papers with supplementary Excel gene lists contain erroneous gene name conversions").
@@ -347,9 +373,8 @@ It is also [completely wrong](https://doi.org/10.1039/C6JA00373G) and was retrac
 
 The reasons are very complicated for someone who does not know MS spectra from Adam, such as myself. But ultimately, all the techniques used are well-estabilished. Mass spectrometry was invented in 1918 and spectrometric line analysis has ~80 years of precedent, ICP-MS has been used since 1980 and best-practices abound, LIBS has been used [since the 1960s](https://arxiv.org/pdf/1407.0132.pdf). 
 
-I believe this was an unforced error on the part of the literature. This paper did not need to be written, and there was absolutely no reason for it to be published. Or, alternatively, since the authors disagree with the retraction, if the paper is correct and the retraction was invalid, there is no reason why such ambiguity ever needed to exist. 
 
-The paper's authors appear to be excellent scientists. The first author has since helped with interesting papers on all sorts of materials science. The second author has gone on to produce a great result in antibiotics. Perhaps I am too generous, but I do not believe it would be fair to blame the authors, considering that the peer-reviewers, presumably *experts in the field of spectroscopy*, did not see an issue. Neither can I blame the editors.
+The paper's authors appear to be excellent scientists. The first author has since helped with interesting papers on all sorts of materials science. The second author has gone on to produce a great result in antibiotics. Perhaps I am too generous, but I do not believe it would be fair to blame the authors, considering that the peer-reviewers, presumably *experts in the field of spectroscopy*, did not see an issue. Neither can I blame the editors, for the same reasons plus an overwhelming workload.
 
 First, (and, admittedly, with the benefit of post-hoc reasoning), the entire mistake could perhaps have been easily systematized into a checkbox that any of the reviewers could have verified quickly - or (speculation) potentially even automated by the journal:
 
@@ -362,6 +387,7 @@ Second, under absolutely optimal conditions, the LOD of LIBS is generally claime
 - If the authors wanted to demonstrate a new innovation to LIBS that reduced the LOD or made it possible to detect metals in gallstones (the implied goal, given the publication venue), I am sure such a report would be welcomed.
 - If the authors wanted to report the variation of heavy metals in gallstones, there is presumably much precedent in heavy-metals analysis; accepted protocols used by healthcare workers. The use of n=2 gallstones from just two different ages would perhaps make this result underpowered for this purpose.
 
+I believe this was an unforced error on the part of the literature. There seems to be no good reason why this work was done, or why this paper was published. Or, alternatively, since the authors disagree with the retraction, if the paper is correct and the retraction was invalid, there does not seem to be a good reason why such ambiguity ever needed to exist. 
 There are probably countless other systemic issues and perverse incentives at play here. Perhaps funding was only available for health research into gallstones, and so the research interest was distorted accordingly. In some ways this is an issue of paper scoping. But a straightforward systematization seems to be possible.
 
 <hr>
@@ -382,33 +408,22 @@ Obviously, this will never work, but it's fun to dream.
 
 
 
-# The best possible experiment
 
 
-Let us return to Dogan, 
-
-> "Olfactometers used in the bioassays for evaluating repellents usually do not measure repellency, but rather measure non-attraction. Therefore, I designed a novel olfactometer that divides host-seeking behavior of mosquitoes into attraction and repellency at close range. I compared my olfactometer with another similar olfactometer and found no difference when attraction was measured. However, the new olfactometer assesses true repellency. I also added a new term to the terminology of host-seeking behavior, that is 'inhibition'."
 
 
-the most firm foundation for future research to build on top of.
 
-The implicit standardization discussed above is, I think, a poor sort of standard. 
 
-- A paper is immutable in the face of progress. It provides no context regarding future developments. This is not a theoretical problem; 
-- It is hardly possible to provide sufficient detail to be replicable in a 5-page paper. The emphasis is usually on the results, not necessarily describing methods in excruciating detail.
 
-<!-- But there -->
+
+<!-- But there
 
 Superseded
-
-Say I set out, with the best of intentions, to produce a certain result in a field. How would I learn what I should do?
-
-In my case, I read several thousand papers, a few dozen books - and then, two weeks before a data-taking run, I found a relatively little-known paper describing a simple technique 100x more sensitive and absolutely immune to the most common artifacts. It seems like that shouldn't happen. 
 
 <hr>
 
 A meta-society; one that forms societies spontaneously 
-
+-->
 
 # A standard literature
 
