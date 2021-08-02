@@ -11,12 +11,16 @@
 
 > :cyclone: This is a collaborative project!
 >
-> If you think this is worthwhile and you have some free time, perhaps you could consider 
+> If you think this is worthwhile and you have some time, perhaps you could consider 
 >
-> 0. Discussing whether this is [even a good idea](https://github.com/0xDBFB7/scientific_standards/issues/2).
-> 1. Discussing the parts of the MISEV[see below], RFC, or other standards that you're familiar with, to establish a preliminary meta-standard
-> 2. Joining the Issue (set Notifications->Custom->(Closed+Reopened) and/or the [voting mailing list](https://forms.gle/GcFkgqGACnhsSmQN8) for your own field of expertise
-> 3. Posting an issue or PR with a draft standard or literature review for your field.
+> 0. Discussing whether this is [even a good idea](https://github.com/0xDBFB7/scientific_standards/issues/2), existing efforts of the same kind, etc.
+> 1. Discussing the parts of the MISEV[see below], RFC, or other standards that you're familiar with, to establish some kind of meta-standard
+> 2. Publishing your protocols on [protocols.io](https://protocols.io) or equivalent, answering questions from new researchers in the field, getting pre-trial [advice](http://openreview.net/) from other experts, writing more detail into papers, creating societies, publishing in open-access journals, using open lab notebooks.
+>
+> if it is decided that this repo is a good place to start working on standards,
+>
+> 3. Joining the Issue (set Notifications->Custom->(Closed+Reopened) and/or the [voting mailing list](https://forms.gle/GcFkgqGACnhsSmQN8) for your own field of expertise
+> 4. Posting an issue or PR with a draft standard or literature review for your field.
 > (Be aware that, unlike a paper, your contribution may be [modified by others](https://en.wikipedia.org/wiki/Wikipedia:Ownership_of_content) as knowledge of the field progresses and new circumstances must be covered).
 
 <hr>
@@ -214,8 +218,6 @@ They describe:
 
 One might argue that this is a sort of "implicit" or *de facto* standard, a type used almost everywhere in the literature; one group bases their experimental design on a previous group's well-established design (which, in this case, had nothing to do with electronic mosquito repellents). Each experiment reinforces the other in the age-old way.
 
-To their credit, this field appears to have automatically standardized itself to a 
-
 Cabrini et al's study yields robust results that align neatly with previous data and agree with hypotheses from other studies; a testament to the experience and skill of the researchers and their use of existing best practices in mosquito research. 
 
 However, even here, we have hints that an "explicit", *de jure* perscriptive standard might be useful:
@@ -271,7 +273,7 @@ Next, [Poh 2017](https://doi.org/10.1371/journal.pone.0178766), again testing an
 
 <hr>
 
-We see that this critical admonition has been silently dropped from the "new standard" through a game of Telephone. A new primary source of information, now relied on by 8 papers, none of which cite Klowden and Lea (where one might learn the hand-print and glove warning).
+We see that a critical admonition has been silently dropped from the "new standard" through a game of Telephone. A new primary source of information, now relied on by 8 papers, none of which cite Klowden and Lea (where one might learn the hand-print and glove warning).
 
 The key is, had I taken great effort, had I followed Cabrini's protocol exactly (or even any single paper's protocol), I could not possibly have done the best quality science, and through no fault of any of the authors, editors, or myself. The protocol needs to be re-assembled every time it is used, and something is inevitably missed.
 
