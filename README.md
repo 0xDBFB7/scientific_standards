@@ -15,11 +15,11 @@
 >
 > 0. Discussing whether this is [even a good idea](https://github.com/0xDBFB7/scientific_standards/issues/2), existing efforts of the same kind, etc.
 > 1. Discussing the parts of the MISEV[see below], RFC, or other standards that you're familiar with, to establish some kind of meta-standard
-> 2. Publishing your protocols on [protocols.io](https://protocols.io) or equivalent, answering questions from new researchers in the field, getting pre-trial [advice](http://openreview.net/) from other experts, writing more detail into papers, creating societies, publishing in open-access journals, using open lab notebooks.
+> 2. Publishing your protocols on [protocols.io](https://protocols.io) or equivalent, answering questions from new researchers in the field, getting pre-trial [guidance](http://openreview.net/) from other experts, writing more detail into papers, creating societies, publishing in open-access journals, using open lab notebooks.
 >
-> if it is decided that this repo is a good place to start working on standards,
+> If it is decided that this repo is a good place to start working on standards,
 >
-> 3. Joining the Issue (set Notifications->Custom->(Closed+Reopened) and/or the [voting mailing list](https://forms.gle/GcFkgqGACnhsSmQN8) for your own field of expertise
+> 3. Joining the [voting mailing list](https://forms.gle/GcFkgqGACnhsSmQN8) and/or the Issue (set Notifications->Custom->(Closed+Reopened)) for your own field of expertise
 > 4. Posting an issue or PR with a draft standard or literature review for your field.
 > (Be aware that, unlike a paper, your contribution may be [modified by others](https://en.wikipedia.org/wiki/Wikipedia:Ownership_of_content) as knowledge of the field progresses and new circumstances must be covered).
 
@@ -38,15 +38,15 @@
 
 I would first like to argue that the majority of science is safety-critical now. Though a failure of the scientific process doesn't make bridges fall immediately, it misinforms public policy and undermines trust in our ability to determine how the world works. 
 
-That paper may be of no consequence to a technical audience, but when reported on credulously as "Scientists Find Fungus on Mars" next to "Scientists Claim Vaccines Safe", it becomes deadly. A NIST group found to produce an incorrect value of a constant is at risk of being garroted by sleep-deprived PhD candidates. 
+That junk paper may be of no consequence to a technical audience, but when reported on credulously as "Scientists Find Fungus on Mars" next to "Scientists Claim Vaccines Safe", it becomes deadly. <!-- A NIST group found to produce an incorrect value of a constant is at risk of being garroted by sleep-deprived PhD candidates. -->
 
-Any special weight which is put on scientific assertions in debate weighs equally on our responsibility for accuracy. A world where the scientific literature is not the place to find the best available [approximation of the truth](https://www.nist.gov/video/nist-colloquium-series-can-you-trust-fourth-paradigm-michael-lesk) is pretty dismal; extraordinary measures should be designed to ensure its validity without reducing productivity.
+Any special weight which is put on scientific assertions in debate weighs equally on our responsibility for accuracy. A world where the scientific literature is not the place to find the best available [approximation of the truth](https://www.nist.gov/video/nist-colloquium-series-can-you-trust-fourth-paradigm-michael-lesk) sounds pretty dismal; if it is possible, I believe extraordinary measures should be designed to ensure its validity without reducing productivity.
 
-Moreover, a repeated mistake is a lost opportunity to improve society. [Since](https://advances.sciencemag.org/content/7/21/eabd1705) "Existing evidence also shows that experts predict well which papers will be replicated", it seems studies are often being conducted where experts can immediately identify failures in methodology. With better dissemination and understanding of the motivations of existing best practices, it stands to reason that many of these low-quality investigations might never been performed at all; the experts and users appear to be operating with very different sets of information.
+Moreover, a repeated mistake is a lost opportunity to improve society. [Since](https://advances.sciencemag.org/content/7/21/eabd1705) "Existing evidence also shows that experts predict well which papers will be replicated", it seems studies are often being conducted where experts can immediately identify failures in their methodology. With better dissemination and understanding of the motivations of existing best practices, it stands to reason that many of these low-quality investigations might never be performed; the experts and users appear to be operating with very different sets of information.
 
 We are told that we should follow the scientific consensus, but where is this consensus? It's nowhere you can read; it exists only in the minds of experts, and you hardly ever know which ones; it is scattered about a century of literature; a message in a bottle in the sea. Maybe this is just a necessary part of science, and no alternative is feasible, but I believe that there are some hints that, with changes in infrastructure, this may no longer be the case.
 
-We emphasize rigor, but as I hope the following cases demonstrate, it is often hard to know what rigor *means*.
+We emphasize rigor, but as I hope the following cases demonstrate, it's often hard to know what rigor *means*.
 
 # Intro: The NASA Software Engineering Handbook
 
