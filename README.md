@@ -446,9 +446,6 @@ When a new paper is published, maybe time should be taken to determine its posit
 
 There may never be agreement on the position of some papers, but it seems important that this disagreement be made public so that interested workers can determine for themselves.
 
-sign a declaration of comparison
-
-
 
 
 Right now, quality control in science is almost entirely a filter on the outputs (via peer-review).
@@ -468,14 +465,13 @@ The standards discussed here could resemble protocols from microbiology, with a 
 - Careful documentation of "sensitivities"; areas of particular concern.
 - Specify the required documentation (what measurements of the arrangement must be made).
 - A voting procedure for modifications.
-- A way to compare and contrast a specific paper's methodology with the standard (a document in the supplemental)
+- A way to compare and contrast a specific paper's methodology with the standard (a document in the supplemental, a signed "declaration of comparison")
 
-Will require a delicate balance between the experimenter's freedom and strict.
+<!-- Will require a delicate balance between the experimenter's freedom and strict.-->
 
-It is hoped that, eventually, every field and subfield, every different kind of established experiment, 
-will produce an associated standard. 
+Perhaps eventually every field and subfield, every different kind of established experiment, will produce an associated standard. 
 
-- Material science: coupons to test furnaces, 
+- Material science: coupons to test furnaces
 - Software: testing, fuzzing 
 - Scientific communication: "in mice";  
 
