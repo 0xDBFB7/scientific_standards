@@ -432,7 +432,7 @@ A meta-society; one that forms societies spontaneously
 
 It's somewhat overlapping with the aims of http://www.scholarpedia.org . 
 
-While we're at it, we might as well include. The effects of good review articles on the literature appear to be well-documented; there is a scarsity. This is the reason for the literature.md and .bib files; it is encouraged that your literature be added.
+The effects of good review articles on the literature appear to be well-documented. This is the reason for the literature.md and .bib files; it is encouraged that your literature be added. 
 
 The authors of the mosquito paper have undoubtedly performed a thorough literature review, condensing and filtering thousands of pages of papers and forming an opinion about each, adding context that the paper did not supply. However, often only a few dozen papers appear in the bibliography.
 
@@ -440,35 +440,15 @@ And in most papers, each citation discussed is condensed down to a sentence or t
 
 If the paper were a thesis, this private bibliography would probably be integrated with the new results into a literature review. If the researchers wrote a book, such a bibliography would probably be included, but it's hard to imagine a publisher printing a 100-page appendix on experimental design for mosquito repellents. And so this review and abstracting work must be duplicated anew for every single paper on the subject. Things will undoubtedly be missed. Fortunately, the internet means these reviews can now be disseminated.
 
-While it often fulfills that function in science, Wikipedia is not designed to perform literature reviews,
-exhaustively list primary sources, &c.
+While it often fulfills that function in science, Wikipedia is not designed to perform literature reviews, exhaustively list primary sources, &c.
 
+When a new paper is published, maybe time should be taken to determine its position in the standard literature; how it reinforces and disputes the surrounding literature.
 
-
-
-quals some people resort to blogging
-
-
-
-
-
-
-When a new paper is published, time should be taken to determine its position in the standard literature; how it reinforces the surrounding literature.
-
-There may never be agreement on the position of some papers, but it is imperative that this disagreement be made public so that interested workers can determine for themselves.
+There may never be agreement on the position of some papers, but it seems important that this disagreement be made public so that interested workers can determine for themselves.
 
 sign a declaration of comparison
 
 
-
-Papers are evalutated relative to first principles. If declaration of comparison, 
-they could be evalated relative to a delta from accepted practice, meaning more and more complex investigations would be only slightly more complicated to review.
-
-
-Immutable; they cannot reflect the real-time consensus.
-
-Unlike, e.g. Cochrane Reviews, aimed at a technical audience that, with some introduction, can determine the importance of each study themselves.
-the review need not be perfect, only provide a uniform perspective.
 
 
 Right now, quality control in science is almost entirely a filter on the outputs (via peer-review).
@@ -547,6 +527,6 @@ If you are not willing to furnish the integrity of your results, you do not dese
 
 
 
+> "The basis of our political systems is the right of the people to make and to alter their constitutions of government. But the Constitution which at any time exists, till changed by an explicit and authentic act of the whole people, is sacredly obligatory upon all. The very idea of the power and the right of the people to establish government presupposes the duty of every individual to obey the established government."
 
 https://www.ourdocuments.gov/doc.php?flash=false&doc=15&page=transcript
-> "The basis of our political systems is the right of the people to make and to alter their constitutions of government. But the Constitution which at any time exists, till changed by an explicit and authentic act of the whole people, is sacredly obligatory upon all. The very idea of the power and the right of the people to establish government presupposes the duty of every individual to obey the established government."
