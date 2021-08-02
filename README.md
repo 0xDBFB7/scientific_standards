@@ -316,7 +316,7 @@ Better pre-trial communcation with experts, especially via protocol pre-review, 
 
 While we want uniform methods, we also simultaneously want to use the best and most stable methods available at the time, to offer the firmest foundation for future research to build on. 
 
-In my case, I read several thousand papers, a few books. A paper on the most common analytical experiment in this field has been cited about 5000 times; it has common issues with stability of results (a great deal of care is required for accuracy). Guidelines on the second most common technique, which is usually quite accurate, are often cited about 250 times
+In my case, I read several thousand papers, a few books. A paper on the most common experiment design in this field has been cited about 5000 times; it has common issues with stability of results (a great deal of care is required for accuracy). Guidelines on the second most common technique, which is usually quite accurate, are often cited about 250 times.
 
 And then, shortly before a data-taking run, I found [a paper](https://doi.org/10.1063/1.1139901) on a completely novel topology. It requires no equipment that a standard university lab would not have, yet is *orders of magnitude more sensitive*, and is absolutely immune to the most common artifacts. It has been cited three times. 
 
@@ -326,28 +326,30 @@ Let us return to the thesis by Dogan on mosquitoes.
 
 > "Olfactometers used in the bioassays for evaluating repellents usually do not measure repellency, but rather measure non-attraction. Therefore, I designed a novel olfactometer that divides host-seeking behavior of mosquitoes into attraction and repellency at close range. I compared my olfactometer with another similar olfactometer and found no difference when attraction was measured. However, the new olfactometer assesses true repellency. I also added a new term to the terminology of host-seeking behavior, that is 'inhibition'."
 
+39 works have cited [Dogan's resulting paper, 1999](https://doi.org/10.1093/jmedent/36.6.788), which is quite respectable. 
+
+Of the 76 papers that have cited Klowden and Lea since 1999, 3 cite Dogan's experimental design. Not knowing the details of why one experiment would be chosen over another, it seems that a substantial population might potentially benefit from this increased fidelity.
 
 So, the implicit standardization discussed above is, I think, a poor sort of standard. If everyone cites a paper from 1978:
 
 - A paper is immutable in the face of progress. It provides no context regarding future developments and can never be "superseded" meaningfully. 
 - It is hardly possible to provide sufficient detail to be replicable in a 5-page paper. The emphasis is usually on the results, not necessarily describing methods in excruciating detail.
 
+Logic that might help could include something like the following:
 
+1. If you publish a new technique or come across one that could be re-purposed in your field, search for all standards in all fields that cite the old technique, using citation networks, and request a vote on the inclusion of the new method in the proper context.
 
-
+Of course, this probably won't work.
 
 <hr>
 
-Of course, checklists and standards can only ever capture the "low-hanging fruit" of mistakes; the "unforced errors" like [contaminated cell lines](https://doi.org/10.1126/science.6451928) and [Microsoft Excel](https://doi.org/10.1186/s13059-016-1044-7) ("A programmatic scan of leading genomics journals reveals that approximately one-fifth of papers with supplementary Excel gene lists contain erroneous gene name conversions").
+Checklists and standards can only ever capture the "low-hanging fruit" of mistakes; the "unforced errors" like [contaminated cell lines](https://doi.org/10.1126/science.6451928) and [Microsoft Excel](https://doi.org/10.1186/s13059-016-1044-7).
 
 These are, however, the boring ones that waste a great deal of time; finding new and interesting errors is better known as **science**.
 
 Similarly, these best practices won't help you with artifacts on one's LIGO, of course; they're aimed only at the application of well-trodden, well-established sub-techniques.
 
-
-~~But even "good science" could possibly benefit. A standard on fitting and subtraction of spectrometric data, especially containing advice on degrees of freedom in fits, could perhaps have lessened some of the initial controversy surrounding [Greaves et al 2020](https://doi.org/10.1093/mnrasl/slaa187).~~ After reading more of the followup, I no longer believe this is the case; the matters at hand here seem to be so complex and nuanced that they could not reasonably be systematized.
-
-<hr>
+<sup>~~But even "good science" could possibly benefit. A standard on fitting and subtraction of spectrometric data, especially containing advice on degrees of freedom in fits, could perhaps have lessened some of the initial controversy surrounding [Greaves et al 2020](https://doi.org/10.1093/mnrasl/slaa187).~~ After reading more of the followup, I no longer believe this is the case; the matters at hand here seem to be so complex and nuanced that they could not reasonably be systematized.</sup>
 
 # Case 2
 
@@ -373,7 +375,6 @@ It is also [completely wrong](https://doi.org/10.1039/C6JA00373G) and was retrac
 
 The reasons are very complicated for someone who does not know MS spectra from Adam, such as myself. But ultimately, all the techniques used are well-estabilished. Mass spectrometry was invented in 1918 and spectrometric line analysis has ~80 years of precedent, ICP-MS has been used since 1980 and best-practices abound, LIBS has been used [since the 1960s](https://arxiv.org/pdf/1407.0132.pdf). 
 
-
 The paper's authors appear to be excellent scientists. The first author has since helped with interesting papers on all sorts of materials science. The second author has gone on to produce a great result in antibiotics. Perhaps I am too generous, but I do not believe it would be fair to blame the authors, considering that the peer-reviewers, presumably *experts in the field of spectroscopy*, did not see an issue. Neither can I blame the editors, for the same reasons plus an overwhelming workload.
 
 First, (and, admittedly, with the benefit of post-hoc reasoning), the entire mistake could perhaps have been easily systematized into a checkbox that any of the reviewers could have verified quickly - or (speculation) potentially even automated by the journal:
@@ -382,7 +383,7 @@ First, (and, admittedly, with the benefit of post-hoc reasoning), the entire mis
 
 ##### (This reminds me of electronic pregnancy tests - [the presence](https://doi.org/10.1055/s-0034-1368589) of a simple color sensor reading a strip of paper rather than a human eye does not improve the underlying sensitivity of the test, but [especially when pressure to report a certain important finding is present] nevertheless produces more accurate results by removing the ability to fool oneself.)
 
-Second, under absolutely optimal conditions, the LOD of LIBS is generally claimed to be about 0.6 ppm. The authors report results down to a few dozens of parts-per-billion by using an apparently novel plasma correction method. A standard for LIBS which contained only the logic "LOD < existing precedent? Discuss with experts; publish methods for commentary first; no medical results." would have removed this paper from the literature.
+Second, under absolutely optimal conditions, the LOD of LIBS is generally claimed to be about 0.6 ppm. The authors report results down to a few dozens of parts-per-billion by using an apparently novel plasma correction method. A standard for LIBS which contained only the logic "LOD < existing precedent? Discuss with experts; publish methods for commentary first; no medical results." would have flagged this paper.
 
 - If the authors wanted to demonstrate a new innovation to LIBS that reduced the LOD or made it possible to detect metals in gallstones (the implied goal, given the publication venue), I am sure such a report would be welcomed.
 - If the authors wanted to report the variation of heavy metals in gallstones, there is presumably much precedent in heavy-metals analysis; accepted protocols used by healthcare workers. The use of n=2 gallstones from just two different ages would perhaps make this result underpowered for this purpose.
