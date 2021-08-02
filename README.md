@@ -7,7 +7,7 @@
 
 ##### Additionally, this is tedious overripe meta-research from someone who has no scientific output to speak of, and has no right to cavil and carp on such topics.
 
-TL:DR: [Read this.](##-Level-III)
+TL:DR: [Read this.](#level-iii-oh-baby-this-is-the-good-stuff)
 
 <hr>
 
@@ -114,8 +114,6 @@ In academia, we now enjoy such rules as the COPE guidelines for authorship; the 
 In science proper, we can turn to the exemplary *Journal of Fluids Engineering*'s [**Statement on the Control of Numerical Accuracy**](https://www.asme.org/wwwasmeorg/media/resourcefiles/shop/journals/jfenumaccuracy.pdf) (1986-), enacted because "it was impossible to evaluate and compare the accuracy of different turbulence models, since one could not distinguish physical modeling errors from numerical errors". 
 
 This document seems to tantalizingly hint at formal science. It is excruciatingly detailed and prescribes specific actions that must be taken to ensure integrity in particular classes of results.
-
-###### a
 
 ## Level III, oh baby, this is the good stuff
 
