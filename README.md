@@ -7,7 +7,7 @@
 
 ##### Additionally, this is tedious overripe meta-research from someone who has no scientific output to speak of, and has no right to cavil and carp on such topics.
 
-[TL:DR: Level III](#level-iii-oh-baby-this-is-the-good-stuff)
+[TL:DR: Level III](#level-iii-oh-boy-this-is-the-good-stuff)
 
 <hr>
 
@@ -115,7 +115,7 @@ In science proper, we can turn to the exemplary *Journal of Fluids Engineering*'
 
 This document seems to tantalizingly hint at formal science. It is excruciatingly detailed and prescribes specific actions that must be taken to ensure integrity in particular classes of results.
 
-## Level III, oh baby, this is the good stuff
+## Level III, oh boy, this is the good stuff
 
 In 1983, a tiny, hard-to-find lipid structure [was discovered](https://doi.org/10.1083/jcb.97.2.329) in mammalian biology: the extracellular vesicle.
 
