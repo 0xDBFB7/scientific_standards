@@ -7,7 +7,7 @@
 
 ##### Additionally, this is tedious overripe meta-research from someone who has no scientific output to speak of, and has no right to cavil and carp on such topics.
 
-TL:DR: [Read this.](#level-iii-oh-baby-this-is-the-good-stuff)
+[TL:DR: Level III](#level-iii-oh-baby-this-is-the-good-stuff)
 
 <hr>
 
