@@ -81,11 +81,12 @@ New knowledge is integrated inline, so as many people see it as possible, with a
 > [Is this incompetence?](https://archive.eiffel.com/doc/manuals/technology/contract/ariane/)
 > No. Everything indicates that the software process was carefully organized and planned. The ESA's software people knew what they were doing and applied widely accepted industry practices.
 
-ideally, increasingly found to be due to lapses in the application of the standard:
+<!-- And, ideally, increasingly found to be due to lapses in the application of the standard:
 
 > neither end-to-end, integration testing with hardware and software nor test simulations with realistic data from the A5 trajectory data were ever performed[]
 > The Board is in favour of the opposite view, that software should be assumed to be faulty until applying the currently accepted best practice methods can demonstrate that it is correct
 > [ARIANE 5 Flight 501 Failure](https://www-users.cse.umn.edu/~arnold/disasters/ariane5rep.html)
+-->
 
 And beyond plugging the particular hole that led to the incident, every opportunity to prevent the failure is explored anew by root cause analysis.
 
