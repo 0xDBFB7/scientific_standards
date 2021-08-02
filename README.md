@@ -238,7 +238,7 @@ More importantly, Ong have noted a very important fact, and here we see a possib
 
 > "From the previous studies, mosquitoes were sensitive to the hand-touch contamination on the inner walls of the test chamber. This was carefully avoided by wearing hand gloves while carrying out the test and each part of the test chamber was washed with detergent after each assay."
 
-Indeed, in a thesis by Dogan, 1998, 
+Indeed, in a thesis by [Dogan, 1998](https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/8c97kt519), 
 
 > "To eliminate the human odor contamination, latex gloves were used at all times and the olfactometer was cleaned after each use with alcohol"
 
@@ -271,20 +271,17 @@ Next, [Poh 2017](https://doi.org/10.1371/journal.pone.0178766), again testing an
 
 <hr>
 
-
-We see that this critical admonition has been silently dropped from the "new standard" through a game of Telephone. The C new primary source of information, now relied on by 8 papers, none of which cite Klowden and Lea (where one might learn the hand-print and glove warning).
+We see that this critical admonition has been silently dropped from the "new standard" through a game of Telephone. A new primary source of information, now relied on by 8 papers, none of which cite Klowden and Lea (where one might learn the hand-print and glove warning).
 
 The key is, had I taken great effort, had I followed Cabrini's protocol exactly (or even any single paper's protocol), I could not possibly have done the best quality science, and through no fault of any of the authors, editors, or myself. The protocol needs to be re-assembled every time it is used, and something is inevitably missed.
 
-
-Consider some future experimenter. They come up with some remarkable hypothesis on a new waveform for an electronic repellant. They read Cabrini and a few other recent papers, follow the prescriptions precisely. Between each trial, they reach into the chamber to flip the switch on the repeller; their forearm deposits a print on the edge of the chamber. They open the chamber, the print evaporates a bit, and now their hand doesn't need to reach so far to push the switch back. The mosquitos track the switch position perfectly. They sell their repellants, backed by real science. People wear them and feel protected. Malaria cases spike. 
+Consider some future experimenter. They come up with some remarkable hypothesis on a new waveform for an electronic repellant. They read Cabrini and a few other recent papers that they have access to, and follow the prescriptions precisely. Between each trial, they reach into the chamber to flip the switch on the repeller; their forearm deposits a print on the edge of the chamber. They open the chamber, the print evaporates a bit, and now their hand doesn't need to reach so far to flip the switch back. The mosquitos track the switch position perfectly. They sell their repellants, backed by real science. People wear them and feel protected. Malaria cases spike. 
 
 Or, in a more mundane case, maybe they read Poh et al 2017, decide "ah, the chamber must be cleaned between trials", and use ethanol (vapor pressure 12.4 kpa) rather than isopropyl (4.4). Now a grad student spends four months trying to figure out what the devil is going on with their damned dopey aegypti, burns right out, leaves academia to become a hedge trimmer, and society is the worse for it. 
 
-All that is needed is to conscisely and comprehensively expose existing knowledge. 
-
-
 None of the papers are bad science. They are all meticulous and exacting. The problem is that, in other fields, this very same subtle variation in methods has produced [a ~5-to-1 systematic false positive rate](https://doi.org/10.1667/RR15117.1). It may be easy to see how these effects can quickly produce an impotent concensus.
+
+All that is needed is to conscisely and comprehensively expose existing knowledge, to agree on the best test chamber design, and to follow it as precisely as possible.
 
 At the same time, perhaps the modifications made by various groups are important, and should be kept for future studies (for Cabrini, the change was made for "a lighter and easier to assemble chamber"). In that case, the modified version must be tested so thoroughly that there remains no ambiguity that any effect is an artifact of the change. If this is not done, it is possible that a modified version could be "infective", and corrupt many years of work.
 
@@ -296,7 +293,7 @@ Ideally, if standards are sufficiently well written, verifying such a change cou
 
 So who will systematize things? Will some international society form and publish a quarterly report on uniform experimental conditions in mosquito research specifically pertaining to the evaluation of electronic mosquito repellents? 
 
-I think this is where the internet comes in. 
+No; but with the advent of the internet, it costs very little to put methods and motivations in a central clearinghouse.
 
 <hr>
 
