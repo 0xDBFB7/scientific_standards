@@ -58,7 +58,7 @@ Most software developers don't follow these guidelines, perhaps because - like t
 
 Scientists, on an individual level, are doing just as good a job as they ever were. We have monumental problems to solve, but we have no shortage of monumental people. What we may not be able to afford is unnecessary confusion. 
 
-Could processes analogous to, say, the NASA Software engineering handbook be implemented in some parts of science? Does standardization even make *sense* in such an open-ended endeavour?
+Could processes analogous to, say, the NASA Software engineering handbook discussed below, be implemented in some parts of science? Does standardization even make *sense* in such an open-ended endeavour?
 
 ## Level I 
 
