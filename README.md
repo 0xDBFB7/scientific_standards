@@ -52,59 +52,13 @@ We are told that we should follow the scientific consensus, but where is this co
 
 We emphasize rigor, but as I hope the following cases demonstrate, it's often hard to know what rigor *means*.
 
-# Intro: The NASA Software Engineering Handbook
-
-When faced with a complex task involving both creativity and life-or-death reliability, what solutions have been found?
-
-One answer can be found in NASA 7150.2 Classes A and B, a set of software engineering processes, checklists, and rulebooks. These processes ensure the correctness of the output software no matter the quality of the input.
-
-This is how, in the ~420,000 [lines of code](https://www.nap.edu/read/5018/chapter/4) run for a Space Shuttle launch, the probability of software failure could be guaranteed to be below 1/600 to 1/4400, and how a better-than-even chance of landing [50,000 parts](https://spectrum.ieee.org/planetary-rovers-are-we-alone) on Mars can be attained despite the constant corrupting influence of radiation. These kinds of standards are the sum total of all the [failures of their predecessors](https://en.wikipedia.org/wiki/Therac-25); they are written in blood and distress; they are the IKEA instruction manuals for good software.
-
-It has been claimed<sup>[by who?]</sup> that, when properly followed, these processes can take input code from a monkey and produce safety-critical output code. While time-consuming to follow, well-structured standards might also have the potential to reduce cognitive load on the worker, so they can concentrate on their novel contribution ("The rules lessen the burden on the developer and tester to establish key properties", [Holzmann, Power of Ten](http://www.cs.otago.ac.nz/cosc345/resources/nasa-10-rules.pdf)).
-
-**See**
-
-- [Software and the Challenge of Flight Control](http://sunnyday.mit.edu/papers/shuttle-chapter-final.pdf), Nancy G. Leveson
-- [Space Shuttle Flight Software (PASS) Loss Of Crew Errors](https://www.slideshare.net/JamesOrr4/space-shuttle-flight-software-pass-loss-of-crew-errors-jk-orr-20150827-52150515) J.K. Orr 2015-08-27
-
-Some software reliability standards are, on balance, not evidence-based, offering cosmetic and divisive prescriptions
-
-> "[MISRA] rules in practice fall into three broad categories, A, B.1 and B.2. Of these, category A rules are generally stylistic and have no known relationship with failure. An example of a category A rule is that all local variables should have a name beginning with ’L ’. Category B.1 rules could conceivably be associated with failure, (for example the frequently repeated rule that the ’goto’ statement shall not be used), but for which there is still no measurement support as yet. In contrast, category B.2 rules are known by measurement to be associated directly with failure.
->
-> [...] and the important real to false positive ratio is not much better in MISRA C 2004 than it was in MISRA C 1998 and it is unacceptably low in both"
-> 
-> [Language subsetting in an industrial context: A comparison of MISRA C 1998 and MISRA C 2004](https://doi.org/10.1016/j.infsof.2006.07.004)
-
-But the best processes are subject to regular meta-analysis, and necessary changes in the process are introduced immediately with a universal mandate. Gotchas are specifically documented:
-
-> JPL has referenced this lesson learned as additional rationale and guidance supporting Paragraph 6.4.4 ("Engineering Practices: System Engineering") in the Jet Propulsion Laboratory standard "Flight Project Practices, Rev. 7," JPL DocID 58032, September 30, 2008.[quotes fixed]
-> https://llis.nasa.gov/lesson/2044
-
-New knowledge is integrated inline, so as many people see it as possible, with a focus on how humans actually use thousand-page documents. When failures do occur in mature processes, fault and blame of individual workers is rarely a matter of discussion; failures are a result of the system.
-
-> [Is this incompetence?](https://archive.eiffel.com/doc/manuals/technology/contract/ariane/)
-> No. Everything indicates that the software process was carefully organized and planned. The ESA's software people knew what they were doing and applied widely accepted industry practices.
-
-<!-- And, ideally, increasingly found to be due to lapses in the application of the standard:
-
-> neither end-to-end, integration testing with hardware and software nor test simulations with realistic data from the A5 trajectory data were ever performed[]
-> The Board is in favour of the opposite view, that software should be assumed to be faulty until applying the currently accepted best practice methods can demonstrate that it is correct
-> [ARIANE 5 Flight 501 Failure](https://www-users.cse.umn.edu/~arnold/disasters/ariane5rep.html)
--->
-
-And beyond plugging the particular hole that led to the incident, every opportunity to prevent the failure is explored anew by root cause analysis.
-
-> In this context, this work was initiated by Eads Launch Vehicles to better evaluate the maturity and applicability of existing formal validation techniques[...]
-> In fact, although limited in the past to small academic examples, formal methods seem now mature enough to be used within an industrial context, even for large scale applications.> 
-> [Model Checking Ariane-5 Flight Program](https://hal.archives-ouvertes.fr/hal-00374649/document)
-
 There is often disagreement on the minutia of these standards. But, on the largest scale, strict adherence to Space Shuttle-era quality standards is a path which has a high chance of producing correct outputs.
 
 Most software developers don't follow these guidelines, perhaps because - like the kind of exploratory experimentation done in the early stages of a field - failures are unimportant. But published science is supposed to be all about rigor.
 
 Scientists, on an individual level, are doing just as good a job as they ever were. We have monumental problems to solve, but we have no shortage of monumental people. What we may not be able to afford is unnecessary confusion. 
 
-# Could analogous processes be implemented in some parts of science? Does standardization even make sense in such an open-ended endeavour?
+Could processes analogous to, say, the NASA Software engineering handbook be implemented in some parts of science? Does standardization even make *sense* in such an open-ended endeavour?
 
 ## Level I 
 
@@ -505,6 +459,53 @@ https://academia.stackexchange.com/a/733 (tongue-in-cheek, I presume)
 
 
 -->
+
+
+# Intro: The NASA Software Engineering Handbook
+
+When faced with a complex task involving both creativity and life-or-death reliability, what solutions have been found?
+
+One answer can be found in NASA 7150.2 Classes A and B, a set of software engineering processes, checklists, and rulebooks. These processes ensure the correctness of the output software no matter the quality of the input.
+
+This is how, in the ~420,000 [lines of code](https://www.nap.edu/read/5018/chapter/4) run for a Space Shuttle launch, the probability of software failure could be guaranteed to be below 1/600 to 1/4400, and how a better-than-even chance of landing [50,000 parts](https://spectrum.ieee.org/planetary-rovers-are-we-alone) on Mars can be attained despite the constant corrupting influence of radiation. These kinds of standards are the sum total of all the [failures of their predecessors](https://en.wikipedia.org/wiki/Therac-25); they are written in blood and distress; they are the IKEA instruction manuals for good software.
+
+It has been claimed<sup>[by who?]</sup> that, when properly followed, these processes can take input code from a monkey and produce safety-critical output code. While time-consuming to follow, well-structured standards might also have the potential to reduce cognitive load on the worker, so they can concentrate on their novel contribution ("The rules lessen the burden on the developer and tester to establish key properties", [Holzmann, Power of Ten](http://www.cs.otago.ac.nz/cosc345/resources/nasa-10-rules.pdf)).
+
+**See**
+
+- [Software and the Challenge of Flight Control](http://sunnyday.mit.edu/papers/shuttle-chapter-final.pdf), Nancy G. Leveson
+- [Space Shuttle Flight Software (PASS) Loss Of Crew Errors](https://www.slideshare.net/JamesOrr4/space-shuttle-flight-software-pass-loss-of-crew-errors-jk-orr-20150827-52150515) J.K. Orr 2015-08-27
+
+Some software reliability standards are, on balance, not evidence-based, offering cosmetic and divisive prescriptions
+
+> "[MISRA] rules in practice fall into three broad categories, A, B.1 and B.2. Of these, category A rules are generally stylistic and have no known relationship with failure. An example of a category A rule is that all local variables should have a name beginning with ’L ’. Category B.1 rules could conceivably be associated with failure, (for example the frequently repeated rule that the ’goto’ statement shall not be used), but for which there is still no measurement support as yet. In contrast, category B.2 rules are known by measurement to be associated directly with failure.
+>
+> [...] and the important real to false positive ratio is not much better in MISRA C 2004 than it was in MISRA C 1998 and it is unacceptably low in both"
+> 
+> [Language subsetting in an industrial context: A comparison of MISRA C 1998 and MISRA C 2004](https://doi.org/10.1016/j.infsof.2006.07.004)
+
+But the best processes are subject to regular meta-analysis, and necessary changes in the process are introduced immediately with a universal mandate. Gotchas are specifically documented:
+
+> JPL has referenced this lesson learned as additional rationale and guidance supporting Paragraph 6.4.4 ("Engineering Practices: System Engineering") in the Jet Propulsion Laboratory standard "Flight Project Practices, Rev. 7," JPL DocID 58032, September 30, 2008.[quotes fixed]
+> https://llis.nasa.gov/lesson/2044
+
+New knowledge is integrated inline, so as many people see it as possible, with a focus on how humans actually use thousand-page documents. When failures do occur in mature processes, fault and blame of individual workers is rarely a matter of discussion; failures are a result of the system.
+
+> [Is this incompetence?](https://archive.eiffel.com/doc/manuals/technology/contract/ariane/)
+> No. Everything indicates that the software process was carefully organized and planned. The ESA's software people knew what they were doing and applied widely accepted industry practices.
+
+<!-- And, ideally, increasingly found to be due to lapses in the application of the standard:
+
+> neither end-to-end, integration testing with hardware and software nor test simulations with realistic data from the A5 trajectory data were ever performed[]
+> The Board is in favour of the opposite view, that software should be assumed to be faulty until applying the currently accepted best practice methods can demonstrate that it is correct
+> [ARIANE 5 Flight 501 Failure](https://www-users.cse.umn.edu/~arnold/disasters/ariane5rep.html)
+-->
+
+And beyond plugging the particular hole that led to the incident, every opportunity to prevent the failure is explored anew by root cause analysis.
+
+> In this context, this work was initiated by Eads Launch Vehicles to better evaluate the maturity and applicability of existing formal validation techniques[...]
+> In fact, although limited in the past to small academic examples, formal methods seem now mature enough to be used within an industrial context, even for large scale applications.> 
+> [Model Checking Ariane-5 Flight Program](https://hal.archives-ouvertes.fr/hal-00374649/document)
 
 
 
