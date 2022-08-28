@@ -10,24 +10,6 @@
 ##### Additionally, this is tedious overripe meta-research from someone who has no scientific output to speak of, and has no right to cavil and carp on such topics.
 
 
-<hr>
-
-> :cyclone: This is a collaborative project!
->
-> If you think this is worthwhile and you have some time, perhaps you could consider 
->
-> 0. Discussing whether this is [even a good idea](https://github.com/0xDBFB7/scientific_standards/issues/2), existing efforts of the same kind, etc.
-> 1. Discussing the parts of the MISEV[see below], RFC, or other standards that you're familiar with, to establish some kind of meta-standard
-> 2. Publishing your protocols on [protocols.io](https://protocols.io) or equivalent, answering questions from new researchers in the field, getting pre-trial [guidance](http://openreview.net/) from other experts, writing more detail into papers, creating societies, publishing in open-access journals, using open lab notebooks.
->
-> If it is decided that this repo is a good place to start working on standards,
->
-> 3. Joining the [voting mailing list](https://forms.gle/GcFkgqGACnhsSmQN8) and/or the Issue (set Notifications->Custom->(Closed+Reopened)) for your own field of expertise
-> 4. Posting an issue or PR with a draft standard or literature review for your field.
-> (Be aware that, unlike a paper, your contribution may be [modified by others](https://en.wikipedia.org/wiki/Wikipedia:Ownership_of_content) as knowledge of the field progresses and new circumstances must be covered).
-
-
-<hr>
 
 > In the short-haul, papers are very important if you want to stimulate someone tomorrow. In this day of practically infinite knowledge, we need orientation to find our way. [...] 
 > Since from the time of Newton to now, we have come close to doubling knowledge every 17 years, more or less. And we cope with that, essentially, by specialization. In the next 340 years at that rate, there will be 20 doublings, i.e. a million, and there will be a million fields of specialty for every one field now. It isn't going to happen. 
@@ -507,6 +489,25 @@ And beyond plugging the particular hole that led to the incident, every opportun
 > In fact, although limited in the past to small academic examples, formal methods seem now mature enough to be used within an industrial context, even for large scale applications.> 
 > [Model Checking Ariane-5 Flight Program](https://hal.archives-ouvertes.fr/hal-00374649/document)
 
+
+<hr>
+
+> :cyclone: This is a collaborative project!
+>
+> If you think this is worthwhile and you have some time, perhaps you could consider 
+>
+> 0. Discussing whether this is [even a good idea](https://github.com/0xDBFB7/scientific_standards/issues/2), existing efforts of the same kind, etc.
+> 1. Discussing the parts of the MISEV[see below], RFC, or other standards that you're familiar with, to establish some kind of meta-standard
+> 2. Publishing your protocols on [protocols.io](https://protocols.io) or equivalent, answering questions from new researchers in the field, getting pre-trial [guidance](http://openreview.net/) from other experts, writing more detail into papers, creating societies, publishing in open-access journals, using open lab notebooks.
+>
+> If it is decided that this repo is a good place to start working on standards,
+>
+> 3. Joining the [voting mailing list](https://forms.gle/GcFkgqGACnhsSmQN8) and/or the Issue (set Notifications->Custom->(Closed+Reopened)) for your own field of expertise
+> 4. Posting an issue or PR with a draft standard or literature review for your field.
+> (Be aware that, unlike a paper, your contribution may be [modified by others](https://en.wikipedia.org/wiki/Wikipedia:Ownership_of_content) as knowledge of the field progresses and new circumstances must be covered).
+
+
+<hr>
 
 
 
