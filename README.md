@@ -34,10 +34,6 @@ We are told that we should follow the scientific consensus, but where is this co
 
 We emphasize rigor, but as I hope the following cases demonstrate, it's often hard to know what rigor *means*.
 
-There is often disagreement on the minutia of these standards. But, on the largest scale, strict adherence to Space Shuttle-era quality standards is a path which has a high chance of producing correct outputs.
-
-Most software developers don't follow these guidelines, perhaps because - like the kind of exploratory experimentation done in the early stages of a field - failures are unimportant. But published science is supposed to be all about rigor.
-
 Scientists, on an individual level, are doing just as good a job as they ever were. We have monumental problems to solve, but we have no shortage of monumental people. What we may not be able to afford is unnecessary confusion. 
 
 Could processes analogous to, say, the NASA Software engineering handbook discussed below, be implemented in some parts of science? Does standardization even make *sense* in such an open-ended endeavour?
@@ -488,6 +484,11 @@ And beyond plugging the particular hole that led to the incident, every opportun
 > In this context, this work was initiated by Eads Launch Vehicles to better evaluate the maturity and applicability of existing formal validation techniques[...]
 > In fact, although limited in the past to small academic examples, formal methods seem now mature enough to be used within an industrial context, even for large scale applications.> 
 > [Model Checking Ariane-5 Flight Program](https://hal.archives-ouvertes.fr/hal-00374649/document)
+
+
+There is often disagreement on the minutia of these standards. But, on the largest scale, strict adherence to Space Shuttle-era quality standards is a path which has a high chance of producing correct outputs.
+
+Most software developers don't follow these guidelines, perhaps because - like the kind of exploratory experimentation done in the early stages of a field - failures are unimportant. But published science is supposed to be all about rigor.
 
 
 <hr>
